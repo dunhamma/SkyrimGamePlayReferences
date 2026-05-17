@@ -1,0 +1,11 @@
+# Local/editor noise
+.vscode/
+.idea/
+*.tmp
+*.bak
+*.log
+
+# Generated extraction outputs, if added later
+outputs/
+cache/
+.local/

@@ -1,0 +1,7 @@
+worldspace,mod_design_use,caution,source_id,validation
+Skyrim,"Default worldspace for most Skyrim mod signal design","Hold, climate, city, temple, and Civil War context live here.",uesp_skyrim_radiant,source-backed
+Solstheim,"Dunmer, Dragonborn DLC, Hermaeus Mora, Raven Rock, Ashlander-adjacent context","Quest markers and radiant behavior can differ across worldspaces.",uesp_skyrim_radiant,source-backed
+Soul Cairn,"Dawnguard, undead, Arkay, necromancy, Ideal Masters context","Highly specific; avoid generic dungeon treatment.",uesp_skyrim_quests,needs-local-extraction
+Apocrypha,"Hermaeus Mora and knowledge-path context","Should be curated per quest/stage, not generic location signal.",uesp_skyrim_quests,needs-local-extraction
+Mod-added new lands,"Compatibility and radiant quest marker risk","Do not assume mainland marker/location behavior.",uesp_skyrim_radiant,source-backed
+

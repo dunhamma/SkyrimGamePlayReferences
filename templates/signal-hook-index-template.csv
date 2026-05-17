@@ -1,0 +1,3 @@
+mod_signal_family,vanilla_surface,capture_pattern,scoring_or_state_use,anti_farm_rule,source_id,status,notes
+Example: hostile kill,Kill Actor Story Manager event,receiver quest -> router,combat/protection scoring,direct player only plus daily caps,ck_sm_event_node,planned,Replace this example with your mod-specific signal.
+Example: shrine prayer,shrine activator or custom activator,activator script -> explicit event,devotional practice,cooldown per shrine/deity/day,uesp_skyrim_blessings,planned,Keep vanilla blessing behavior in mind.

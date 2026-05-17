@@ -1,0 +1,6 @@
+- id: example_source_id
+  title: "Source title"
+  url: "https://example.com"
+  source_type: "UESP gameplay | CK Wiki | mod page | community discussion | local extraction"
+  use_for: "What this source is valid for"
+  validation_weight: "high | medium | qualitative signal only | local-data-backed"

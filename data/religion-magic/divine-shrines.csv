@@ -1,0 +1,6 @@
+shrine_family,mod_design_use,implementation_note,caution,source_id,validation
+Eight/Nine Divines,"Shrine activation, cure disease, vanilla blessing baseline","Use existing shrine behavior as reference before adding custom activators or overlays","Talos ban means access/context is political, not just mechanical.",uesp_skyrim_blessings,source-backed
+Auriel shrines,"Altmer/Auri-El and Dawnguard comparison","Treat as DLC-aware source of Auri-El-facing shrine behavior","Spelling and record ownership should be verified locally.",uesp_skyrim_blessings,source-backed
+Nocturnal shrine,"Thieves Guild/Nocturnal path comparison","Questline location creates exclusivity and progression flavor","Not a general public shrine model.",uesp_skyrim_blessings,source-backed
+Custom mod shrines,"Future curated devotional surfaces","Prefer explicit script/quest signal over implicit generic shrine spam","Must respect notification policy and vanilla blessing coexistence.",ck_magic_effect,design-inference
+
