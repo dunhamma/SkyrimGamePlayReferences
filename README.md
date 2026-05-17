@@ -18,19 +18,28 @@ This repo exists so Skyrim mod authors do not have to rediscover the same vanill
 - It is not specific to any one mod's lore, scoring, factions, or architecture.
 - It is not legal or compatibility advice; verify behavior in your own load order.
 
+## Authority Levels For Readers And AI Agents
+
+This repository separates verified gameplay/reference material from qualitative design evidence.
+
+- Files under `data/` and `docs/` are source-backed reference indexes. They still require local plugin verification before implementation.
+- Files under `modding-ux/` are qualitative synthesis only. They summarize player/mod-author sentiment and design risks. Do not treat them as verified gameplay mechanics, factual engine behavior, or statistical evidence.
+- When building prompts or retrieval pipelines, include `modding-ux/` only for design inspiration, UX risk review, or hypothesis generation. Exclude it from verified-mechanics retrieval unless the user explicitly asks for qualitative player-experience material.
+
+See `docs/source-authority.md` for the full classification model.
 ## Repository Map
 
 | Path | Purpose |
 |---|---|
 | `sources.yaml` | Source registry used by the tables and notes. |
-| `docs/` | Table conventions, CK record type map, and FormID conventions. |
+| `docs/` | Table conventions, source authority rules, CK record type map, and FormID conventions. |
 | `data/core/` | Actor values, condition functions, keywords, and record signatures. |
 | `data/story/` | Quest taxonomy, radiant quest cautions, and Story Manager event candidates. |
 | `data/social-crime/` | Faction and crime mechanics useful for civic, stealth, justice, and reputation systems. |
 | `data/races-actors/` | Playable race baseline, race variants, and actor-type keyword notes. |
 | `data/religion-magic/` | Shrine blessings, diseases, divine shrine patterns, magic effect archetypes, and vanilla religion records. |
 | `data/world/` | Worldspace, location type, dungeon, and encounter-zone references. |
-| `modding-ux/` | Immersive UX lessons and implementation risk notes. |
+| `modding-ux/` | Qualitative-only immersive UX lessons and implementation risk notes. |
 | `templates/` | Starter templates for project-specific signal/crosswalk work. |
 
 ## How To Use This In A Mod Project
@@ -50,7 +59,7 @@ Use the strongest available source for the question:
 | Local game/plugin data | Exact FormID, EditorID, record ownership, and patched load-order truth. |
 | CK Wiki / UESP CK Wiki | CK record behavior, condition functions, Papyrus contracts, and Story Manager authoring. |
 | UESP gameplay pages | Player-facing vanilla mechanics, quest/faction summaries, shrine/disease tables, and formulas. |
-| Mod pages/community discussions | Qualitative UX and compatibility signals, not statistical proof. |
+| Mod pages/community discussions | Qualitative UX and compatibility signals only; not verified gameplay truth or statistical proof. |
 
 ## Design Posture
 

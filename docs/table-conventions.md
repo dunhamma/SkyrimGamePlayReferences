@@ -28,6 +28,10 @@ CSV files in this repository are compact reference indexes, not exhaustive wiki 
 | UX findings | `theme,evidence,design_rule,risk_if_ignored,source_id` |
 | Crosswalks | `mod_signal,vanilla_surface,capture_pattern,scoring_use,anti_farm_rule,source_id,status` |
 
+## Source Authority
+
+Qualitative rows and documents must be labeled so they are not retrieved as verified mechanics. Use `validation` values such as `qualitative-design-signal` or `qualitative signal only` for UX/community evidence. See `source-authority.md`.
+
 ## Validation States
 
 | State | Meaning |
@@ -37,3 +41,4 @@ CSV files in this repository are compact reference indexes, not exhaustive wiki 
 | `design-inference` | Reasoned from source-backed facts, but not itself a direct source claim. |
 | `needs-local-extraction` | Should be expanded from local plugin data before implementation. |
 | `needs-runtime-test` | Needs in-game verification before being treated as behaviorally proven. |
+| `qualitative-design-signal` | Community/mod-page/design evidence only; not verified mechanics or statistical proof. |

@@ -1,5 +1,7 @@
 # Implementation Risk Notes
 
+> **AI/RAG warning:** This file is qualitative design synthesis only. Do not use it as verified gameplay truth, engine documentation, statistical proof, or CK record authority. Include it only for player-experience and design-risk questions.
+
 ## High-Risk Patterns
 
 | Pattern | Why risky | Safer pattern |

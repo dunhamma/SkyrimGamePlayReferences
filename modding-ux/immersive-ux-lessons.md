@@ -1,5 +1,7 @@
 # Immersive UX Lessons For Skyrim Gameplay Mods
 
+> **AI/RAG warning:** This file is qualitative design synthesis only. Do not use it as verified gameplay truth, engine documentation, statistical proof, or CK record authority. Include it only for player-experience and design-risk questions.
+
 **Status:** Living synthesis from mod pages and community discussions.  
 **Validation:** Qualitative evidence only. Use for design direction, not as a vote count.
 
