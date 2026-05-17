@@ -71,4 +71,4 @@ This repository contains original summaries and table structures that cite sourc
 
 ## License
 
-Unless otherwise noted, the original tables and notes in this repository are shared under Creative Commons Attribution 4.0 International. Source projects and referenced websites retain their own rights.
+Unless otherwise noted, the original tables and notes in this repository are dedicated to the public domain under CC0 1.0 Universal. Source projects and referenced websites retain their own rights.
