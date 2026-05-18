@@ -27,20 +27,29 @@ This repository separates verified gameplay/reference material from qualitative 
 - When building prompts or retrieval pipelines, include `modding-ux/` only for design inspiration, UX risk review, or hypothesis generation. Exclude it from verified-mechanics retrieval unless the user explicitly asks for qualitative player-experience material.
 
 See `docs/source-authority.md` for the full classification model.
+
+## Update Notes
+
+- [2026-05-19 extracted gameplay reference pack](docs/updates/2026-05-19-extracted-gameplay-reference-pack.md)
+
 ## Repository Map
 
 | Path | Purpose |
 |---|---|
 | `sources.yaml` | Source registry used by the tables and notes. |
-| `docs/` | Table conventions, source authority rules, CK record type map, and FormID conventions. |
+| `docs/` | Table conventions, source authority rules, CK record type map, FormID conventions, and update notes. |
+| `data/extracted/` | Generated vanilla/DLC record-reference tables from local master data. |
 | `data/core/` | Actor values, condition functions, keywords, and record signatures. |
 | `data/story/` | Quest taxonomy, radiant quest cautions, and Story Manager event candidates. |
 | `data/social-crime/` | Faction and crime mechanics useful for civic, stealth, justice, and reputation systems. |
 | `data/races-actors/` | Playable race baseline, race variants, and actor-type keyword notes. |
 | `data/religion-magic/` | Shrine blessings, diseases, divine shrine patterns, magic effect archetypes, and vanilla religion records. |
 | `data/world/` | Worldspace, location type, dungeon, and encounter-zone references. |
+| `data/modding-crosswalk/` | General hook catalogs, signal patterns, semantic tagging candidates, and quest/location crosswalks for mod authors. |
+| `data/rewards/` | Vanilla effect palette and reward/penalty magnitude cautions. |
 | `modding-ux/` | Qualitative-only immersive UX lessons and implementation risk notes. |
 | `templates/` | Starter templates for project-specific signal/crosswalk work. |
+| `tools/` | Optional local extraction helpers for refreshing generated tables. |
 
 ## How To Use This In A Mod Project
 
@@ -49,6 +58,25 @@ See `docs/source-authority.md` for the full classification model.
 3. Create a project-specific crosswalk using `templates/signal-hook-index-template.csv`.
 4. Verify exact records from your local masters/plugins before implementation.
 5. Keep your mod's scoring, lore, and player-facing design in your own repo.
+
+## Generated Extraction Pack
+
+The `data/extracted/` tables are broad generated references from local vanilla
+and DLC master data. They are useful for discovery: keywords, locations,
+activators, magic effects, spells, books, items, factions, quest candidates,
+crafting recipes, NPC actors, and race records.
+
+Refresh them with:
+
+```text
+node .\tools\extract-vanilla-gameplay-refs.mjs
+```
+
+The extractor expects a Mutagen bridge executable. By default it uses the local
+Anvil paths used to seed this repo, but these can be overridden with
+`MUTAGEN_BRIDGE`, `SKYRIM_DATA_ROOT`, and `SKYRIM_CLEANED_MASTERS_ROOT`.
+Generated rows are reference data, not design decisions; curate them into a
+project-specific crosswalk before implementation.
 
 ## Validation Model
 

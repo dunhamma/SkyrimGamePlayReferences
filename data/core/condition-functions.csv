@@ -1,5 +1,5 @@
 function_name,family,mod_design_use,caution,source_id,validation
-GetGlobalValue,global,"Read active patron mirrors, patron state, origin, debug flags, and future state-track globals","Use globals as CK-readable mirrors only.",ck_condition_functions,source-backed
+GetGlobalValue,global,"Read active-state mirrors, origin/state values, debug flags, and future track globals","Use globals as CK-readable mirrors only.",ck_condition_functions,source-backed
 GetActorValue,actor_value,"Gate effects by Health/Magicka/Stamina, skills, resistances, or AI values","Actor values can include modifiers; know current vs base semantics.",ck_condition_functions,source-backed
 GetActorValuePercent,actor_value,"Contextual favors when low health/magicka/stamina","Avoid effects that create noisy on/off flicker.",ck_condition_functions,source-backed
 GetBaseActorValue,actor_value,"Compare underlying actor value when modifiers should not count","Use sparingly; player-facing state usually sees modified values.",ck_condition_functions,source-backed
@@ -25,8 +25,7 @@ GetCurrentTime,time,"Dawn, night, moon, prayer windows, shrine rituals","Prefer 
 GetDayOfWeek,time,"Calendar-themed rituals or weekly caps","Use only if player-facing reason is clear.",ck_condition_functions,source-backed
 IsSneaking,state,"Nocturnal/Mephala stealth context and debug display","Sneaking is state, not success.",ck_condition_functions,source-backed
 IsInCombat,state,"Combat-only favors and anti-exploit gates","Use with hostile/target checks.",ck_condition_functions,source-backed
-IsHostileToActor,state,"Hostility validation for kill/combat signals","Runtime validation should remain in router/EventBus for scoring.",ck_condition_functions,source-backed
+IsHostileToActor,state,"Hostility validation for kill/combat signals","Runtime validation should remain in a receiver/router rather than in CK conditions alone.",ck_condition_functions,source-backed
 IsKiller,event,"Story Manager kill-event discrimination","Payload behavior needs runtime proof per receiver.",ck_condition_functions,source-backed
 IsCommandedActor,event,"Follower-commanded crime/kill attribution","Do not score indirect attribution until explicitly designed.",ck_condition_functions,source-backed
 GetEventData,event,"Story Manager event payload conditions","Payload names and types must be verified for each SM event.",ck_condition_functions,source-backed
-

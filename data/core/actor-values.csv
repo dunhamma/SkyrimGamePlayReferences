@@ -20,10 +20,9 @@ Block,skill,"Stendarr, warrior-priest, shield blessings","Block stacks strongly 
 Smithing,skill,"Malacath, Zenithar, craft-labor signals","Crafting is farmable; use milestones and caps.",uesp_skyrim_skills,source-backed
 Alchemy,skill,"Peryite, Namira, Bosmer plant-taboo checks, potion signals","Alchemy loops are highly farmable.",uesp_skyrim_skills,source-backed
 Enchanting,skill,"Julianos, Syrabane, Magnus, Altmer magical study","Enchanting power scaling is already strong.",uesp_skyrim_skills,source-backed
-Speechcraft,skill,"Dibella, Zenithar, Imperial civic/social paths","Speech overlaps barter and persuasion; avoid flattening all speech into piety.",uesp_actor_values,source-backed
+Speechcraft,skill,"Dibella, Zenithar, Imperial civic/social paths","Speech overlaps barter and persuasion; avoid flattening all speech into score.",uesp_actor_values,source-backed
 Sneak,skill,"Nocturnal, Mephala, stealth-ritual paths","Undetected success matters more than raw Sneak skill.",uesp_skyrim_skills,source-backed
 Aggression,ai_data,"Potential NPC/follower/guardian behavior tuning","Do not alter vanilla NPC AI broadly without strong reason.",ck_actor_value,source-backed
 Confidence,ai_data,"Summoned guardian or follower behavior","Can cause fleeing/foolhardy behavior shifts.",ck_actor_value,source-backed
-Morality,ai_data,"Follower crime compliance and social theology context","Useful as a read/reference concept more than a a mod write target.",ck_actor_value,source-backed
+Morality,ai_data,"Follower crime compliance and social/religious context","Useful as a read/reference concept more than a direct write target.",ck_actor_value,source-backed
 Assistance,ai_data,"Community/faction support concepts","Use faction/rank/relationship first.",ck_actor_value,source-backed
-

@@ -9,9 +9,8 @@ AVIF,Actor Value,"Boons and neglect touching stats, skills, resistances, regen, 
 LCTN,Location,"Sacred places, hold/community spaces, dungeon/temple/wilderness categorization",local master data plus CK Wiki,ck_keyword,"Location keywords are often safer than cell names."
 WRLD,Worldspace,"Skyrim/Solstheim/new-lands scope, sacred-place filtering",local master data,uesp_skyrim_radiant,"New lands from mods can affect radiant behavior and markers."
 ECZN,Encounter Zone,"Difficulty context, dungeon scaling, clearable/dungeon signal weighting",local master data plus UESP,uesp_skyrim_radiant,"Use for contextual difficulty, not as a moral signal by itself."
-GLOB,Global,"CK-readable mirrors, debug flags, patron state, condition bridges",local plugin data,ck_condition_functions,"Globals are condition bridges, not a gameplay source of truth."
+GLOB,Global,"CK-readable mirrors, debug flags, active state, condition bridges",local plugin data,ck_condition_functions,"Globals are condition bridges, not a gameplay source of truth."
 FLST,FormList,"Deity roster, curated record sets, offering lists, keyword fallback lists",local plugin data plus CK Wiki,ck_formlist,"Avoid runtime mutation when order matters."
 DIAL,Dialogue Topic,"Commitment offers, shrine/cleric interactions, player-facing choices",local plugin data plus CK Wiki,ck_quest_data,"Use quest/global/race/faction conditions rather than script-only gates."
 INFO,Dialogue Response,"Dialogue branch conditions and result fragments",local plugin data plus CK Wiki,ck_condition_functions,"Keep player-facing text ASCII and low-friction."
 SMEN,Story Manager Event Node,"Event capture routing for kills, crime, location, skill, craft, infection",local master/plugin data plus CK Wiki,ck_sm_event_node,"Mod-added nodes should share events for compatibility."
-

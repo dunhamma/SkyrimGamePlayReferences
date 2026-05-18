@@ -38,6 +38,10 @@ Qualitative rows and documents must be labeled so they are not retrieved as veri
 |---|---|
 | `source-backed` | Verified from UESP, CK Wiki, official documentation, or a named mod page/community source. |
 | `local-data-backed` | Verified from local master/plugin data or live mod source. |
+| `extracted` | Generated directly from local master/plugin data. |
+| `candidate-extracted` | Generated from local master/plugin data by a broad modding-relevant filter; needs human curation before implementation. |
+| `candidate-scan` | Generated from local scan inventory only; read individual record details before implementation. |
+| `seed` | Curated design seed intended to drive later extraction, patcher rules, or implementation review. |
 | `design-inference` | Reasoned from source-backed facts, but not itself a direct source claim. |
 | `needs-local-extraction` | Should be expanded from local plugin data before implementation. |
 | `needs-runtime-test` | Needs in-game verification before being treated as behaviorally proven. |
