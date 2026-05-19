@@ -8,7 +8,8 @@ This repo exists so Skyrim mod authors do not have to rediscover the same vanill
 
 - A source-backed map of vanilla Skyrim gameplay systems that frequently matter to mods.
 - A CK-facing reference for condition functions, Story Manager events, record types, keywords, actor values, magic effects, factions, crime, races, blessings, diseases, and world/location categories.
-- A reusable UX/design reference for immersive mods: what tends to feel good, what tends to feel tedious, and what players commonly distrust.
+- An implementation-facing Papyrus safety reference for event-driven scripting, save health, profiling, and update-safe mod maintenance.
+- A reusable UX/design reference for immersive mods: what tends to feel good, what tends to feel tedious, what players commonly distrust, and which general game-design principles apply to Skyrim modding.
 - A starter kit for building a project-specific crosswalk from vanilla mechanics to your own mod's signals.
 
 ## What This Is Not
@@ -23,13 +24,16 @@ This repo exists so Skyrim mod authors do not have to rediscover the same vanill
 This repository separates verified gameplay/reference material from qualitative design evidence.
 
 - Files under `data/` and `docs/` are source-backed reference indexes. They still require local plugin verification before implementation.
-- Files under `modding-ux/` are qualitative synthesis only. They summarize player/mod-author sentiment and design risks. Do not treat them as verified gameplay mechanics, factual engine behavior, or statistical evidence.
-- When building prompts or retrieval pipelines, include `modding-ux/` only for design inspiration, UX risk review, or hypothesis generation. Exclude it from verified-mechanics retrieval unless the user explicitly asks for qualitative player-experience material.
+- Files under `implementation/` are implementation references for Papyrus, CK authoring, save health, profiling, and tool-facing scripting cautions. They should be verified in a real Skyrim runtime before release.
+- Files under `modding-ux/` and `game-design/` are qualitative synthesis only. They summarize design principles, player/mod-author sentiment, and design risks. Do not treat them as verified gameplay mechanics, factual engine behavior, or statistical evidence.
+- When building prompts or retrieval pipelines, include `modding-ux/` and `game-design/` only for design inspiration, UX risk review, or hypothesis generation. Exclude them from verified-mechanics retrieval unless the user explicitly asks for qualitative player-experience or design material.
 
 See `docs/source-authority.md` for the full classification model.
 
 ## Update Notes
 
+- [2026-05-19 game design reference layer](docs/updates/2026-05-19-game-design-reference-layer.md)
+- [2026-05-19 Papyrus implementation reference](docs/updates/2026-05-19-papyrus-implementation-reference.md)
 - [2026-05-19 expanded gameplay extraction wave](docs/updates/2026-05-19-expanded-gameplay-extraction-wave.md)
 - [2026-05-19 extracted gameplay reference pack](docs/updates/2026-05-19-extracted-gameplay-reference-pack.md)
 
@@ -48,6 +52,8 @@ See `docs/source-authority.md` for the full classification model.
 | `data/world/` | Worldspace, location type, dungeon, and encounter-zone references. |
 | `data/modding-crosswalk/` | General hook catalogs, signal patterns, semantic tagging candidates, and quest/location crosswalks for mod authors. |
 | `data/rewards/` | Vanilla effect palette and reward/penalty magnitude cautions. |
+| `game-design/` | Qualitative game-design principles, Skyrim modding applications, and design review checklist. |
+| `implementation/` | Implementation guidance such as Papyrus safety, save health, profiling, and script review checklists. |
 | `modding-ux/` | Qualitative-only immersive UX lessons and implementation risk notes. |
 | `templates/` | Starter templates for project-specific signal/crosswalk work. |
 | `tools/` | Optional local extraction helpers for refreshing generated tables. |
@@ -91,11 +97,12 @@ Use the strongest available source for the question:
 | Local game/plugin data | Exact FormID, EditorID, record ownership, and patched load-order truth. |
 | CK Wiki / UESP CK Wiki | CK record behavior, condition functions, Papyrus contracts, and Story Manager authoring. |
 | UESP gameplay pages | Player-facing vanilla mechanics, quest/faction summaries, shrine/disease tables, and formulas. |
+| General game-design sources | Qualitative design principles, design review prompts, and player-experience hypotheses. |
 | Mod pages/community discussions | Qualitative UX and compatibility signals only; not verified gameplay truth or statistical proof. |
 
 ## Design Posture
 
-The strongest repeated lesson across gameplay and UX research is simple: immersive systems work best when they are quiet, legible, recoverable, and grounded in vanilla play. Prefer meaningful events and authored choices over raw repetitive counters. Avoid notification spam, hidden punishment, chore loops, broad GMST edits, and assumptions that have not been verified in-game.
+The strongest repeated lesson across gameplay, game-design, and UX research is simple: immersive systems work best when they are quiet, legible, recoverable, and grounded in vanilla play. Prefer meaningful events and authored choices over raw repetitive counters. Avoid notification spam, hidden punishment, chore loops, broad GMST edits, and assumptions that have not been verified in-game.
 
 ## Attribution
 
