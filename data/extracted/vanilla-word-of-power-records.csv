@@ -1,0 +1,108 @@
+plugin,formid,editor_id,name,translation,modding_use,validation
+Dawnguard.esm,Dawnguard.esm:0030D4,DLC1DragonSummon1Dur,,,word-of-power reference,extracted
+Dawnguard.esm,Dawnguard.esm:0030D6,DLC1DragonSummon2Neh,,,word-of-power reference,extracted
+Dawnguard.esm,Dawnguard.esm:0030D7,DLC1DragonSummon3Viir,,,word-of-power reference,extracted
+Dawnguard.esm,Dawnguard.esm:008A65,DLC1DrainVitality1Gaan,,,word-of-power reference,extracted
+Dawnguard.esm,Dawnguard.esm:008A64,DLC1DrainVitality2Lah,,,word-of-power reference,extracted
+Dawnguard.esm,Dawnguard.esm:008A63,DLC1DrainVitality3Haas,,,word-of-power reference,extracted
+Dawnguard.esm,Dawnguard.esm:007CB7,DLC1SoulTearing1Rii,,,word-of-power reference,extracted
+Dawnguard.esm,Dawnguard.esm:007CB8,DLC1SoulTearing2Vaaz,,,word-of-power reference,extracted
+Dawnguard.esm,Dawnguard.esm:007CB9,DLC1SoulTearing3Zol,,,word-of-power reference,extracted
+Dawnguard.esm,Dawnguard.esm:01A162,DLC1UndeadSummon1,,,word-of-power reference,extracted
+Dawnguard.esm,Dawnguard.esm:01A163,DLC1UndeadSummon2,,,word-of-power reference,extracted
+Dawnguard.esm,Dawnguard.esm:01A164,DLC1UndeadSummon3,,,word-of-power reference,extracted
+Dragonborn.esm,Dragonborn.esm:0200E4,DLC2BattleFuryWord1,,,word-of-power reference,extracted
+Dragonborn.esm,Dragonborn.esm:0200E5,DLC2BattleFuryWord2,,,word-of-power reference,extracted
+Dragonborn.esm,Dragonborn.esm:0200E6,DLC2BattleFuryWord3,,,word-of-power reference,extracted
+Dragonborn.esm,Dragonborn.esm:0179D9,DLC2BendToWillWord1,,,word-of-power reference,extracted
+Dragonborn.esm,Dragonborn.esm:0179DA,DLC2BendToWillWord2,,,word-of-power reference,extracted
+Dragonborn.esm,Dragonborn.esm:0179DB,DLC2BendToWillWord3,,,word-of-power reference,extracted
+Dragonborn.esm,Dragonborn.esm:0200C2,DLC2CycloneWord1,,,word-of-power reference,extracted
+Dragonborn.esm,Dragonborn.esm:0200C3,DLC2CycloneWord2,,,word-of-power reference,extracted
+Dragonborn.esm,Dragonborn.esm:0200C4,DLC2CycloneWord3,,,word-of-power reference,extracted
+Dragonborn.esm,Dragonborn.esm:01BFF2,dlc2DBWordRageOfAncients,,,word-of-power reference,extracted
+Dragonborn.esm,Dragonborn.esm:01DF93,DLC2DragonAspectWord1,,,word-of-power reference,extracted
+Dragonborn.esm,Dragonborn.esm:01DF94,DLC2DragonAspectWord2,,,word-of-power reference,extracted
+Dragonborn.esm,Dragonborn.esm:01DF95,DLC2DragonAspectWord3,,,word-of-power reference,extracted
+Dragonborn.esm,Dragonborn.esm:039D29,DLC2MKMiraakMaskShoutWord,,,word-of-power reference,extracted
+Skyrim.esm,Skyrim.esm:106ACB,DragonFakeWord,,,placeholder/technical word record,extracted
+Skyrim.esm,Skyrim.esm:0E5F65,HowlCallOfTheWild1,Call Of The Wild,,word-of-power reference,extracted
+Skyrim.esm,Skyrim.esm:0E5F66,HowlCallOfTheWild2,Call Of The Wild,,word-of-power reference,extracted
+Skyrim.esm,Skyrim.esm:0E5F67,HowlCallOfTheWild3,Call Of The Wild,,word-of-power reference,extracted
+Skyrim.esm,Skyrim.esm:0CE219,HowlDetectLife,Scent Of Blood,,word-of-power reference,extracted
+Skyrim.esm,Skyrim.esm:0CF78E,HowlFear1,Howl Of Terror,,word-of-power reference,extracted
+Skyrim.esm,Skyrim.esm:0CF794,HowlFear2,Howl Of Terror,,word-of-power reference,extracted
+Skyrim.esm,Skyrim.esm:0CF795,HowlFear3,Howl Of Terror,,word-of-power reference,extracted
+Skyrim.esm,Skyrim.esm:0CF78F,HowlSummonWolves1,Howl Of The Pack,,word-of-power reference,extracted
+Skyrim.esm,Skyrim.esm:0CF799,HowlSummonWolves2,Howl Of The Pack,,word-of-power reference,extracted
+Skyrim.esm,Skyrim.esm:0CF79A,HowlSummonWolves3,Howl Of The Pack,,word-of-power reference,extracted
+Skyrim.esm,Skyrim.esm:0FF8D7,MQFakeWord,,,placeholder/technical word record,extracted
+Skyrim.esm,Skyrim.esm:02F2CC,TestWordFiik,Fiik,Mirror,word-of-power reference,extracted
+Skyrim.esm,Skyrim.esm:02F2CD,TestWordLo,Lo,Deceive,word-of-power reference,extracted
+Skyrim.esm,Skyrim.esm:02F2CE,TestWordSah,Sah,Phantom,word-of-power reference,extracted
+Skyrim.esm,Skyrim.esm:046B8A,WordAh,4,Hunter,word-of-power reference,extracted
+Skyrim.esm,Skyrim.esm:060299,WordAus,Aus,Suffer,word-of-power reference,extracted
+Skyrim.esm,Skyrim.esm:06029B,WordBah,B4,Wrath,word-of-power reference,extracted
+Skyrim.esm,Skyrim.esm:013E24,WordDah,D4,Push,word-of-power reference,extracted
+Skyrim.esm,Skyrim.esm:05D16E,WordDiin,D3n,Freeze,word-of-power reference,extracted
+Skyrim.esm,Skyrim.esm:0252C3,WordDragonFire01,DragonFire01,,word-of-power reference,extracted
+Skyrim.esm,Skyrim.esm:0252C4,WordDragonFire02,DragonFire02,,word-of-power reference,extracted
+Skyrim.esm,Skyrim.esm:0252C5,WordDragonFire03,DragonFire03,,word-of-power reference,extracted
+Skyrim.esm,Skyrim.esm:06029E,WordDrem,Drem,Peace,word-of-power reference,extracted
+Skyrim.esm,Skyrim.esm:03291F,WordDun,Dun,Grace,word-of-power reference,extracted
+Skyrim.esm,Skyrim.esm:03291A,WordFaas,F1s,Fear,word-of-power reference,extracted
+Skyrim.esm,Skyrim.esm:032917,WordFeim,F2m,Fade,word-of-power reference,extracted
+Skyrim.esm,Skyrim.esm:05D16C,WordFo,Fo,Frost,word-of-power reference,extracted
+Skyrim.esm,Skyrim.esm:044253,WordFrul,Frul,Temporary,word-of-power reference,extracted
+Skyrim.esm,Skyrim.esm:013E22,WordFus,Fus,Force,word-of-power reference,extracted
+Skyrim.esm,Skyrim.esm:03291E,WordGrah,Gr4,Battle,word-of-power reference,extracted
+Skyrim.esm,Skyrim.esm:032919,WordGron,Gron,Bind,word-of-power reference,extracted
+Skyrim.esm,Skyrim.esm:0602A2,WordGut,Gut,Far,word-of-power reference,extracted
+Skyrim.esm,Skyrim.esm:05FB96,WordHaal,H1l,Hand,word-of-power reference,extracted
+Skyrim.esm,Skyrim.esm:051960,WordHun,Hun,Hero,word-of-power reference,extracted
+Skyrim.esm,Skyrim.esm:0602A3,WordIiz,3z,Ice,word-of-power reference,extracted
+Skyrim.esm,Skyrim.esm:0E40CC,WordImperialVoiceOfTheEmperor,Voice of the Emperor,,word-of-power reference,extracted
+Skyrim.esm,Skyrim.esm:044251,WordJoor,J8r,Mortal,word-of-power reference,extracted
+Skyrim.esm,Skyrim.esm:051961,WordKaal,K1l,Champion,word-of-power reference,extracted
+Skyrim.esm,Skyrim.esm:06029D,WordKaan,K1n,Kyne,word-of-power reference,extracted
+Skyrim.esm,Skyrim.esm:02F7BD,WordKest,Kest,Tempest,word-of-power reference,extracted
+Skyrim.esm,Skyrim.esm:048ACB,WordKlo,Klo,Sand,word-of-power reference,extracted
+Skyrim.esm,Skyrim.esm:03CD33,WordKoor,K8r,Summer,word-of-power reference,extracted
+Skyrim.esm,Skyrim.esm:05D16D,WordKrah,Kr4,Cold,word-of-power reference,extracted
+Skyrim.esm,Skyrim.esm:060297,WordKrii,Kr3,Kill,word-of-power reference,extracted
+Skyrim.esm,Skyrim.esm:060294,WordLaas,L1s,Life,word-of-power reference,extracted
+Skyrim.esm,Skyrim.esm:03CD31,WordLok,Lok,Sky,word-of-power reference,extracted
+Skyrim.esm,Skyrim.esm:060298,WordLun,Lun,Leech,word-of-power reference,extracted
+Skyrim.esm,Skyrim.esm:03291C,WordMaar,M1r,Terror,word-of-power reference,extracted
+Skyrim.esm,Skyrim.esm:0602A1,WordMey,M9,Fool,word-of-power reference,extracted
+Skyrim.esm,Skyrim.esm:060292,WordMir,M7,Allegiance,word-of-power reference,extracted
+Skyrim.esm,Skyrim.esm:02F7BC,WordNah,N4,Fury,word-of-power reference,extracted
+Skyrim.esm,Skyrim.esm:060296,WordNir,N7,Hunt,word-of-power reference,extracted
+Skyrim.esm,Skyrim.esm:0E40C5,WordNordBattleCry,Battle Cry,,word-of-power reference,extracted
+Skyrim.esm,Skyrim.esm:0602A5,WordNus,Nus,Statue,word-of-power reference,extracted
+Skyrim.esm,Skyrim.esm:046B89,WordOd,Od,Snow,word-of-power reference,extracted
+Skyrim.esm,Skyrim.esm:06029F,WordOv,Ov,Trust,word-of-power reference,extracted
+Skyrim.esm,Skyrim.esm:06029C,WordQo,Qo,Lightning,word-of-power reference,extracted
+Skyrim.esm,Skyrim.esm:060291,WordRaan,R1n,Animal,word-of-power reference,extracted
+Skyrim.esm,Skyrim.esm:013E23,WordRo,Ro,Balance,word-of-power reference,extracted
+Skyrim.esm,Skyrim.esm:03291B,WordRu,Ru,Run,word-of-power reference,extracted
+Skyrim.esm,Skyrim.esm:020E19,WordShul,Shul,Sun,word-of-power reference,extracted
+Skyrim.esm,Skyrim.esm:0602A4,WordSlen,Slen,Flesh,word-of-power reference,extracted
+Skyrim.esm,Skyrim.esm:06029A,WordStrun,Strun,Storm,word-of-power reference,extracted
+Skyrim.esm,Skyrim.esm:03291D,WordSu,Su,Air,word-of-power reference,extracted
+Skyrim.esm,Skyrim.esm:060293,WordTah,T4,Pack,word-of-power reference,extracted
+Skyrim.esm,Skyrim.esm:048ACA,WordTiid,T3d,Time,word-of-power reference,extracted
+Skyrim.esm,Skyrim.esm:020E18,WordToor,T8r,Inferno,word-of-power reference,extracted
+Skyrim.esm,Skyrim.esm:048ACC,WordUl,Ul,Eternity,word-of-power reference,extracted
+Skyrim.esm,Skyrim.esm:03CD32,WordVah,V4,Spring,word-of-power reference,extracted
+Skyrim.esm,Skyrim.esm:05FB97,WordViik,V3k,Defeat,word-of-power reference,extracted
+Skyrim.esm,Skyrim.esm:046B8B,WordViing,V3ng,Wing,word-of-power reference,extracted
+Skyrim.esm,Skyrim.esm:0E40D2,WordWoodElfBeastTongue,Beast Tongue,,word-of-power reference,extracted
+Skyrim.esm,Skyrim.esm:02F7BB,WordWuld,Wuld,Whirlwind,word-of-power reference,extracted
+Skyrim.esm,Skyrim.esm:060295,WordYah,Y4,Seek,word-of-power reference,extracted
+Skyrim.esm,Skyrim.esm:020E17,WordYol,Yol,Fire,word-of-power reference,extracted
+Skyrim.esm,Skyrim.esm:044252,WordZah,Z4,Finite,word-of-power reference,extracted
+Skyrim.esm,Skyrim.esm:032918,WordZii,Z3,Spirit,word-of-power reference,extracted
+Skyrim.esm,Skyrim.esm:051962,WordZoor,Z8r,Legend,word-of-power reference,extracted
+Skyrim.esm,Skyrim.esm:0602A0,WordZul,Zul,Voice,word-of-power reference,extracted
+Skyrim.esm,Skyrim.esm:05FB95,WordZun,Zun,Weapon,word-of-power reference,extracted

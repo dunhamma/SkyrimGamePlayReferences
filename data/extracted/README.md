@@ -10,3 +10,14 @@ These tables are extracted from the local Anvil stock/cleaned base masters:
 Masters mod. Treat them as implementation reference data, not final reference design
 decisions. Curated design meaning belongs in `data/modding-crosswalk/`
 tables.
+
+Large record groups are intentionally filtered or summarized. This repository
+does not dump full placed references, navmeshes, land geometry, or dialogue
+response text.
+
+This wave includes scan-level inventory tables for broad record classes and
+detail tables where the extracted shape stays useful: faction relationships,
+FormList candidates, perk candidates, enchantments, shouts, words of power,
+leveled-list candidates, encounter zones, worldspaces, cell candidates,
+container/furniture candidates, condition-bearing effects, and a reverse keyword
+index.

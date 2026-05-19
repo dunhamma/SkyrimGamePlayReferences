@@ -1,0 +1,576 @@
+plugin,record_type,formid,editor_id,name,flags,interaction_keyword,workbench_type,uses_skill,items,modding_use,validation
+Dawnguard.esm,CONT,Dawnguard.esm:015FDF,DLC01SC_Chest,,0,,,, x;  x;  x;  x;  x;  x;  x;  x;  x,container/furniture interaction candidate,candidate-extracted
+Dawnguard.esm,CONT,Dawnguard.esm:01611F,DLC01SC_Chest02,,0,,,, x;  x;  x;  x;  x;  x;  x;  x;  x,container/furniture interaction candidate,candidate-extracted
+Dawnguard.esm,CONT,Dawnguard.esm:0040A5,DLC01SC_ChestBoss,,0,,,, x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x,container/furniture interaction candidate,candidate-extracted
+Dawnguard.esm,CONT,Dawnguard.esm:015FDD,DLC01TreasSnowElfChest,,0,,,, x;  x;  x;  x;  x;  x,container/furniture interaction candidate,candidate-extracted
+Dawnguard.esm,CONT,Dawnguard.esm:019DD6,DLC01TreasSnowElfChestBoss,,0,,,, x;  x;  x;  x;  x;  x;  x,container/furniture interaction candidate,candidate-extracted
+Dawnguard.esm,CONT,Dawnguard.esm:00EA8C,DLC01VQ05GemChest,,0,,,,,container/furniture interaction candidate,candidate-extracted
+Dawnguard.esm,CONT,Dawnguard.esm:013941,DLC1dunRedwaterDenMerchantChest,,Respawns,,,, x;  x;  x;  x;  x,vendor/container economy candidate,candidate-extracted
+Dawnguard.esm,CONT,Dawnguard.esm:014F0C,DLC1LD_AetheriumForgeMaterialsChest,,Respawns,,,, x;  x;  x;  x;  x;  x;  x,crafting station candidate,candidate-extracted
+Dawnguard.esm,CONT,Dawnguard.esm:00DCE7,DLC1TreasChestDarkFall01,,Respawns,,,, x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x,container/furniture interaction candidate,candidate-extracted
+Dawnguard.esm,CONT,Dawnguard.esm:015461,DLC1TreasSoulCairnChest,,Respawns,,,, x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x,container/furniture interaction candidate,candidate-extracted
+Dawnguard.esm,CONT,Dawnguard.esm:01692A,DLC1TreasSoulCairnChest02,,Respawns,,,, x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x,container/furniture interaction candidate,candidate-extracted
+Dawnguard.esm,CONT,Dawnguard.esm:010F28,DLC1VampireCastleHoldingChest,,0,,,,,container/furniture interaction candidate,candidate-extracted
+Dawnguard.esm,CONT,Dawnguard.esm:010479,DLC1VendorChestFeran,,Respawns,,,, x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x,vendor/container economy candidate,candidate-extracted
+Dawnguard.esm,CONT,Dawnguard.esm:00F82B,DLC1VendorChestFlorentius,,Respawns,,,, x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x,vendor/container economy candidate,candidate-extracted
+Dawnguard.esm,CONT,Dawnguard.esm:00F828,DLC1VendorChestGunmar,,Respawns,,,, x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x; ... +4 more,vendor/container economy candidate,candidate-extracted
+Dawnguard.esm,CONT,Dawnguard.esm:010477,DLC1VendorChestHestla,,Respawns,,,, x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x,vendor/container economy candidate,candidate-extracted
+Dawnguard.esm,CONT,Dawnguard.esm:01047A,DLC1VendorChestRonthil,,Respawns,,,, x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x,vendor/container economy candidate,candidate-extracted
+Dawnguard.esm,CONT,Dawnguard.esm:00F1A5,DLC1VendorChestSorineJurard,,Respawns,,,, x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x,vendor/container economy candidate,candidate-extracted
+Dawnguard.esm,CONT,Dawnguard.esm:00739B,DLC1VQ07TempBowChest,,AllowSoundsWhenAnimation,,,,,container/furniture interaction candidate,candidate-extracted
+Dawnguard.esm,CONT,Dawnguard.esm:011E39,DLC1VQ08CleanUpChest,,0,,,,,container/furniture interaction candidate,candidate-extracted
+Dawnguard.esm,FURN,Dawnguard.esm:00A258,DLC1_WayShrineWaterPourMarker,,1073741826,ActorTypeNPC (Skyrim.esm:013794),None,255,,ritual/religion interaction candidate,candidate-extracted
+Dawnguard.esm,FURN,Dawnguard.esm:00A257,DLC1_WayShrineWaterScoopMarker,,1073741826,ActorTypeNPC (Skyrim.esm:013794),None,255,,ritual/religion interaction candidate,candidate-extracted
+Dawnguard.esm,FURN,Dawnguard.esm:00D27B,DLC1_WayShrineWaterScoopMarkerOff,,1073741826,ActorTypeNPC (Skyrim.esm:013794),None,255,,ritual/religion interaction candidate,candidate-extracted
+Dawnguard.esm,FURN,Dawnguard.esm:00C651,DLC1BedrollGroundF,,2281701376,ActorTypeNPC (Skyrim.esm:013794),None,255,,sleep/rest interaction candidate,candidate-extracted
+Dawnguard.esm,FURN,Dawnguard.esm:00F812,DLC1DawnguardCraftingBlackSmithForge,,1073741824,ActorTypeNPC (Skyrim.esm:013794),CreateObject,Smithing,,crafting station candidate,candidate-extracted
+Dawnguard.esm,FURN,Dawnguard.esm:013F11,DweForgeFurniture01nif,,1073741826,,CreateObject,Smithing,,crafting station candidate,candidate-extracted
+Dragonborn.esm,CONT,Dragonborn.esm:03D2A1,DLC2dunBloodskalTreasChestLure,,Respawns,,,, x,container/furniture interaction candidate,candidate-extracted
+Dragonborn.esm,CONT,Dragonborn.esm:035E25,DLC2dunFrostmoonTreasChest,,0,,,, x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x,container/furniture interaction candidate,candidate-extracted
+Dragonborn.esm,CONT,Dragonborn.esm:01DC65,DLC2dunFrostmoonVendorChest,,Respawns,,,, x;  x;  x;  x;  x;  x;  x,vendor/container economy candidate,candidate-extracted
+Dragonborn.esm,CONT,Dragonborn.esm:024027,DLC2dunHaknirChest,,0,,,,,container/furniture interaction candidate,candidate-extracted
+Dragonborn.esm,CONT,Dragonborn.esm:03A2B6,DLC2dunKolbjornTreasDraugrChestBoss,,Respawns,,,, x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x,container/furniture interaction candidate,candidate-extracted
+Dragonborn.esm,CONT,Dragonborn.esm:0173BD,DLC2dunNchardakCubeChest,,Respawns,,,,,container/furniture interaction candidate,candidate-extracted
+Dragonborn.esm,CONT,Dragonborn.esm:03572E,DLC2ElmusVendorChest,,Respawns,,,, x;  x;  x;  x,vendor/container economy candidate,candidate-extracted
+Dragonborn.esm,CONT,Dragonborn.esm:01DA1E,DLC2ExpSpiderCraftingBooksContainer,,0,,,,,container/furniture interaction candidate,candidate-extracted
+Dragonborn.esm,CONT,Dragonborn.esm:01705C,DLC2ExpSpiderCraftingChest,,Respawns,,,,,container/furniture interaction candidate,candidate-extracted
+Dragonborn.esm,CONT,Dragonborn.esm:03ABE1,DLC2GloverLootChest,,0,,,, x;  x;  x;  x;  x;  x;  x,container/furniture interaction candidate,candidate-extracted
+Dragonborn.esm,CONT,Dragonborn.esm:01EEC0,DLC2MerchantDremoraChest,,Respawns,,,, x;  x;  x;  x;  x;  x,vendor/container economy candidate,candidate-extracted
+Dragonborn.esm,CONT,Dragonborn.esm:0177BE,DLC2MerchantTelMithrynElyneasChest,,Respawns,,,, x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x,vendor/container economy candidate,candidate-extracted
+Dragonborn.esm,CONT,Dragonborn.esm:0177C1,DLC2MerchantTelMithrynNelothChest,,Respawns,,,, x;  x;  x;  x;  x;  x;  x,vendor/container economy candidate,candidate-extracted
+Dragonborn.esm,CONT,Dragonborn.esm:0177C0,DLC2MerchantTelMithrynTalvasChest,,Respawns,,,, x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x,vendor/container economy candidate,candidate-extracted
+Dragonborn.esm,CONT,Dragonborn.esm:031DB4,dlc2MerchMerchantsChest,,Respawns,,,, x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x,vendor/container economy candidate,candidate-extracted
+Dragonborn.esm,CONT,Dragonborn.esm:03B016,DLC2MQ06BookPuzzleChest,,0,,,,,container/furniture interaction candidate,candidate-extracted
+Dragonborn.esm,CONT,Dragonborn.esm:0292A6,DLC2RR02BossChest,,Respawns,,,, x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x,container/furniture interaction candidate,candidate-extracted
+Dragonborn.esm,CONT,Dragonborn.esm:025020,DLC2RRFethisVendorChest,,Respawns,,,, x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x,vendor/container economy candidate,candidate-extracted
+Dragonborn.esm,CONT,Dragonborn.esm:02501F,DLC2RRGarynVendorChest,,Respawns,,,, x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x,vendor/container economy candidate,candidate-extracted
+Dragonborn.esm,CONT,Dragonborn.esm:02501E,DLC2RRGeldisVendorChest,,Respawns,,,, x;  x;  x;  x;  x;  x;  x;  x,vendor/container economy candidate,candidate-extracted
+Dragonborn.esm,CONT,Dragonborn.esm:02501D,DLC2RRGloverVendorChest,,Respawns,,,, x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x; ... +1 more,vendor/container economy candidate,candidate-extracted
+Dragonborn.esm,CONT,Dragonborn.esm:02501C,DLC2RRMiloreVendorChest,,Respawns,,,, x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x,vendor/container economy candidate,candidate-extracted
+Dragonborn.esm,CONT,Dragonborn.esm:01F897,DLC2SkaalBlacksmithChest,,Respawns,,,, x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x,container/furniture interaction candidate,candidate-extracted
+Dragonborn.esm,CONT,Dragonborn.esm:01F88D,DLC2SkaalMerchantChest,,Respawns,,,, x;  x;  x;  x;  x;  x;  x;  x;  x,vendor/container economy candidate,candidate-extracted
+Dragonborn.esm,CONT,Dragonborn.esm:027E09,DLC2SV02AncarionChest,,Respawns,,,, x,container/furniture interaction candidate,candidate-extracted
+Dragonborn.esm,CONT,Dragonborn.esm:027108,DLC2ThirskBlacksmithChest,,Respawns,,,, x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x,container/furniture interaction candidate,candidate-extracted
+Dragonborn.esm,CONT,Dragonborn.esm:02C465,DLC2TreasAlchemySatchelCommon,,Respawns,,,, x;  x,magic/crafting station candidate,candidate-extracted
+Dragonborn.esm,CONT,Dragonborn.esm:02C466,DLC2TreasAlchemySatchelRare,,Respawns,,,, x;  x;  x;  x,magic/crafting station candidate,candidate-extracted
+Dragonborn.esm,CONT,Dragonborn.esm:02C467,DLC2TreasAlchemySatchelUncommon,,Respawns,,,, x;  x;  x,magic/crafting station candidate,candidate-extracted
+Dragonborn.esm,CONT,Dragonborn.esm:02C460,DLC2TreasApocryphaChest,,Respawns,,,, x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x,container/furniture interaction candidate,candidate-extracted
+Dragonborn.esm,CONT,Dragonborn.esm:02C461,DLC2TreasApocryphaChestBoss,,Respawns,,,, x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x,container/furniture interaction candidate,candidate-extracted
+Dragonborn.esm,CONT,Dragonborn.esm:02AABE,DLC2TreasBanditChest,,Respawns,,,, x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x,container/furniture interaction candidate,candidate-extracted
+Dragonborn.esm,CONT,Dragonborn.esm:02AABF,DLC2TreasBanditChestBoss,,Respawns,,,, x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x,container/furniture interaction candidate,candidate-extracted
+Dragonborn.esm,CONT,Dragonborn.esm:02AAC0,DLC2TreasBanditChestSnow,,Respawns,,,, x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x,container/furniture interaction candidate,candidate-extracted
+Dragonborn.esm,CONT,Dragonborn.esm:02AAC1,DLC2TreasDraugrChest,,Respawns,,,, x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x,container/furniture interaction candidate,candidate-extracted
+Dragonborn.esm,CONT,Dragonborn.esm:02AAC2,DLC2TreasDraugrChestBoss,,Respawns,,,, x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x,container/furniture interaction candidate,candidate-extracted
+Dragonborn.esm,CONT,Dragonborn.esm:02AABA,DLC2TreasDwarvenChestBoss,,Respawns,,,, x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x,container/furniture interaction candidate,candidate-extracted
+Dragonborn.esm,CONT,Dragonborn.esm:02AABB,DLC2TreasDwarvenChestLarge,,Respawns,,,, x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x,container/furniture interaction candidate,candidate-extracted
+Dragonborn.esm,CONT,Dragonborn.esm:02AABC,DLC2TreasDwarvenChestSmall,,Respawns,,,, x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x,container/furniture interaction candidate,candidate-extracted
+Dragonborn.esm,CONT,Dragonborn.esm:02C462,DLC2TreasExplorerLootChest,,Respawns,,,, x;  x;  x;  x;  x;  x;  x;  x;  x,container/furniture interaction candidate,candidate-extracted
+Dragonborn.esm,CONT,Dragonborn.esm:02C463,DLC2TreasExplorerLootChestSnow,,Respawns,,,, x;  x;  x;  x;  x;  x;  x;  x,container/furniture interaction candidate,candidate-extracted
+Dragonborn.esm,CONT,Dragonborn.esm:025E48,DLC2TreasRieklingChest,,Respawns,,,, x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x,container/furniture interaction candidate,candidate-extracted
+Dragonborn.esm,CONT,Dragonborn.esm:025E46,DLC2TreasRieklingChestBoss,,Respawns,,,, x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x,container/furniture interaction candidate,candidate-extracted
+Dragonborn.esm,CONT,Dragonborn.esm:034B39,DLC2TreasRieklingChestSnow,,Respawns,,,, x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x,container/furniture interaction candidate,candidate-extracted
+Dragonborn.esm,CONT,Dragonborn.esm:02C455,DLC2TreasWarlockChest,,Respawns,,,, x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x,container/furniture interaction candidate,candidate-extracted
+Dragonborn.esm,CONT,Dragonborn.esm:02C456,DLC2TreasWarlockChestBoss,,Respawns,,,, x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x,container/furniture interaction candidate,candidate-extracted
+Dragonborn.esm,CONT,Dragonborn.esm:02C45E,DLC2TreasWerebearChest,,Respawns,,,, x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x,container/furniture interaction candidate,candidate-extracted
+Dragonborn.esm,CONT,Dragonborn.esm:02C45F,DLC2TreasWerebearChestBoss,,Respawns,,,, x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x,container/furniture interaction candidate,candidate-extracted
+Dragonborn.esm,CONT,Dragonborn.esm:02C458,DLC2TreasWerewolfChest,,Respawns,,,, x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x,container/furniture interaction candidate,candidate-extracted
+Dragonborn.esm,CONT,Dragonborn.esm:02C45A,DLC2TreasWerewolfChestBoss,,Respawns,,,, x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x,container/furniture interaction candidate,candidate-extracted
+Dragonborn.esm,CONT,Dragonborn.esm:034022,DLC2WB01JournalChest,,0,,,,,container/furniture interaction candidate,candidate-extracted
+Dragonborn.esm,CONT,Dragonborn.esm:03C361,PersonalChestSmall_NoRespawn,,0,,,, x;  x;  x;  x;  x;  x;  x,container/furniture interaction candidate,candidate-extracted
+Dragonborn.esm,CONT,Dragonborn.esm:018CB8,testPhilArcaneConverterInput,,Respawns,,,,,container/furniture interaction candidate,candidate-extracted
+Dragonborn.esm,CONT,Dragonborn.esm:018CB9,testPhilArcaneConverterOutput,,Respawns,,,,,container/furniture interaction candidate,candidate-extracted
+Dragonborn.esm,CONT,Dragonborn.esm:028211,TreasRieklingChestEMPTY,,Respawns,,,,,container/furniture interaction candidate,candidate-extracted
+Dragonborn.esm,FURN,Dragonborn.esm:03D131,BedrollHay01GlacierL,,2281701376,ActorTypeNPC (Skyrim.esm:013794),None,255,,sleep/rest interaction candidate,candidate-extracted
+Dragonborn.esm,FURN,Dragonborn.esm:03D132,BedrollHay01GlacierR,,2281701376,ActorTypeNPC (Skyrim.esm:013794),None,255,,sleep/rest interaction candidate,candidate-extracted
+Dragonborn.esm,FURN,Dragonborn.esm:025E51,BedrollHay01IceL,,2281701376,ActorTypeNPC (Skyrim.esm:013794),None,255,,sleep/rest interaction candidate,candidate-extracted
+Dragonborn.esm,FURN,Dragonborn.esm:025E52,BedrollHay01IceR,,2281701376,ActorTypeNPC (Skyrim.esm:013794),None,255,,sleep/rest interaction candidate,candidate-extracted
+Dragonborn.esm,FURN,Dragonborn.esm:028AA9,BedrollHay01L_Ash,,2281701376,ActorTypeNPC (Skyrim.esm:013794),None,255,,sleep/rest interaction candidate,candidate-extracted
+Dragonborn.esm,FURN,Dragonborn.esm:02C0B3,BedrollHay01LDirtPath01F,,2281701376,ActorTypeNPC (Skyrim.esm:013794),None,255,,sleep/rest interaction candidate,candidate-extracted
+Dragonborn.esm,FURN,Dragonborn.esm:02C0B2,BedrollHay01LDirtPath01L,,2281701376,ActorTypeNPC (Skyrim.esm:013794),None,255,,sleep/rest interaction candidate,candidate-extracted
+Dragonborn.esm,FURN,Dragonborn.esm:02C0B4,BedrollHay01LDirtPath01R,,2281701376,ActorTypeNPC (Skyrim.esm:013794),None,255,,sleep/rest interaction candidate,candidate-extracted
+Dragonborn.esm,FURN,Dragonborn.esm:01EE28,BedrollHay01LDirtSnowPath,,2281701376,ActorTypeNPC (Skyrim.esm:013794),None,255,,sleep/rest interaction candidate,candidate-extracted
+Dragonborn.esm,FURN,Dragonborn.esm:018617,BedrollHay01LDirtSnowPath01F,,2281701376,ActorTypeNPC (Skyrim.esm:013794),None,255,,sleep/rest interaction candidate,candidate-extracted
+Dragonborn.esm,FURN,Dragonborn.esm:018618,BedrollHay01LDirtSnowPath01R,,2281701376,ActorTypeNPC (Skyrim.esm:013794),None,255,,sleep/rest interaction candidate,candidate-extracted
+Dragonborn.esm,FURN,Dragonborn.esm:028A68,BedrollHay01R_Ash,,2281701376,ActorTypeNPC (Skyrim.esm:013794),None,255,,sleep/rest interaction candidate,candidate-extracted
+Dragonborn.esm,FURN,Dragonborn.esm:03CF6E,DLC2CraftingBlackSmithForge,,1073741824,ActorTypeNPC (Skyrim.esm:013794),CreateObject,Smithing,,crafting station candidate,candidate-extracted
+Dragonborn.esm,FURN,Dragonborn.esm:02B074,DLC2CraftingBlackSmithSkaalForge,,1073741824,ActorTypeNPC (Skyrim.esm:013794),CreateObject,Smithing,,crafting station candidate,candidate-extracted
+Dragonborn.esm,FURN,Dragonborn.esm:017736,DLC2CraftingStaffWorkbench,,1073741824,ActorTypeNPC (Skyrim.esm:013794),CreateObject,Enchanting,,crafting station candidate,candidate-extracted
+Dragonborn.esm,FURN,Dragonborn.esm:021749,DLC2DarkElfBed01,,2281701376,,None,255,,sleep/rest interaction candidate,candidate-extracted
+Dragonborn.esm,FURN,Dragonborn.esm:035038,DLC2DarkElfBed01L,,2281701376,,None,255,,sleep/rest interaction candidate,candidate-extracted
+Dragonborn.esm,FURN,Dragonborn.esm:035037,DLC2DarkElfBed01R,,2281701376,,None,255,,sleep/rest interaction candidate,candidate-extracted
+Dragonborn.esm,FURN,Dragonborn.esm:032802,DLC2DarkElfBedDouble01,,2281701376,,None,255,,sleep/rest interaction candidate,candidate-extracted
+Dragonborn.esm,FURN,Dragonborn.esm:036797,DLC2DarkElfBedDouble01L,,2281701376,,None,255,,sleep/rest interaction candidate,candidate-extracted
+Dragonborn.esm,FURN,Dragonborn.esm:036796,DLC2DarkElfBedDouble01R,,2281701376,,None,255,,sleep/rest interaction candidate,candidate-extracted
+Dragonborn.esm,FURN,Dragonborn.esm:03A492,DLC2PickaxeMiningTableMarker_Stalhrim,,1073741824,ActorTypeNPC (Skyrim.esm:013794),None,255,,container/furniture interaction candidate,candidate-extracted
+Dragonborn.esm,FURN,Dragonborn.esm:03C71A,PickaxeMiningTableMarker_IgnoredBySandbox,,1073741826,ActorTypeNPC (Skyrim.esm:013794),None,255,,container/furniture interaction candidate,candidate-extracted
+Dragonborn.esm,FURN,Dragonborn.esm:018CAE,testPhilCraftingSmelterMarker1,,1073741824,ActorTypeNPC (Skyrim.esm:013794),CreateObject,255,,crafting station candidate,candidate-extracted
+HearthFires.esm,CONT,HearthFires.esm:003055,BYOHHouseCraftingChest,,0,,,, x;  x;  x;  x,container/furniture interaction candidate,candidate-extracted
+HearthFires.esm,CONT,HearthFires.esm:008372,BYOHHouseNobleChest01,,AllowSoundsWhenAnimation,,,,,container/furniture interaction candidate,candidate-extracted
+HearthFires.esm,CONT,HearthFires.esm:00837E,BYOHHouseNobleChestDrawers01,,AllowSoundsWhenAnimation,,,,,container/furniture interaction candidate,candidate-extracted
+HearthFires.esm,CONT,HearthFires.esm:008375,BYOHHouseNobleChestDrawers02,,AllowSoundsWhenAnimation,,,,,container/furniture interaction candidate,candidate-extracted
+HearthFires.esm,CONT,HearthFires.esm:008379,BYOHHouseNobleNightTable01,,AllowSoundsWhenAnimation,,,,,container/furniture interaction candidate,candidate-extracted
+HearthFires.esm,CONT,HearthFires.esm:008370,BYOHHouseUpperChest,,0,,,,,container/furniture interaction candidate,candidate-extracted
+HearthFires.esm,CONT,HearthFires.esm:009B89,BYOHHouseUpperEndTable01,,0,,,,,container/furniture interaction candidate,candidate-extracted
+HearthFires.esm,CONT,HearthFires.esm:00837B,BYOHHouseUpperEndTable02,,AllowSoundsWhenAnimation,,,,,container/furniture interaction candidate,candidate-extracted
+HearthFires.esm,CONT,HearthFires.esm:00080E,BYOHHouseVendorChest,,Respawns,,,, x;  x;  x;  x;  x,vendor/container economy candidate,candidate-extracted
+HearthFires.esm,CONT,HearthFires.esm:000C44,BYOHHouseVendorChestSmall,,Respawns,,,, x;  x;  x;  x;  x,vendor/container economy candidate,candidate-extracted
+HearthFires.esm,CONT,HearthFires.esm:004038,BYOHUrchin_SofieChest,,Respawns,,,, x;  x;  x;  x,container/furniture interaction candidate,candidate-extracted
+HearthFires.esm,CONT,Skyrim.esm:07434B,MerchantCaravanAChest,,Respawns,,,, x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x,vendor/container economy candidate,candidate-extracted
+HearthFires.esm,CONT,Skyrim.esm:07434D,MerchantCaravanBChest,,Respawns,,,, x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x,vendor/container economy candidate,candidate-extracted
+HearthFires.esm,CONT,Skyrim.esm:07434E,MerchantCaravanCChest,,Respawns,,,, x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x,vendor/container economy candidate,candidate-extracted
+HearthFires.esm,CONT,Skyrim.esm:07DF28,UpperEndTable02,,AllowSoundsWhenAnimation,,,, x;  x,container/furniture interaction candidate,candidate-extracted
+HearthFires.esm,FURN,HearthFires.esm:00695D,BYOHBedrollGroundChild,,2281701376,ActorTypeNPC (Skyrim.esm:013794),None,255,,sleep/rest interaction candidate,candidate-extracted
+HearthFires.esm,FURN,HearthFires.esm:00305B,BYOHDraftingTable,,1073741826,ActorTypeNPC (Skyrim.esm:013794),CreateObject,255,,container/furniture interaction candidate,candidate-extracted
+HearthFires.esm,FURN,HearthFires.esm:003065,BYOHHouseCarpentersWorkbench,,1073741826,ActorTypeNPC (Skyrim.esm:013794),CreateObject,255,,crafting station candidate,candidate-extracted
+HearthFires.esm,FURN,HearthFires.esm:0030DA,BYOHHouseInteriorWorkbenchRoom01A,,1073741826,ActorTypeNPC (Skyrim.esm:013794),CreateObject,255,,crafting station candidate,candidate-extracted
+HearthFires.esm,FURN,HearthFires.esm:003129,BYOHHouseInteriorWorkbenchRoom01B,,1073741826,ActorTypeNPC (Skyrim.esm:013794),CreateObject,255,,crafting station candidate,candidate-extracted
+HearthFires.esm,FURN,HearthFires.esm:005A9E,BYOHHouseInteriorWorkbenchRoom02_back,,1073741826,ActorTypeNPC (Skyrim.esm:013794),CreateObject,255,,crafting station candidate,candidate-extracted
+HearthFires.esm,FURN,HearthFires.esm:005A9F,BYOHHouseInteriorWorkbenchRoom02_bedrooms,,1073741826,ActorTypeNPC (Skyrim.esm:013794),CreateObject,255,,crafting station candidate,candidate-extracted
+HearthFires.esm,FURN,HearthFires.esm:0030F2,BYOHHouseInteriorWorkbenchRoom02_main,,1073741826,ActorTypeNPC (Skyrim.esm:013794),CreateObject,255,,crafting station candidate,candidate-extracted
+HearthFires.esm,FURN,HearthFires.esm:003AEE,BYOHHouseInteriorWorkbenchRoom03,,1073741826,ActorTypeNPC (Skyrim.esm:013794),CreateObject,255,,crafting station candidate,candidate-extracted
+HearthFires.esm,FURN,HearthFires.esm:003AF9,BYOHHouseInteriorWorkbenchRoom04,,1073741826,ActorTypeNPC (Skyrim.esm:013794),CreateObject,255,,crafting station candidate,candidate-extracted
+HearthFires.esm,FURN,HearthFires.esm:003AFA,BYOHHouseInteriorWorkbenchRoom05,,1073741826,ActorTypeNPC (Skyrim.esm:013794),CreateObject,255,,crafting station candidate,candidate-extracted
+HearthFires.esm,FURN,HearthFires.esm:003AFB,BYOHHouseInteriorWorkbenchRoom06,,1073741826,ActorTypeNPC (Skyrim.esm:013794),CreateObject,255,,crafting station candidate,candidate-extracted
+HearthFires.esm,FURN,HearthFires.esm:003AFC,BYOHHouseInteriorWorkbenchRoom07,,1073741826,ActorTypeNPC (Skyrim.esm:013794),CreateObject,255,,crafting station candidate,candidate-extracted
+HearthFires.esm,FURN,HearthFires.esm:003AFD,BYOHHouseInteriorWorkbenchRoom08,,1073741826,ActorTypeNPC (Skyrim.esm:013794),CreateObject,255,,crafting station candidate,candidate-extracted
+HearthFires.esm,FURN,HearthFires.esm:003AFE,BYOHHouseInteriorWorkbenchRoom09,,1073741826,ActorTypeNPC (Skyrim.esm:013794),CreateObject,255,,crafting station candidate,candidate-extracted
+HearthFires.esm,FURN,HearthFires.esm:003AFF,BYOHHouseInteriorWorkbenchRoom10,,1073741826,ActorTypeNPC (Skyrim.esm:013794),CreateObject,255,,crafting station candidate,candidate-extracted
+HearthFires.esm,FURN,HearthFires.esm:003B00,BYOHHouseInteriorWorkbenchRoom11,,1073741826,ActorTypeNPC (Skyrim.esm:013794),CreateObject,255,,crafting station candidate,candidate-extracted
+HearthFires.esm,FURN,HearthFires.esm:003B01,BYOHHouseInteriorWorkbenchRoom12,,1073741826,ActorTypeNPC (Skyrim.esm:013794),CreateObject,255,,crafting station candidate,candidate-extracted
+HearthFires.esm,FURN,HearthFires.esm:00283F,CraftingOvenMarker,,1073741824,ActorTypeNPC (Skyrim.esm:013794),CreateObject,255,,container/furniture interaction candidate,candidate-extracted
+HearthFires.esm,FURN,Skyrim.esm:0D4847,WRTempleBench01,,1073741824,ActorTypeNPC (Skyrim.esm:013794),None,255,,container/furniture interaction candidate,candidate-extracted
+Skyrim.esm,CONT,Skyrim.esm:0E317B,CompanionsKodlakNightTable01,End Table,AllowSoundsWhenAnimation,,,,,container/furniture interaction candidate,candidate-extracted
+Skyrim.esm,CONT,Skyrim.esm:0FD834,CWFortSoldierWoundedTentChest,Chest,Respawns,,,, x;  x,container/furniture interaction candidate,candidate-extracted
+Skyrim.esm,CONT,Skyrim.esm:0D6712,CWMission04ChestContainer,Chest,Respawns,,,,,container/furniture interaction candidate,candidate-extracted
+Skyrim.esm,CONT,Skyrim.esm:016ACA,CWQuartermasterChestImperial,Chest,Respawns,,,, x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x,container/furniture interaction candidate,candidate-extracted
+Skyrim.esm,CONT,Skyrim.esm:0FE485,CWQuartermasterChestSons,Chest,Respawns,,,, x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x,container/furniture interaction candidate,candidate-extracted
+Skyrim.esm,CONT,Skyrim.esm:0B8589,DA07JorgenChest,Jorgen's Chest,Respawns,,,, x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x,container/furniture interaction candidate,candidate-extracted
+Skyrim.esm,CONT,Skyrim.esm:051618,DA07QuestObjectChest,Invisible Chest,0,,,,,container/furniture interaction candidate,candidate-extracted
+Skyrim.esm,CONT,Skyrim.esm:0252A6,DA07SilusChest,Silus's Chest,0,,,,,container/furniture interaction candidate,candidate-extracted
+Skyrim.esm,CONT,Skyrim.esm:0D1478,DBPenitusOutpostChest,Chest,0,,,, x;  x;  x;  x;  x;  x;  x;  x,container/furniture interaction candidate,candidate-extracted
+Skyrim.esm,CONT,Skyrim.esm:0A0E42,DelphineSecretRoomChest,Chest,0,,,, x;  x;  x;  x;  x;  x,container/furniture interaction candidate,candidate-extracted
+Skyrim.esm,CONT,Skyrim.esm:0BCD2D,DEMOBanditChestSmall01,Chest,0,,,, x;  x;  x;  x;  x,container/furniture interaction candidate,candidate-extracted
+Skyrim.esm,CONT,Skyrim.esm:0BCD2C,DEMODraugrChestLarge02,Chest,0,,,, x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x,container/furniture interaction candidate,candidate-extracted
+Skyrim.esm,CONT,Skyrim.esm:0BCD2F,DEMODraugrChestLarge04,Chest,0,,,, x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x,container/furniture interaction candidate,candidate-extracted
+Skyrim.esm,CONT,Skyrim.esm:0BCD2E,DEMODraugrChestSmall03,Chest,0,,,, x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x,container/furniture interaction candidate,candidate-extracted
+Skyrim.esm,CONT,Skyrim.esm:06EA48,dunKatariahCaptainsChest,Chest,Respawns,,,, x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x,container/furniture interaction candidate,candidate-extracted
+Skyrim.esm,CONT,Skyrim.esm:06EA46,dunKatariahEmperorsChest,Chest,AllowSoundsWhenAnimation,,,, x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x,container/furniture interaction candidate,candidate-extracted
+Skyrim.esm,CONT,Skyrim.esm:0CE739,dunMiddenAtronachForgeBox,Offering Box,0,,,,,crafting station candidate,candidate-extracted
+Skyrim.esm,CONT,Skyrim.esm:0D30CC,dunMiddenInvestigationChest,Investigators Chest,0,,,, x;  x;  x;  x,container/furniture interaction candidate,candidate-extracted
+Skyrim.esm,CONT,Skyrim.esm:0DDEF7,dunMiddenVelehkRewardChest,Velehk Sain's Locker,0,,,, x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x,container/furniture interaction candidate,candidate-extracted
+Skyrim.esm,CONT,Skyrim.esm:108B2F,dunPurewaterRunSkillBookChest,Chest,0,,,, x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x,container/furniture interaction candidate,candidate-extracted
+Skyrim.esm,CONT,Skyrim.esm:0F4A01,dunTreasMapTreasChest,Chest,0,,,, x;  x;  x;  x;  x;  x;  x;  x,container/furniture interaction candidate,candidate-extracted
+Skyrim.esm,CONT,Skyrim.esm:10E05E,dunTreasMapTreasChestSpecial,Chest,0,,,, x;  x;  x;  x;  x;  x;  x;  x;  x,container/furniture interaction candidate,candidate-extracted
+Skyrim.esm,CONT,Skyrim.esm:0998C2,e3DEMOBanditChestSmall01,Chest,0,,,, x;  x;  x;  x;  x;  x,container/furniture interaction candidate,candidate-extracted
+Skyrim.esm,CONT,Skyrim.esm:099AE5,E3DemoPreCreekChest,Chest,0,,,, x;  x;  x;  x;  x;  x;  x;  x,container/furniture interaction candidate,candidate-extracted
+Skyrim.esm,CONT,Skyrim.esm:099A50,E3DemoTrollChest,Chest,0,,,, x;  x;  x;  x;  x;  x;  x;  x;  x,container/furniture interaction candidate,candidate-extracted
+Skyrim.esm,CONT,Skyrim.esm:024CA6,EndTable01,End Table,0,,,, x;  x,container/furniture interaction candidate,candidate-extracted
+Skyrim.esm,CONT,Skyrim.esm:108D36,EvidenceChestPlayerInventory,Prisoner Belongings Chest,0,,,,,container/furniture interaction candidate,candidate-extracted
+Skyrim.esm,CONT,Skyrim.esm:0267E7,EvidenceChestStolenGoods,Evidence Chest,0,,,,,container/furniture interaction candidate,candidate-extracted
+Skyrim.esm,CONT,Skyrim.esm:0E3EA1,FFMF01Chest,Chest,Respawns,,,, x;  x;  x;  x,container/furniture interaction candidate,candidate-extracted
+Skyrim.esm,CONT,Skyrim.esm:03C50F,FFRiften02SibbiChest,Chest,AllowSoundsWhenAnimation,,,, x;  x;  x;  x,container/furniture interaction candidate,candidate-extracted
+Skyrim.esm,CONT,Skyrim.esm:03C59C,FFRiften04IngunChest,Ingun's Alchemy Chest,Respawns,,,, x;  x;  x;  x,magic/crafting station candidate,candidate-extracted
+Skyrim.esm,CONT,Skyrim.esm:087900,FFRiften08BrandSheiChest,Waterlogged Chest,Respawns,,,, x,container/furniture interaction candidate,candidate-extracted
+Skyrim.esm,CONT,Skyrim.esm:062F5D,FFWinterholdBChest01,Waterlogged Chest,0,,,, x;  x,container/furniture interaction candidate,candidate-extracted
+Skyrim.esm,CONT,Skyrim.esm:062F5F,FFWinterholdBChest02,Waterlogged Chest,0,,,, x;  x,container/furniture interaction candidate,candidate-extracted
+Skyrim.esm,CONT,Skyrim.esm:099D87,HHChest01,Chest,0,,,,,container/furniture interaction candidate,candidate-extracted
+Skyrim.esm,CONT,Skyrim.esm:0F8476,LargeChestNoRespawn,Chest,0,,,,,container/furniture interaction candidate,candidate-extracted
+Skyrim.esm,CONT,Skyrim.esm:07434B,MerchantCaravanAChest,Chest,Respawns,,,, x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x,vendor/container economy candidate,candidate-extracted
+Skyrim.esm,CONT,Skyrim.esm:07434D,MerchantCaravanBChest,Chest,Respawns,,,, x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x,vendor/container economy candidate,candidate-extracted
+Skyrim.esm,CONT,Skyrim.esm:07434E,MerchantCaravanCChest,Chest,Respawns,,,, x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x,vendor/container economy candidate,candidate-extracted
+Skyrim.esm,CONT,Skyrim.esm:0A2987,MerchantDawnstarMadenasChest,Chest,Respawns,,,, x;  x;  x;  x;  x;  x;  x,vendor/container economy candidate,candidate-extracted
+Skyrim.esm,CONT,Skyrim.esm:09E0DA,MerchantDawnstarMortarPestleChest,Chest,Respawns,,,, x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x,vendor/container economy candidate,candidate-extracted
+Skyrim.esm,CONT,Skyrim.esm:09DA3F,MerchantDawnstarRustleifsBlacksmithChest,Chest,Respawns,,,, x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x,vendor/container economy candidate,candidate-extracted
+Skyrim.esm,CONT,Skyrim.esm:09DA46,MerchantDawnstarWindpeakInnChest,Chest,Respawns,,,, x;  x;  x;  x,vendor/container economy candidate,candidate-extracted
+Skyrim.esm,CONT,Skyrim.esm:0ABD9E,MerchantDBSanctuaryMerchantChest,Chest,Respawns,,,, x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x,vendor/container economy candidate,candidate-extracted
+Skyrim.esm,CONT,Skyrim.esm:0A6BF1,MerchantDragonBridgeFourShieldsTavernChest,Chest,Respawns,,,, x;  x;  x;  x;  x,vendor/container economy candidate,candidate-extracted
+Skyrim.esm,CONT,Skyrim.esm:09E128,MerchantDushnikhYalBlacksmithChest,Chest,Respawns,,,, x;  x;  x;  x;  x;  x;  x;  x;  x;  x,vendor/container economy candidate,candidate-extracted
+Skyrim.esm,CONT,Skyrim.esm:09E129,MerchantDushnikhYalWiseWomanChest,Chest,Respawns,,,, x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x,vendor/container economy candidate,candidate-extracted
+Skyrim.esm,CONT,Skyrim.esm:072786,MerchantFalkreathBlacksmithChest,Chest,Respawns,,,, x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x,vendor/container economy candidate,candidate-extracted
+Skyrim.esm,CONT,Skyrim.esm:0A6BF3,MerchantFalkreathDeadMansDrinkChest,Chest,Respawns,,,, x;  x;  x;  x;  x,vendor/container economy candidate,candidate-extracted
+Skyrim.esm,CONT,Skyrim.esm:06A876,MerchantFalkreathGraveConcoctionsChest,Chest,Respawns,,,, x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x,vendor/container economy candidate,candidate-extracted
+Skyrim.esm,CONT,Skyrim.esm:0A6BFC,MerchantFalkreathGrayPineGoodsChest,Chest,Respawns,,,, x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x,vendor/container economy candidate,candidate-extracted
+Skyrim.esm,CONT,Skyrim.esm:0AC9CE,MerchantFilnjarBlacksmithChest,Chest,Respawns,,,, x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x,vendor/container economy candidate,candidate-extracted
+Skyrim.esm,CONT,Skyrim.esm:09E491,MerchantHeljarchenApothecaryChest,Chest,Respawns,,,, x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x,vendor/container economy candidate,candidate-extracted
+Skyrim.esm,CONT,Skyrim.esm:09E48E,MerchantHeljarchenBlacksmithChest,Chest,Respawns,,,, x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x,vendor/container economy candidate,candidate-extracted
+Skyrim.esm,CONT,Skyrim.esm:0B2989,MerchantHonningbrewChest,Chest,Respawns,,,, x;  x;  x,vendor/container economy candidate,candidate-extracted
+Skyrim.esm,CONT,Skyrim.esm:0B31E8,MerchantHonningbrewPostChest,Chest,Respawns,,,, x;  x;  x;  x,vendor/container economy candidate,candidate-extracted
+Skyrim.esm,CONT,Skyrim.esm:0A0706,MerchantIvarsteadVilemyrInnChest,Chest,Respawns,,,, x;  x;  x;  x,vendor/container economy candidate,candidate-extracted
+Skyrim.esm,CONT,Skyrim.esm:0A3F25,MerchantKynesgroveBraidwoodInnChest,Chest,Respawns,,,, x;  x;  x;  x;  x,vendor/container economy candidate,candidate-extracted
+Skyrim.esm,CONT,Skyrim.esm:0A3F02,MerchantKynesgroveDravyneaChest,Chest,Respawns,,,, x;  x;  x;  x;  x;  x;  x;  x,vendor/container economy candidate,candidate-extracted
+Skyrim.esm,CONT,Skyrim.esm:0ACB6C,MerchantLargashburAtubChest,Chest,Respawns,,,, x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x,vendor/container economy candidate,candidate-extracted
+Skyrim.esm,CONT,Skyrim.esm:0ACB6F,MerchantLargashburBlacksmithChest,Chest,Respawns,,,, x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x,vendor/container economy candidate,candidate-extracted
+Skyrim.esm,CONT,Skyrim.esm:06479C,MerchantMarkarthAntonsChest,Chest,Respawns,,,, x;  x;  x,vendor/container economy candidate,candidate-extracted
+Skyrim.esm,CONT,Skyrim.esm:09E0D9,MerchantMarkarthArnleifandSonsChest,Chest,Respawns,,,, x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x,vendor/container economy candidate,candidate-extracted
+Skyrim.esm,CONT,Skyrim.esm:09E0D8,MerchantMarkarthBlacksmithChest,Chest,Respawns,,,, x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x,vendor/container economy candidate,candidate-extracted
+Skyrim.esm,CONT,Skyrim.esm:09437C,MerchantMarkarthBolisChest,Chest,Respawns,,,, x;  x;  x;  x;  x;  x,vendor/container economy candidate,candidate-extracted
+Skyrim.esm,CONT,Skyrim.esm:06479F,MerchantMarkarthCastleBlacksmithChest,Chest,Respawns,,,, x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x,vendor/container economy candidate,candidate-extracted
+Skyrim.esm,CONT,Skyrim.esm:09E0D7,MerchantMarkarthHagsCureChest,Chest,Respawns,,,, x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x,vendor/container economy candidate,candidate-extracted
+Skyrim.esm,CONT,Skyrim.esm:09437A,MerchantMarkarthKerahsChest,Chest,Respawns,,,, x;  x;  x;  x,vendor/container economy candidate,candidate-extracted
+Skyrim.esm,CONT,Skyrim.esm:094384,MerchantMarkarthSilverFishInnChest,Chest,Respawns,,,, x;  x;  x;  x,vendor/container economy candidate,candidate-extracted
+Skyrim.esm,CONT,Skyrim.esm:09438A,MerchantMarkarthWizardsChest,Chest,Respawns,,,, x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x,vendor/container economy candidate,candidate-extracted
+Skyrim.esm,CONT,Skyrim.esm:09E46D,MerchantMorKhazgurBlacksmithChest,Chest,Respawns,,,, x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x,vendor/container economy candidate,candidate-extracted
+Skyrim.esm,CONT,Skyrim.esm:09E469,MerchantMorKhazgurWiseWomanChest,Chest,Respawns,,,, x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x,vendor/container economy candidate,candidate-extracted
+Skyrim.esm,CONT,Skyrim.esm:09DA56,MerchantMorthalFalionsChest,Chest,Respawns,,,, x;  x;  x;  x;  x;  x;  x;  x;  x,vendor/container economy candidate,candidate-extracted
+Skyrim.esm,CONT,Skyrim.esm:09DA59,MerchantMorthalLamisChest,Chest,Respawns,,,, x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x,vendor/container economy candidate,candidate-extracted
+Skyrim.esm,CONT,Skyrim.esm:09DA53,MerchantMorthalMoorsideInnChest,Chest,Respawns,,,, x;  x;  x;  x;  x,vendor/container economy candidate,candidate-extracted
+Skyrim.esm,CONT,Skyrim.esm:0B3FE1,MerchantNarzulburBlacksmithChest,Chest,Respawns,,,, x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x,vendor/container economy candidate,candidate-extracted
+Skyrim.esm,CONT,Skyrim.esm:0B3FE0,MerchantNarzulburWiseWomanChest,Chest,Respawns,,,, x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x,vendor/container economy candidate,candidate-extracted
+Skyrim.esm,CONT,Skyrim.esm:09E48B,MerchantNightgateInnChest,Chest,Respawns,,,, x;  x;  x;  x,vendor/container economy candidate,candidate-extracted
+Skyrim.esm,CONT,Skyrim.esm:09E45F,MerchantOldHroldanHangedManInnChest,Chest,Respawns,,,, x;  x;  x;  x,vendor/container economy candidate,candidate-extracted
+Skyrim.esm,CONT,Skyrim.esm:0A0703,MerchantRiftenBeeandBarbChest,Chest,Respawns,,,, x;  x;  x;  x,vendor/container economy candidate,candidate-extracted
+Skyrim.esm,CONT,Skyrim.esm:065C36,MerchantRiftenBeeandBarbTalenChest,Chest,Respawns,,,, x;  x;  x;  x,vendor/container economy candidate,candidate-extracted
+Skyrim.esm,CONT,Skyrim.esm:0A29AC,MerchantRiftenBlackBriarMeadery,Chest,Respawns,,,, x;  x;  x,vendor/container economy candidate,candidate-extracted
+Skyrim.esm,CONT,Skyrim.esm:0A31AE,MerchantRiftenElgrimsElixirsChest,Chest,Respawns,,,, x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x,vendor/container economy candidate,candidate-extracted
+Skyrim.esm,CONT,Skyrim.esm:0A31B5,MerchantRiftenGrandPlazaBrandishChest,Chest,Respawns,,,, x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x,vendor/container economy candidate,candidate-extracted
+Skyrim.esm,CONT,Skyrim.esm:0A31B4,MerchantRiftenGrandPlazaGrelkaChest,Chest,Respawns,,,, x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x,vendor/container economy candidate,candidate-extracted
+Skyrim.esm,CONT,Skyrim.esm:0A31B7,MerchantRiftenGrandPlazaMadesiChest,Chest,Respawns,,,, x;  x;  x,vendor/container economy candidate,candidate-extracted
+Skyrim.esm,CONT,Skyrim.esm:0A31B6,MerchantRiftenGrandPlazaMariseChest,Chest,Respawns,,,, x;  x;  x;  x;  x;  x,vendor/container economy candidate,candidate-extracted
+Skyrim.esm,CONT,Skyrim.esm:0A29AD,MerchantRiftenPawnedPrawnChest,Chest,Respawns,,,, x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x,vendor/container economy candidate,candidate-extracted
+Skyrim.esm,CONT,Skyrim.esm:0A29AE,MerchantRiftenRaggedFlagonChest,Chest,Respawns,,,, x;  x;  x;  x,vendor/container economy candidate,candidate-extracted
+Skyrim.esm,CONT,Skyrim.esm:0A31AF,MerchantRiftenScorchedHammerBlacksmithChest,Chest,Respawns,,,, x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x,vendor/container economy candidate,candidate-extracted
+Skyrim.esm,CONT,Skyrim.esm:0A2988,MerchantRiftenWylandriahsChest,Chest,Respawns,,,, x;  x;  x;  x;  x;  x;  x;  x;  x,vendor/container economy candidate,candidate-extracted
+Skyrim.esm,CONT,Skyrim.esm:078C0D,MerchantRiverwoodAlvorBlacksmithChest,Chest,Respawns,,,, x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x,vendor/container economy candidate,candidate-extracted
+Skyrim.esm,CONT,Skyrim.esm:078C0E,MerchantRiverwoodSleepingGiantChest,Chest,Respawns,,,, x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x,vendor/container economy candidate,candidate-extracted
+Skyrim.esm,CONT,Skyrim.esm:078C0C,MerchantRiverwoodTraderChest,Chest,Respawns,,,, x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x,vendor/container economy candidate,candidate-extracted
+Skyrim.esm,CONT,Skyrim.esm:09F250,MerchantRoriksteadFrostFruitInnChest,Chest,Respawns,,,, x;  x;  x,vendor/container economy candidate,candidate-extracted
+Skyrim.esm,CONT,Skyrim.esm:0A6C05,MerchantSolitudeAngelinesAromatics,Chest,Respawns,,,, x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x,vendor/container economy candidate,candidate-extracted
+Skyrim.esm,CONT,Skyrim.esm:0A6C06,MerchantSolitudeBitsAndPieces,Chest,Respawns,,,, x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x,vendor/container economy candidate,candidate-extracted
+Skyrim.esm,CONT,Skyrim.esm:0A6C07,MerchantSolitudeBlacksmith,Chest,Respawns,,,, x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x,vendor/container economy candidate,candidate-extracted
+Skyrim.esm,CONT,Skyrim.esm:0D6AA4,MerchantSolitudeEastEmpireCompany,Chest,Respawns,,,, x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x,vendor/container economy candidate,candidate-extracted
+Skyrim.esm,CONT,Skyrim.esm:0A6C0E,MerchantSolitudeFishAddvar,Chest,Respawns,,,, x;  x;  x;  x;  x;  x;  x,vendor/container economy candidate,candidate-extracted
+Skyrim.esm,CONT,Skyrim.esm:0B2035,MerchantSolitudeFletcher,Chest,Respawns,,,, x;  x;  x;  x;  x;  x;  x,vendor/container economy candidate,candidate-extracted
+Skyrim.esm,CONT,Skyrim.esm:0A6C10,MerchantSolitudeFruitEvette,Chest,Respawns,,,, x;  x;  x;  x;  x;  x,vendor/container economy candidate,candidate-extracted
+Skyrim.esm,CONT,Skyrim.esm:0A6C0F,MerchantSolitudeFruitJala,Chest,Respawns,,,, x;  x;  x;  x;  x;  x;  x,vendor/container economy candidate,candidate-extracted
+Skyrim.esm,CONT,Skyrim.esm:0A6C04,MerchantSolitudeRadiantRaiments,Chest,Respawns,,,, x;  x;  x;  x;  x;  x;  x,vendor/container economy candidate,candidate-extracted
+Skyrim.esm,CONT,Skyrim.esm:0A6C08,MerchantSolitudeStables,Chest,Respawns,,,, x;  x;  x;  x,vendor/container economy candidate,candidate-extracted
+Skyrim.esm,CONT,Skyrim.esm:0A2989,MerchantSolitudeSybilleStentorChest,Chest,Respawns,,,, x;  x;  x;  x;  x;  x;  x;  x;  x,vendor/container economy candidate,candidate-extracted
+Skyrim.esm,CONT,Skyrim.esm:0A6BF0,MerchantSolitudeWinkingSkeeverChest,Chest,Respawns,,,, x;  x;  x;  x;  x,vendor/container economy candidate,candidate-extracted
+Skyrim.esm,CONT,Skyrim.esm:0C644C,MerchantSpouseApothecaryChest,Chest,Respawns,,,, x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x,vendor/container economy candidate,candidate-extracted
+Skyrim.esm,CONT,Skyrim.esm:0C644B,MerchantSpouseBlacksmithChest,Chest,Respawns,,,, x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x,vendor/container economy candidate,candidate-extracted
+Skyrim.esm,CONT,Skyrim.esm:0C644D,MerchantSpouseInnkeeperChest,Chest,Respawns,,,, x;  x;  x;  x;  x,vendor/container economy candidate,candidate-extracted
+Skyrim.esm,CONT,Skyrim.esm:0C644F,MerchantSpouseMiscVendorChest,Chest,Respawns,,,, x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x,vendor/container economy candidate,candidate-extracted
+Skyrim.esm,CONT,Skyrim.esm:0C644E,MerchantSpouseSpellsChest,Chest,Respawns,,,, x;  x;  x;  x;  x;  x;  x;  x;  x,vendor/container economy candidate,candidate-extracted
+Skyrim.esm,CONT,Skyrim.esm:09DA5C,MerchantStonehillsAleucChest,Chest,Respawns,,,, x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x,vendor/container economy candidate,candidate-extracted
+Skyrim.esm,CONT,Skyrim.esm:0AC9DA,MerchantTGArnskarChest,Chest,Respawns,,,, x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x,vendor/container economy candidate,candidate-extracted
+Skyrim.esm,CONT,Skyrim.esm:0AC9DB,MerchantTGHerluinChest,Chest,Respawns,,,, x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x,vendor/container economy candidate,candidate-extracted
+Skyrim.esm,CONT,Skyrim.esm:0AC9D9,MerchantTGSyndusChest,Chest,Respawns,,,, x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x,vendor/container economy candidate,candidate-extracted
+Skyrim.esm,CONT,Skyrim.esm:0AC9DC,MerchantTGVanrythChest,Chest,Respawns,,,, x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x,vendor/container economy candidate,candidate-extracted
+Skyrim.esm,CONT,Skyrim.esm:098BA3,MerchantWCollegeColetteChest,Chest,Respawns,,,, x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x,vendor/container economy candidate,candidate-extracted
+Skyrim.esm,CONT,Skyrim.esm:098B9E,MerchantWCollegeDrevisChest,Chest,Respawns,,,, x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x,vendor/container economy candidate,candidate-extracted
+Skyrim.esm,CONT,Skyrim.esm:0EE9F7,MerchantWCollegeEnthirChest,Chest,Respawns,,,, x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x,vendor/container economy candidate,candidate-extracted
+Skyrim.esm,CONT,Skyrim.esm:098BA1,MerchantWCollegeFaraldaChest,Chest,Respawns,,,, x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x,vendor/container economy candidate,candidate-extracted
+Skyrim.esm,CONT,Skyrim.esm:098BA2,MerchantWCollegePhinisChest,Chest,Respawns,,,, x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x,vendor/container economy candidate,candidate-extracted
+Skyrim.esm,CONT,Skyrim.esm:098BA4,MerchantWCollegeTolfdirChest,Chest,Respawns,,,, x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x,vendor/container economy candidate,candidate-extracted
+Skyrim.esm,CONT,Skyrim.esm:10C430,MerchantWCollegeUragChest,Chest,Respawns,,,, x;  x;  x;  x;  x;  x;  x,vendor/container economy candidate,candidate-extracted
+Skyrim.esm,CONT,Skyrim.esm:0ABB3E,MerchantWhiterunAnoriathChest,Chest,Respawns,,,, x;  x;  x;  x,vendor/container economy candidate,candidate-extracted
+Skyrim.esm,CONT,Skyrim.esm:09CD45,MerchantWhiterunArcadiasCauldronChest,Chest,Respawns,,,, x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x,vendor/container economy candidate,candidate-extracted
+Skyrim.esm,CONT,Skyrim.esm:09CAFA,MerchantWhiterunBannerdMareChest,Chest,Respawns,,,, x;  x;  x;  x;  x;  x,vendor/container economy candidate,candidate-extracted
+Skyrim.esm,CONT,Skyrim.esm:09CAF8,MerchantWhiterunBelethorsGoodsChest,Chest,Respawns,,,, x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x,vendor/container economy candidate,candidate-extracted
+Skyrim.esm,CONT,Skyrim.esm:0ABB40,MerchantWhiterunCarlottaChest,Chest,Respawns,,,, x;  x;  x,vendor/container economy candidate,candidate-extracted
+Skyrim.esm,CONT,Skyrim.esm:09F257,MerchantWhiterunDrunkenHuntsmanChest,Chest,Respawns,,,, x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x,vendor/container economy candidate,candidate-extracted
+Skyrim.esm,CONT,Skyrim.esm:10FDE6,MerchantWhiterunEorlundChest,Chest,Respawns,,,, x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x,vendor/container economy candidate,candidate-extracted
+Skyrim.esm,CONT,Skyrim.esm:0A298A,MerchantWhiterunFarengarsChest,Chest,Respawns,,,, x;  x;  x;  x;  x;  x;  x;  x;  x,vendor/container economy candidate,candidate-extracted
+Skyrim.esm,CONT,Skyrim.esm:10C1D5,MerchantWhiterunFraliaChest,Chest,Respawns,,,, x;  x,vendor/container economy candidate,candidate-extracted
+Skyrim.esm,CONT,Skyrim.esm:09CAFD,MerchantWhiterunWarmaidensBlacksmithChest,Chest,Respawns,,,, x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x,vendor/container economy candidate,candidate-extracted
+Skyrim.esm,CONT,Skyrim.esm:0A3F09,MerchantWindhelmAvalAtheronChest,Chest,Respawns,,,, x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x,vendor/container economy candidate,candidate-extracted
+Skyrim.esm,CONT,Skyrim.esm:0A3F17,MerchantWindhelmBlacksmithChest,Chest,Respawns,,,, x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x,vendor/container economy candidate,candidate-extracted
+Skyrim.esm,CONT,Skyrim.esm:0A3EFF,MerchantWindhelmCandlehearthHallChest,Chest,Respawns,,,, x;  x;  x;  x;  x;  x,vendor/container economy candidate,candidate-extracted
+Skyrim.esm,CONT,Skyrim.esm:0A3F14,MerchantWindhelmCornerclubChest,Chest,Respawns,,,, x;  x;  x;  x;  x;  x,vendor/container economy candidate,candidate-extracted
+Skyrim.esm,CONT,Skyrim.esm:0A3F0C,MerchantWindhelmHilleviChest,Chest,Respawns,,,, x;  x;  x;  x,vendor/container economy candidate,candidate-extracted
+Skyrim.esm,CONT,Skyrim.esm:0A3F05,MerchantWindhelmNiranyeChest,Chest,Respawns,,,, x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x,vendor/container economy candidate,candidate-extracted
+Skyrim.esm,CONT,Skyrim.esm:0A3F10,MerchantWindhelmRevynSadriChest,Chest,Respawns,,,, x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x,vendor/container economy candidate,candidate-extracted
+Skyrim.esm,CONT,Skyrim.esm:0AF632,MerchantWindhelmWhitePhialChest,Chest,Respawns,,,, x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x,vendor/container economy candidate,candidate-extracted
+Skyrim.esm,CONT,Skyrim.esm:0A3F1B,MerchantWindhelmWuunferthsChest,Chest,Respawns,,,, x;  x;  x;  x;  x;  x;  x;  x;  x,vendor/container economy candidate,candidate-extracted
+Skyrim.esm,CONT,Skyrim.esm:09DA63,MerchantWinterholdBirnaChest,Chest,Respawns,,,, x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x,vendor/container economy candidate,candidate-extracted
+Skyrim.esm,CONT,Skyrim.esm:09DA5F,MerchantWinterholdFrozenHearthChest,Chest,Respawns,,,, x;  x;  x;  x;  x;  x,vendor/container economy candidate,candidate-extracted
+Skyrim.esm,CONT,Skyrim.esm:0E7BCD,MerchantWinterholdNelacarChest,Chest,Respawns,,,, x;  x;  x;  x;  x;  x;  x;  x,vendor/container economy candidate,candidate-extracted
+Skyrim.esm,CONT,Skyrim.esm:0D762F,MGHoldingChest,Chest,0,,,,,container/furniture interaction candidate,candidate-extracted
+Skyrim.esm,CONT,Skyrim.esm:0D0753,MGRitual04PlayerItemChest,Invisible Chest,0,,,,,container/furniture interaction candidate,candidate-extracted
+Skyrim.esm,CONT,Skyrim.esm:035A5C,MQ101BarracksChest01,Chest,Respawns,,,, x;  x,container/furniture interaction candidate,candidate-extracted
+Skyrim.esm,CONT,Skyrim.esm:035A5F,MQ101BarracksChest02,Chest,Respawns,,,, x;  x,container/furniture interaction candidate,candidate-extracted
+Skyrim.esm,CONT,Skyrim.esm:0B622D,MQ101WardenChest,Warden's Chest,0,,,, x;  x;  x;  x,container/furniture interaction candidate,candidate-extracted
+Skyrim.esm,CONT,Skyrim.esm:0F684D,MQ201ElenwenOfficeChest,Chest,0,,,, x;  x,container/furniture interaction candidate,candidate-extracted
+Skyrim.esm,CONT,Skyrim.esm:0E3F97,MQ201InterrogationChamberChest,Chest,0,,,,,container/furniture interaction candidate,candidate-extracted
+Skyrim.esm,CONT,Skyrim.esm:02B034,MS11ButcherChest,Chest,0,,,, x;  x,container/furniture interaction candidate,candidate-extracted
+Skyrim.esm,CONT,Skyrim.esm:066181,MS11CalixtoChestREF,Calixto's Chest,0,,,, x;  x;  x;  x;  x;  x;  x,container/furniture interaction candidate,candidate-extracted
+Skyrim.esm,CONT,Skyrim.esm:06B30E,NobleChest01,Chest,AllowSoundsWhenAnimation,,,, x;  x;  x;  x;  x,container/furniture interaction candidate,candidate-extracted
+Skyrim.esm,CONT,Skyrim.esm:0C2A05,NobleChestDrawers01,Wardrobe,AllowSoundsWhenAnimation,,,, x;  x,container/furniture interaction candidate,candidate-extracted
+Skyrim.esm,CONT,Skyrim.esm:0C2A04,NobleChestDrawers02,Wardrobe,AllowSoundsWhenAnimation,,,, x;  x,container/furniture interaction candidate,candidate-extracted
+Skyrim.esm,CONT,Skyrim.esm:105024,NobleChestDrawers02NoName,,AllowSoundsWhenAnimation,,,, x;  x,container/furniture interaction candidate,candidate-extracted
+Skyrim.esm,CONT,Skyrim.esm:0C2A06,NobleNightTable01,End Table,AllowSoundsWhenAnimation,,,, x;  x;  x,container/furniture interaction candidate,candidate-extracted
+Skyrim.esm,CONT,Skyrim.esm:042D91,OrcEndTable01,End Table,0,,,,,container/furniture interaction candidate,candidate-extracted
+Skyrim.esm,CONT,Skyrim.esm:09AF19,PersonalChestSmall,Chest,0,,,, x;  x;  x;  x;  x;  x;  x,container/furniture interaction candidate,candidate-extracted
+Skyrim.esm,CONT,Skyrim.esm:0F3923,PlayerHouseChest,Chest,0,,,,,container/furniture interaction candidate,candidate-extracted
+Skyrim.esm,CONT,Skyrim.esm:0C2CD7,QAEnchantedArmorContainer,All Enchanted Armor,0,,,, x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x; ... +1743 more,magic/crafting station candidate,candidate-extracted
+Skyrim.esm,CONT,Skyrim.esm:0C2CDF,QAEnchantedWeaponContainer,All EnchantedWeapons,0,,,, x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x; ... +2108 more,magic/crafting station candidate,candidate-extracted
+Skyrim.esm,CONT,Skyrim.esm:10E7E5,RiftenConfiscatedGoodsChest,Confiscated Goods,Respawns,,,, x;  x;  x;  x;  x;  x;  x;  x,container/furniture interaction candidate,candidate-extracted
+Skyrim.esm,CONT,Skyrim.esm:0C4493,RiftenTempleCharityChest,Chest,0,,,, x,container/furniture interaction candidate,candidate-extracted
+Skyrim.esm,CONT,Skyrim.esm:04EC4F,RoriksteadFreeformMralkisChest,Mralki's Chest,0,,,, x;  x;  x;  x;  x;  x,container/furniture interaction candidate,candidate-extracted
+Skyrim.esm,CONT,Skyrim.esm:103241,SkyHavenArmoryChest,Chest,0,,,, x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x,container/furniture interaction candidate,candidate-extracted
+Skyrim.esm,CONT,Skyrim.esm:0997FE,SpitPotClosed01AlchemyCommon,Pot,AllowSoundsWhenAnimation,,,, x,magic/crafting station candidate,candidate-extracted
+Skyrim.esm,CONT,Skyrim.esm:0997FF,SpitPotClosedLoose01AlchemyCommon,Pot,AllowSoundsWhenAnimation,,,, x,magic/crafting station candidate,candidate-extracted
+Skyrim.esm,CONT,Skyrim.esm:0D069C,T02RiftenTempleChest,Chest,0,,,,,container/furniture interaction candidate,candidate-extracted
+Skyrim.esm,CONT,Skyrim.esm:076F13,TG00MadesiChest,Madesi's Strongbox,0,,,, x;  x;  x;  x;  x,container/furniture interaction candidate,candidate-extracted
+Skyrim.esm,CONT,Skyrim.esm:0813B8,TG03SabjornChest,Sabjorn's Dresser,0,,,, x;  x;  x;  x,container/furniture interaction candidate,candidate-extracted
+Skyrim.esm,CONT,Skyrim.esm:0EF578,TG04GulumEiKillChest,Chest,Respawns,,,, x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x,container/furniture interaction candidate,candidate-extracted
+Skyrim.esm,CONT,Skyrim.esm:0D8E4B,TGFenceMerchantChestCaravanAtahba,Thieves Guild Fence Chest,Respawns,,,, x;  x;  x;  x;  x;  x;  x;  x,vendor/container economy candidate,candidate-extracted
+Skyrim.esm,CONT,Skyrim.esm:0D8E4C,TGFenceMerchantChestCaravanMajhad,Thieves Guild Fence Chest,Respawns,,,, x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x,vendor/container economy candidate,candidate-extracted
+Skyrim.esm,CONT,Skyrim.esm:0D8E4D,TGFenceMerchantChestCaravanZaynabi,Thieves Guild Fence Chest,Respawns,,,, x;  x;  x;  x;  x;  x;  x;  x;  x;  x,vendor/container economy candidate,candidate-extracted
+Skyrim.esm,CONT,Skyrim.esm:0D882F,TGFenceMerchantChestEndon,Thieves Guild Fence Chest,Respawns,,,, x;  x;  x;  x;  x;  x;  x;  x,vendor/container economy candidate,candidate-extracted
+Skyrim.esm,CONT,Skyrim.esm:0D8830,TGFenceMerchantChestEnthir,Thieves Guild Fence Chest,Respawns,,,, x;  x;  x;  x;  x;  x;  x;  x;  x,vendor/container economy candidate,candidate-extracted
+Skyrim.esm,CONT,Skyrim.esm:0D882D,TGFenceMerchantChestGulumEi,Thieves Guild Fence Chest,Respawns,,,, x;  x;  x;  x;  x;  x;  x;  x;  x,vendor/container economy candidate,candidate-extracted
+Skyrim.esm,CONT,Skyrim.esm:0D8831,TGFenceMerchantChestMallus,Thieves Guild Fence Chest,Respawns,,,, x;  x;  x;  x;  x;  x;  x;  x,vendor/container economy candidate,candidate-extracted
+Skyrim.esm,CONT,Skyrim.esm:0D882E,TGFenceMerchantChestNiranye,Thieves Guild Fence Chest,Respawns,,,, x;  x;  x;  x;  x;  x;  x;  x;  x;  x,vendor/container economy candidate,candidate-extracted
+Skyrim.esm,CONT,Skyrim.esm:0D54C5,TGFenceMerchantChestTonilia,Thieves Guild Fence Chest,Respawns,,,, x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x,vendor/container economy candidate,candidate-extracted
+Skyrim.esm,CONT,Skyrim.esm:10DD41,TGGuildChest,Guild Chest,0,,,, x;  x;  x;  x;  x;  x;  x;  x,container/furniture interaction candidate,candidate-extracted
+Skyrim.esm,CONT,Skyrim.esm:052B5A,TGREvidenceChest,Chest,0,,,, x;  x;  x,container/furniture interaction candidate,candidate-extracted
+Skyrim.esm,CONT,Skyrim.esm:081DD8,TGREvidenceChestNoble,Chest,AllowSoundsWhenAnimation,,,, x;  x;  x,container/furniture interaction candidate,candidate-extracted
+Skyrim.esm,CONT,Skyrim.esm:081DD9,TGREvidenceChestUpper,Chest,Respawns,,,, x;  x;  x,container/furniture interaction candidate,candidate-extracted
+Skyrim.esm,CONT,Skyrim.esm:0DC173,TGTQ02SabineChest,Sabine's Footlocker,0,,,, x,container/furniture interaction candidate,candidate-extracted
+Skyrim.esm,CONT,Skyrim.esm:0F68AE,TGTributeChest,Guild Master's Tribute Chest,"AllowSoundsWhenAnimation, Respawns",,,, x;  x;  x;  x,container/furniture interaction candidate,candidate-extracted
+Skyrim.esm,CONT,Skyrim.esm:08EA5E,TreasAfflictedChest,Chest,Respawns,,,, x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x,container/furniture interaction candidate,candidate-extracted
+Skyrim.esm,CONT,Skyrim.esm:08EA5D,TreasAfflictedChestBoss,Chest,Respawns,,,, x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x,container/furniture interaction candidate,candidate-extracted
+Skyrim.esm,CONT,Skyrim.esm:0AF6AC,TreasAlchemySatchelCommon,Apothecary's Satchel,Respawns,,,, x;  x,magic/crafting station candidate,candidate-extracted
+Skyrim.esm,CONT,Skyrim.esm:0AF6AF,TreasAlchemySatchelRare,Apothecary's Satchel,Respawns,,,, x;  x;  x;  x,magic/crafting station candidate,candidate-extracted
+Skyrim.esm,CONT,Skyrim.esm:0AF6AE,TreasAlchemySatchelUncommon,Apothecary's Satchel,Respawns,,,, x;  x;  x,magic/crafting station candidate,candidate-extracted
+Skyrim.esm,CONT,Skyrim.esm:03AC21,TreasBanditChest,Chest,Respawns,,,, x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x,container/furniture interaction candidate,candidate-extracted
+Skyrim.esm,CONT,Skyrim.esm:02064F,TreasBanditChestBoss,Chest,Respawns,,,, x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x,container/furniture interaction candidate,candidate-extracted
+Skyrim.esm,CONT,Skyrim.esm:07AA90,TreasBanditChestBossEMPTY,Chest,Respawns,,,,,container/furniture interaction candidate,candidate-extracted
+Skyrim.esm,CONT,Skyrim.esm:020673,TreasBanditChestEMPTY,Chest,Respawns,,,,,container/furniture interaction candidate,candidate-extracted
+Skyrim.esm,CONT,Skyrim.esm:0F1F66,TreasBanditChestSnow,Chest,Respawns,,,, x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x,container/furniture interaction candidate,candidate-extracted
+Skyrim.esm,CONT,Skyrim.esm:0F8478,TreasChestSmallEMPTYNoRespawn,Chest,0,,,,,container/furniture interaction candidate,candidate-extracted
+Skyrim.esm,CONT,Skyrim.esm:08A3B4,TreasCWImperialChest,Chest,Respawns,,,, x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x,container/furniture interaction candidate,candidate-extracted
+Skyrim.esm,CONT,Skyrim.esm:08B1F0,TreasCWImperialChestBossLarge,Chest,Respawns,,,, x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x,container/furniture interaction candidate,candidate-extracted
+Skyrim.esm,CONT,Skyrim.esm:08B1E8,TreasCWImperialChestBossSmall,Chest,Respawns,,,, x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x,container/furniture interaction candidate,candidate-extracted
+Skyrim.esm,CONT,Skyrim.esm:10EE0C,TreasCWImperialChestCWMission07,Chest,Respawns,,,, x;  x;  x;  x;  x;  x,container/furniture interaction candidate,candidate-extracted
+Skyrim.esm,CONT,Skyrim.esm:08A3B6,TreasCWSonsChest,Chest,Respawns,,,, x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x,container/furniture interaction candidate,candidate-extracted
+Skyrim.esm,CONT,Skyrim.esm:08B1F1,TreasCWSonsChestBossLarge,Chest,Respawns,,,, x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x,container/furniture interaction candidate,candidate-extracted
+Skyrim.esm,CONT,Skyrim.esm:08B1E9,TreasCWSonsChestBossSmall,Chest,Respawns,,,, x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x,container/furniture interaction candidate,candidate-extracted
+Skyrim.esm,CONT,Skyrim.esm:10EE0B,TreasCWSonsChestCWMission07,Chest,Respawns,,,, x;  x;  x;  x;  x;  x;  x;  x;  x,container/furniture interaction candidate,candidate-extracted
+Skyrim.esm,CONT,Skyrim.esm:020670,TreasDraugrChest,Chest,Respawns,,,, x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x,container/furniture interaction candidate,candidate-extracted
+Skyrim.esm,CONT,Skyrim.esm:020671,TreasDraugrChestBoss,Chest,Respawns,,,, x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x,container/furniture interaction candidate,candidate-extracted
+Skyrim.esm,CONT,Skyrim.esm:020672,TreasDraugrChestEMPTYLarge,Chest,Respawns,,,,,container/furniture interaction candidate,candidate-extracted
+Skyrim.esm,CONT,Skyrim.esm:0AD6D4,TreasDraugrChestEMPTYSmall,Chest,Respawns,,,,,container/furniture interaction candidate,candidate-extracted
+Skyrim.esm,CONT,Skyrim.esm:020652,TreasDwarvenChestBoss,Chest,Respawns,,,, x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x,container/furniture interaction candidate,candidate-extracted
+Skyrim.esm,CONT,Skyrim.esm:094F0E,TreasDwarvenChestBossEMPTY,Chest,Respawns,,,,,container/furniture interaction candidate,candidate-extracted
+Skyrim.esm,CONT,Skyrim.esm:02069A,TreasDwarvenChestLarge,Chest,Respawns,,,, x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x,container/furniture interaction candidate,candidate-extracted
+Skyrim.esm,CONT,Skyrim.esm:0F3AF7,TreasDwarvenChestLargeEMPTY,Chest,Respawns,,,,,container/furniture interaction candidate,candidate-extracted
+Skyrim.esm,CONT,Skyrim.esm:020650,TreasDwarvenChestSmall,Chest,Respawns,,,, x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x,container/furniture interaction candidate,candidate-extracted
+Skyrim.esm,CONT,Skyrim.esm:094F10,TreasDwarvenChestSmallEMPTY,Chest,Respawns,,,,,container/furniture interaction candidate,candidate-extracted
+Skyrim.esm,CONT,Skyrim.esm:0EF052,TreasExplorerLootChest,Chest,Respawns,,,, x;  x;  x;  x;  x;  x;  x;  x,container/furniture interaction candidate,candidate-extracted
+Skyrim.esm,CONT,Skyrim.esm:0FCB25,TreasExplorerLootChestSnow,Chest,Respawns,,,, x;  x;  x;  x;  x;  x;  x;  x,container/furniture interaction candidate,candidate-extracted
+Skyrim.esm,CONT,Skyrim.esm:020659,TreasFalmerChest,Chest,Respawns,,,, x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x,container/furniture interaction candidate,candidate-extracted
+Skyrim.esm,CONT,Skyrim.esm:02065B,TreasFalmerChestBoss,Chest,Respawns,,,, x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x,container/furniture interaction candidate,candidate-extracted
+Skyrim.esm,CONT,Skyrim.esm:0B1176,TreasFalmerChestBossDwarven,Chest,Respawns,,,, x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x,container/furniture interaction candidate,candidate-extracted
+Skyrim.esm,CONT,Skyrim.esm:0305A1,TreasFalmerChestEMPTY,Chest,Respawns,,,,,container/furniture interaction candidate,candidate-extracted
+Skyrim.esm,CONT,Skyrim.esm:020654,TreasForswornChest,Chest,Respawns,,,, x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x,container/furniture interaction candidate,candidate-extracted
+Skyrim.esm,CONT,Skyrim.esm:020658,TreasForswornChestBoss,Chest,Respawns,,,, x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x,container/furniture interaction candidate,candidate-extracted
+Skyrim.esm,CONT,Skyrim.esm:0774C6,TreasGiantChest,Chest,Respawns,,,, x;  x;  x;  x;  x;  x;  x;  x,container/furniture interaction candidate,candidate-extracted
+Skyrim.esm,CONT,Skyrim.esm:0774BF,TreasGiantChestBoss,Chest,Respawns,,,, x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x,container/furniture interaction candidate,candidate-extracted
+Skyrim.esm,CONT,Skyrim.esm:020665,TreasHagravenChest,Chest,Respawns,,,, x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x,container/furniture interaction candidate,candidate-extracted
+Skyrim.esm,CONT,Skyrim.esm:020667,TreasHagravenChestBoss,Chest,Respawns,,,, x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x,container/furniture interaction candidate,candidate-extracted
+Skyrim.esm,CONT,Skyrim.esm:0D89C6,TreasHouseNobleChest,Chest,"AllowSoundsWhenAnimation, Respawns",,,, x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x,container/furniture interaction candidate,candidate-extracted
+Skyrim.esm,CONT,Skyrim.esm:0774C8,TreasOrcChest,Chest,Respawns,,,, x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x,container/furniture interaction candidate,candidate-extracted
+Skyrim.esm,CONT,Skyrim.esm:0774C9,TreasOrcChestBoss,Chest,Respawns,,,, x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x,container/furniture interaction candidate,candidate-extracted
+Skyrim.esm,CONT,Skyrim.esm:0D1259,TreasTreashunterChest,Chest,Respawns,,,, x;  x;  x;  x;  x;  x;  x;  x,container/furniture interaction candidate,candidate-extracted
+Skyrim.esm,CONT,Skyrim.esm:021363,TreasUpperChest,Chest,Respawns,,,, x;  x;  x;  x,container/furniture interaction candidate,candidate-extracted
+Skyrim.esm,CONT,Skyrim.esm:01D13C,TreasUpperChestEMPTY,Chest,Respawns,,,,,container/furniture interaction candidate,candidate-extracted
+Skyrim.esm,CONT,Skyrim.esm:020662,TreasVampireChest,Chest,Respawns,,,, x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x,container/furniture interaction candidate,candidate-extracted
+Skyrim.esm,CONT,Skyrim.esm:020664,TreasVampireChestBoss,Chest,Respawns,,,, x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x,container/furniture interaction candidate,candidate-extracted
+Skyrim.esm,CONT,Skyrim.esm:05418E,TreasWarlockChest,Chest,Respawns,,,, x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x,container/furniture interaction candidate,candidate-extracted
+Skyrim.esm,CONT,Skyrim.esm:02065D,TreasWarlockChestBoss,Chest,Respawns,,,, x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x,container/furniture interaction candidate,candidate-extracted
+Skyrim.esm,CONT,Skyrim.esm:02065F,TreasWerewolfChest,Chest,Respawns,,,, x;  x;  x;  x;  x;  x;  x;  x;  x;  x,container/furniture interaction candidate,candidate-extracted
+Skyrim.esm,CONT,Skyrim.esm:020661,TreasWerewolfChestBoss,Chest,Respawns,,,, x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x,container/furniture interaction candidate,candidate-extracted
+Skyrim.esm,CONT,Skyrim.esm:0EA299,UnownedChest,Unowned Chest,0,,,,,container/furniture interaction candidate,candidate-extracted
+Skyrim.esm,CONT,Skyrim.esm:021366,UpperEndTable01,End Table,0,,,, x;  x,container/furniture interaction candidate,candidate-extracted
+Skyrim.esm,CONT,Skyrim.esm:07DF28,UpperEndTable02,End Table,AllowSoundsWhenAnimation,,,, x;  x,container/furniture interaction candidate,candidate-extracted
+Skyrim.esm,CONT,Skyrim.esm:09AF14,VendorMiscChestSmall,Chest,0,,,, x;  x;  x;  x;  x;  x,vendor/container economy candidate,candidate-extracted
+Skyrim.esm,CONT,Skyrim.esm:09F810,WE19BanditLootChest,Chest,0,,,, x;  x;  x;  x,container/furniture interaction candidate,candidate-extracted
+Skyrim.esm,CONT,Skyrim.esm:0BBCD0,WEMerchantChest,Chest,Respawns,,,,,vendor/container economy candidate,candidate-extracted
+Skyrim.esm,FURN,Skyrim.esm:0EC970,AltarOfMolagBalFurniture01,Altar,1073741824,ActorTypeNPC (Skyrim.esm:013794),None,255,,ritual/religion interaction candidate,candidate-extracted
+Skyrim.esm,FURN,Skyrim.esm:107D99,AltarOfMolagBalFurniture01NoName,,1073741824,ActorTypeNPC (Skyrim.esm:013794),None,255,,ritual/religion interaction candidate,candidate-extracted
+Skyrim.esm,FURN,Skyrim.esm:036ED3,Bedroll01,Bed Roll,2281701376,ActorTypeNPC (Skyrim.esm:013794),None,255,,sleep/rest interaction candidate,candidate-extracted
+Skyrim.esm,FURN,Skyrim.esm:03B3CD,Bedroll01F,Bed Roll,2281701376,ActorTypeNPC (Skyrim.esm:013794),None,255,,sleep/rest interaction candidate,candidate-extracted
+Skyrim.esm,FURN,Skyrim.esm:03B3CC,Bedroll01FL,Bed Roll,2281701376,ActorTypeNPC (Skyrim.esm:013794),None,255,,sleep/rest interaction candidate,candidate-extracted
+Skyrim.esm,FURN,Skyrim.esm:03B3C7,Bedroll01FR,Bed Roll,2281701376,ActorTypeNPC (Skyrim.esm:013794),None,255,,sleep/rest interaction candidate,candidate-extracted
+Skyrim.esm,FURN,Skyrim.esm:03B3CE,Bedroll01L,Bed Roll,2281701376,ActorTypeNPC (Skyrim.esm:013794),None,255,,sleep/rest interaction candidate,candidate-extracted
+Skyrim.esm,FURN,Skyrim.esm:03B3C3,Bedroll01LR,Bed Roll,2281701376,ActorTypeNPC (Skyrim.esm:013794),None,255,,sleep/rest interaction candidate,candidate-extracted
+Skyrim.esm,FURN,Skyrim.esm:03B3F3,Bedroll01R,Bed Roll,2281701376,ActorTypeNPC (Skyrim.esm:013794),None,255,,sleep/rest interaction candidate,candidate-extracted
+Skyrim.esm,FURN,Skyrim.esm:0B8371,BedrollGround,Bed Roll Ground,2281701376,ActorTypeNPC (Skyrim.esm:013794),None,255,,sleep/rest interaction candidate,candidate-extracted
+Skyrim.esm,FURN,Skyrim.esm:01899D,BedrollHay01,Hay Pile,2281701376,ActorTypeNPC (Skyrim.esm:013794),None,255,,sleep/rest interaction candidate,candidate-extracted
+Skyrim.esm,FURN,Skyrim.esm:074B6E,BedrollHay01CaveDirt,Hay Pile,2281701376,ActorTypeNPC (Skyrim.esm:013794),None,255,,sleep/rest interaction candidate,candidate-extracted
+Skyrim.esm,FURN,Skyrim.esm:0E2408,BedrollHay01CaveDirtF,Hay Pile,2281701376,ActorTypeNPC (Skyrim.esm:013794),None,255,,sleep/rest interaction candidate,candidate-extracted
+Skyrim.esm,FURN,Skyrim.esm:0E240B,BedrollHay01CaveDirtFL,Hay Pile,2281701376,ActorTypeNPC (Skyrim.esm:013794),None,255,,sleep/rest interaction candidate,candidate-extracted
+Skyrim.esm,FURN,Skyrim.esm:0E240C,BedrollHay01CaveDirtFR,Hay Pile,2281701376,ActorTypeNPC (Skyrim.esm:013794),None,255,,sleep/rest interaction candidate,candidate-extracted
+Skyrim.esm,FURN,Skyrim.esm:0E2409,BedrollHay01CaveDirtL,Hay Pile,2281701376,ActorTypeNPC (Skyrim.esm:013794),None,255,,sleep/rest interaction candidate,candidate-extracted
+Skyrim.esm,FURN,Skyrim.esm:0E240D,BedrollHay01CaveDirtLR,Hay Pile,2281701376,ActorTypeNPC (Skyrim.esm:013794),None,255,,sleep/rest interaction candidate,candidate-extracted
+Skyrim.esm,FURN,Skyrim.esm:0E240A,BedrollHay01CaveDirtR,Hay Pile,2281701376,ActorTypeNPC (Skyrim.esm:013794),None,255,,sleep/rest interaction candidate,candidate-extracted
+Skyrim.esm,FURN,Skyrim.esm:0A4E13,BedrollHay01Dirt01,Hay Pile,2281701376,ActorTypeNPC (Skyrim.esm:013794),None,255,,sleep/rest interaction candidate,candidate-extracted
+Skyrim.esm,FURN,Skyrim.esm:0E240E,BedrollHay01Dirt01FL,Hay Pile,2281701376,ActorTypeNPC (Skyrim.esm:013794),None,255,,sleep/rest interaction candidate,candidate-extracted
+Skyrim.esm,FURN,Skyrim.esm:0189AD,BedrollHay01F,Hay Pile,2281701376,ActorTypeNPC (Skyrim.esm:013794),None,255,,sleep/rest interaction candidate,candidate-extracted
+Skyrim.esm,FURN,Skyrim.esm:0E0BA9,BedrollHay01FallForestDirt01F,Hay Pile,2281701376,ActorTypeNPC (Skyrim.esm:013794),None,255,,sleep/rest interaction candidate,candidate-extracted
+Skyrim.esm,FURN,Skyrim.esm:0E0BAA,BedrollHay01FallForestDirt01L,Hay Pile,2281701376,ActorTypeNPC (Skyrim.esm:013794),None,255,,sleep/rest interaction candidate,candidate-extracted
+Skyrim.esm,FURN,Skyrim.esm:0E0BAF,BedrollHay01FallForestDirt01R,Hay Pile,2281701376,ActorTypeNPC (Skyrim.esm:013794),None,255,,sleep/rest interaction candidate,candidate-extracted
+Skyrim.esm,FURN,Skyrim.esm:104B9C,BedrollHay01FDirt02,Hay Pile,2281701376,ActorTypeNPC (Skyrim.esm:013794),None,255,,sleep/rest interaction candidate,candidate-extracted
+Skyrim.esm,FURN,Skyrim.esm:101A65,BedrollHay01FGrassSnow01,Hay Pile,2281701376,ActorTypeNPC (Skyrim.esm:013794),None,255,,sleep/rest interaction candidate,candidate-extracted
+Skyrim.esm,FURN,Skyrim.esm:0E23F7,BedrollHay01FL,Hay Pile,2281701376,ActorTypeNPC (Skyrim.esm:013794),None,255,,sleep/rest interaction candidate,candidate-extracted
+Skyrim.esm,FURN,Skyrim.esm:0E23F6,BedrollHay01FR,Hay Pile,2281701376,ActorTypeNPC (Skyrim.esm:013794),None,255,,sleep/rest interaction candidate,candidate-extracted
+Skyrim.esm,FURN,Skyrim.esm:1015FE,BedrollHay01FSnow01,Hay Pile,2281701376,ActorTypeNPC (Skyrim.esm:013794),None,255,,sleep/rest interaction candidate,candidate-extracted
+Skyrim.esm,FURN,Skyrim.esm:0C4BF1,BedrollHay01ImpExtWall,Hay Pile,2281701376,ActorTypeNPC (Skyrim.esm:013794),None,255,,sleep/rest interaction candidate,candidate-extracted
+Skyrim.esm,FURN,Skyrim.esm:0E23F9,BedrollHay01ImpExtWallF,Hay Pile,2281701376,ActorTypeNPC (Skyrim.esm:013794),None,255,,sleep/rest interaction candidate,candidate-extracted
+Skyrim.esm,FURN,Skyrim.esm:0CCCDA,BedrollHay01ImpExtWallFL,Hay Pile,2281701376,ActorTypeNPC (Skyrim.esm:013794),None,255,,sleep/rest interaction candidate,candidate-extracted
+Skyrim.esm,FURN,Skyrim.esm:0E23F4,BedrollHay01L,Hay Pile,2281701376,ActorTypeNPC (Skyrim.esm:013794),None,255,,sleep/rest interaction candidate,candidate-extracted
+Skyrim.esm,FURN,Skyrim.esm:0D88D7,BedrollHay01LCaveDirtL,Hay Pile,2281701376,ActorTypeNPC (Skyrim.esm:013794),None,255,,sleep/rest interaction candidate,candidate-extracted
+Skyrim.esm,FURN,Skyrim.esm:0D88D8,BedrollHay01LCaveDirtR,Hay Pile,2281701376,ActorTypeNPC (Skyrim.esm:013794),None,255,,sleep/rest interaction candidate,candidate-extracted
+Skyrim.esm,FURN,Skyrim.esm:0A4E08,BedrollHay01LDirt01,Hay Pile,2281701376,ActorTypeNPC (Skyrim.esm:013794),None,255,,sleep/rest interaction candidate,candidate-extracted
+Skyrim.esm,FURN,Skyrim.esm:0E23FA,BedrollHay01LDirt01F,Hay Pile,2281701376,ActorTypeNPC (Skyrim.esm:013794),None,255,,sleep/rest interaction candidate,candidate-extracted
+Skyrim.esm,FURN,Skyrim.esm:0264C8,BedrollHay01LDirt02,Hay Pile,2281701376,ActorTypeNPC (Skyrim.esm:013794),None,255,,sleep/rest interaction candidate,candidate-extracted
+Skyrim.esm,FURN,Skyrim.esm:0E23FB,BedrollHay01LDirt02F,Hay Pile,2281701376,ActorTypeNPC (Skyrim.esm:013794),None,255,,sleep/rest interaction candidate,candidate-extracted
+Skyrim.esm,FURN,Skyrim.esm:0E2400,BedrollHay01LDirt02FL,Hay Pile,2281701376,ActorTypeNPC (Skyrim.esm:013794),None,255,,sleep/rest interaction candidate,candidate-extracted
+Skyrim.esm,FURN,Skyrim.esm:0E23FF,BedrollHay01LDirt02FR,Hay Pile,2281701376,ActorTypeNPC (Skyrim.esm:013794),None,255,,sleep/rest interaction candidate,candidate-extracted
+Skyrim.esm,FURN,Skyrim.esm:0E23FC,BedrollHay01LDirt02L,Hay Pile,2281701376,ActorTypeNPC (Skyrim.esm:013794),None,255,,sleep/rest interaction candidate,candidate-extracted
+Skyrim.esm,FURN,Skyrim.esm:0E23FE,BedrollHay01LDirt02LR,Hay Pile,2281701376,ActorTypeNPC (Skyrim.esm:013794),None,255,,sleep/rest interaction candidate,candidate-extracted
+Skyrim.esm,FURN,Skyrim.esm:0E23FD,BedrollHay01LDirt02R,Hay Pile,2281701376,ActorTypeNPC (Skyrim.esm:013794),None,255,,sleep/rest interaction candidate,candidate-extracted
+Skyrim.esm,FURN,Skyrim.esm:0A4E09,BedrollHay01LDirtPath,Hay Pile,2281701376,ActorTypeNPC (Skyrim.esm:013794),None,255,,sleep/rest interaction candidate,candidate-extracted
+Skyrim.esm,FURN,Skyrim.esm:0E2401,BedrollHay01LDirtPathFL,Hay Pile,2281701376,ActorTypeNPC (Skyrim.esm:013794),None,255,,sleep/rest interaction candidate,candidate-extracted
+Skyrim.esm,FURN,Skyrim.esm:06AF7E,BedrollHay01LDirtSnowPath01L,Hay Pile,2281701376,ActorTypeNPC (Skyrim.esm:013794),None,255,,sleep/rest interaction candidate,candidate-extracted
+Skyrim.esm,FURN,Skyrim.esm:0D1619,BedrollHay01LFallForestDirt01,Hay Pile,2281701376,ActorTypeNPC (Skyrim.esm:013794),None,255,,sleep/rest interaction candidate,candidate-extracted
+Skyrim.esm,FURN,Skyrim.esm:0DC365,BedrollHay01LFieldGrass01,Hay Pile,2281701376,ActorTypeNPC (Skyrim.esm:013794),None,255,,sleep/rest interaction candidate,candidate-extracted
+Skyrim.esm,FURN,Skyrim.esm:0E2402,BedrollHay01LFieldGrass01F,Hay Pile,2281701376,ActorTypeNPC (Skyrim.esm:013794),None,255,,sleep/rest interaction candidate,candidate-extracted
+Skyrim.esm,FURN,Skyrim.esm:0C2694,BedrollHay01LFrozenMarshDirt01,Hay Pile,2281701376,ActorTypeNPC (Skyrim.esm:013794),None,255,,sleep/rest interaction candidate,candidate-extracted
+Skyrim.esm,FURN,Skyrim.esm:0E2403,BedrollHay01LFrozenMarshDirt01F,Hay Pile,2281701376,ActorTypeNPC (Skyrim.esm:013794),None,255,,sleep/rest interaction candidate,candidate-extracted
+Skyrim.esm,FURN,Skyrim.esm:0C1988,BedrollHay01LPineForest03F,Hay Pile,2281701376,ActorTypeNPC (Skyrim.esm:013794),None,255,,sleep/rest interaction candidate,candidate-extracted
+Skyrim.esm,FURN,Skyrim.esm:0E23F8,BedrollHay01LR,Hay Pile,2281701376,ActorTypeNPC (Skyrim.esm:013794),None,255,,sleep/rest interaction candidate,candidate-extracted
+Skyrim.esm,FURN,Skyrim.esm:0C2295,BedrollHay01LReachDirt01,Hay Pile,2281701376,ActorTypeNPC (Skyrim.esm:013794),None,255,,sleep/rest interaction candidate,candidate-extracted
+Skyrim.esm,FURN,Skyrim.esm:0ECFF5,BedrollHay01LReachDirt01F,Hay Pile,2281701376,ActorTypeNPC (Skyrim.esm:013794),None,255,,sleep/rest interaction candidate,candidate-extracted
+Skyrim.esm,FURN,Skyrim.esm:0E2405,BedrollHay01LReachDirt01FL,Hay Pile,2281701376,ActorTypeNPC (Skyrim.esm:013794),None,255,,sleep/rest interaction candidate,candidate-extracted
+Skyrim.esm,FURN,Skyrim.esm:0E2404,BedrollHay01LReachDirt01L,Hay Pile,2281701376,ActorTypeNPC (Skyrim.esm:013794),None,255,,sleep/rest interaction candidate,candidate-extracted
+Skyrim.esm,FURN,Skyrim.esm:0E2406,BedrollHay01LReachDirt01R,Hay Pile,2281701376,ActorTypeNPC (Skyrim.esm:013794),None,255,,sleep/rest interaction candidate,candidate-extracted
+Skyrim.esm,FURN,Skyrim.esm:10308F,BedrollHay01LReachMoss01F,Hay Pile,2281701376,ActorTypeNPC (Skyrim.esm:013794),None,255,,sleep/rest interaction candidate,candidate-extracted
+Skyrim.esm,FURN,Skyrim.esm:0752B9,BedrollHay01LSnow01L,Hay Pile,2281701376,ActorTypeNPC (Skyrim.esm:013794),None,255,,sleep/rest interaction candidate,candidate-extracted
+Skyrim.esm,FURN,Skyrim.esm:0DC366,BedrollHay01LTundra01,Hay Pile,2281701376,ActorTypeNPC (Skyrim.esm:013794),None,255,,sleep/rest interaction candidate,candidate-extracted
+Skyrim.esm,FURN,Skyrim.esm:0E2407,BedrollHay01LTundra01F,Hay Pile,2281701376,ActorTypeNPC (Skyrim.esm:013794),None,255,,sleep/rest interaction candidate,candidate-extracted
+Skyrim.esm,FURN,Skyrim.esm:1036FF,BedrollHay01LTundraRocks01F,Hay Pile,2281701376,ActorTypeNPC (Skyrim.esm:013794),None,255,,sleep/rest interaction candidate,candidate-extracted
+Skyrim.esm,FURN,Skyrim.esm:1015F5,BedrollHay01PineForest01F,Hay Pile,2281701376,ActorTypeNPC (Skyrim.esm:013794),None,255,,sleep/rest interaction candidate,candidate-extracted
+Skyrim.esm,FURN,Skyrim.esm:0E23F5,BedrollHay01R,Hay Pile,2281701376,ActorTypeNPC (Skyrim.esm:013794),None,255,,sleep/rest interaction candidate,candidate-extracted
+Skyrim.esm,FURN,Skyrim.esm:0F18FC,BedrollHay01ReachGrassFL,Hay Pile,2281701376,ActorTypeNPC (Skyrim.esm:013794),None,255,,sleep/rest interaction candidate,candidate-extracted
+Skyrim.esm,FURN,Skyrim.esm:0752BC,BedrollHay01Snow01R,Hay Pile,2281701376,ActorTypeNPC (Skyrim.esm:013794),None,255,,sleep/rest interaction candidate,candidate-extracted
+Skyrim.esm,FURN,Skyrim.esm:030091,CommonBed01,Bed,2281701376,ActorTypeNPC (Skyrim.esm:013794),None,255,,sleep/rest interaction candidate,candidate-extracted
+Skyrim.esm,FURN,Skyrim.esm:03B41E,CommonBed01L,Bed,2281701376,ActorTypeNPC (Skyrim.esm:013794),None,255,,sleep/rest interaction candidate,candidate-extracted
+Skyrim.esm,FURN,Skyrim.esm:03B420,CommonBed01R,Bed,2281701376,ActorTypeNPC (Skyrim.esm:013794),None,255,,sleep/rest interaction candidate,candidate-extracted
+Skyrim.esm,FURN,Skyrim.esm:0FEDB9,CommonBedChild01,Bed,2281701376,ActorTypeNPC (Skyrim.esm:013794),None,255,,sleep/rest interaction candidate,candidate-extracted
+Skyrim.esm,FURN,Skyrim.esm:0FEDBA,CommonBedChild01L,Bed,2281701376,ActorTypeNPC (Skyrim.esm:013794),None,255,,sleep/rest interaction candidate,candidate-extracted
+Skyrim.esm,FURN,Skyrim.esm:0FEDBB,CommonBedChild01R,Bed,2281701376,ActorTypeNPC (Skyrim.esm:013794),None,255,,sleep/rest interaction candidate,candidate-extracted
+Skyrim.esm,FURN,Skyrim.esm:0FEDBC,CommonBedChildDouble01,Bed,2281701376,ActorTypeNPC (Skyrim.esm:013794),None,255,,sleep/rest interaction candidate,candidate-extracted
+Skyrim.esm,FURN,Skyrim.esm:0FEDBD,CommonBedChildDouble01L,Bed,2281701376,ActorTypeNPC (Skyrim.esm:013794),None,255,,sleep/rest interaction candidate,candidate-extracted
+Skyrim.esm,FURN,Skyrim.esm:0FEDBE,CommonBedChildDouble01R,Bed,2281701376,ActorTypeNPC (Skyrim.esm:013794),None,255,,sleep/rest interaction candidate,candidate-extracted
+Skyrim.esm,FURN,Skyrim.esm:03B6E8,CommonBedDouble01,Bed,2281701376,ActorTypeNPC (Skyrim.esm:013794),None,255,,sleep/rest interaction candidate,candidate-extracted
+Skyrim.esm,FURN,Skyrim.esm:0F5101,CommonBedDouble01L,Bed,2281701376,ActorTypeNPC (Skyrim.esm:013794),None,255,,sleep/rest interaction candidate,candidate-extracted
+Skyrim.esm,FURN,Skyrim.esm:0F5102,CommonBedDouble01R,Bed,2281701376,ActorTypeNPC (Skyrim.esm:013794),None,255,,sleep/rest interaction candidate,candidate-extracted
+Skyrim.esm,FURN,Skyrim.esm:0B0105,CommonTableOneBench,Table,1073741824,ActorTypeNPC (Skyrim.esm:013794),None,255,,container/furniture interaction candidate,candidate-extracted
+Skyrim.esm,FURN,Skyrim.esm:0B0104,CommonTableTwoBenches,Table,1073741824,ActorTypeNPC (Skyrim.esm:013794),None,255,,container/furniture interaction candidate,candidate-extracted
+Skyrim.esm,FURN,Skyrim.esm:0BAD0C,CraftingAlchemyWorkbench,Alchemy Lab,1073741824,ActorTypeNPC (Skyrim.esm:013794),Alchemy,Alchemy,,crafting station candidate,candidate-extracted
+Skyrim.esm,FURN,Skyrim.esm:0D54FF,CraftingAlchemyWorkbenchTabletop,Alchemy Lab,1073741824,ActorTypeNPC (Skyrim.esm:013794),Alchemy,Alchemy,,crafting station candidate,candidate-extracted
+Skyrim.esm,FURN,Skyrim.esm:01A2AD,CraftingBlacksmithAnvil,Anvil,1207959552,ActorTypeNPC (Skyrim.esm:013794),CreateObject,Smithing,,crafting station candidate,candidate-extracted
+Skyrim.esm,FURN,Skyrim.esm:0D932F,CraftingBlacksmithArmorWorkbench,Workbench,1073741824,ActorTypeNPC (Skyrim.esm:013794),SmithingArmor,Smithing,,crafting station candidate,candidate-extracted
+Skyrim.esm,FURN,Skyrim.esm:0CAE0B,CraftingBlackSmithForge,Blacksmith Forge,1073741824,ActorTypeNPC (Skyrim.esm:013794),CreateObject,Smithing,,crafting station candidate,candidate-extracted
+Skyrim.esm,FURN,Skyrim.esm:0BBCF1,CraftingBlackSmithForgeSkyforge,Skyforge,1073741824,ActorTypeNPC (Skyrim.esm:013794),CreateObject,Smithing,,crafting station candidate,candidate-extracted
+Skyrim.esm,FURN,Skyrim.esm:0BF9E1,CraftingBlackSmithForgeWR,Blacksmith Forge,1073741824,ActorTypeNPC (Skyrim.esm:013794),CreateObject,Smithing,,crafting station candidate,candidate-extracted
+Skyrim.esm,FURN,Skyrim.esm:06E9C2,CraftingBlacksmithSharpeningWheel,Grindstone,1073741824,ActorTypeNPC (Skyrim.esm:013794),SmithingWeapon,Smithing,,container/furniture interaction candidate,candidate-extracted
+Skyrim.esm,FURN,Skyrim.esm:068ADB,CraftingCookingFireSpit,Cooking Spit,1073741824,ActorTypeNPC (Skyrim.esm:013794),CreateObject,255,,container/furniture interaction candidate,candidate-extracted
+Skyrim.esm,FURN,Skyrim.esm:10BFE3,CraftingCookingPotInvisible,,1073741826,ActorTypeNPC (Skyrim.esm:013794),CreateObject,255,,container/furniture interaction candidate,candidate-extracted
+Skyrim.esm,FURN,Skyrim.esm:104110,CraftingCookingPotLG,Cooking Pot,1073741824,ActorTypeNPC (Skyrim.esm:013794),CreateObject,255,,container/furniture interaction candidate,candidate-extracted
+Skyrim.esm,FURN,Skyrim.esm:1010B3,CraftingCookingPotSm,Cooking Pot,1073741824,ActorTypeNPC (Skyrim.esm:013794),CreateObject,255,,container/furniture interaction candidate,candidate-extracted
+Skyrim.esm,FURN,Skyrim.esm:108230,CraftingCookingPotSmNoHandle,Cooking Pot,1073741824,ActorTypeNPC (Skyrim.esm:013794),CreateObject,255,,container/furniture interaction candidate,candidate-extracted
+Skyrim.esm,FURN,Skyrim.esm:0BAD0D,CraftingEnchantingWorkbench,Arcane Enchanter,1073741824,ActorTypeNPC (Skyrim.esm:013794),Enchanting,Enchanting,,crafting station candidate,candidate-extracted
+Skyrim.esm,FURN,Skyrim.esm:0D5501,CraftingEnchantingWorkbenchTabletop,Arcane Enchanter,1073741824,ActorTypeNPC (Skyrim.esm:013794),Enchanting,Enchanting,,crafting station candidate,candidate-extracted
+Skyrim.esm,FURN,Skyrim.esm:09C6CE,CraftingSmelterMarker1,Smelter,1073741824,ActorTypeNPC (Skyrim.esm:013794),CreateObject,255,,crafting station candidate,candidate-extracted
+Skyrim.esm,FURN,Skyrim.esm:0727A1,CraftingTanningRackMarker,Tanning Rack,1073741824,ActorTypeNPC (Skyrim.esm:013794),CreateObject,255,,container/furniture interaction candidate,candidate-extracted
+Skyrim.esm,FURN,Skyrim.esm:05ED79,DA02Altar,Bed Roll,2281701376,ActorTypeNPC (Skyrim.esm:013794),None,255,,sleep/rest interaction candidate,candidate-extracted
+Skyrim.esm,FURN,Skyrim.esm:0E605D,DA11AltarInvisibleBed,,2281701376,ActorTypeNPC (Skyrim.esm:013794),None,255,,sleep/rest interaction candidate,candidate-extracted
+Skyrim.esm,FURN,Skyrim.esm:07CC0D,DBSancSarcophagusBedroll,Sarcophagus,2281701376,ActorTypeNPC (Skyrim.esm:013794),None,255,,sleep/rest interaction candidate,candidate-extracted
+Skyrim.esm,FURN,Skyrim.esm:0E7AEA,DisenchantmentFont01,,0,ActorTypeNPC (Skyrim.esm:013794),Enchanting,255,,magic/crafting station candidate,candidate-extracted
+Skyrim.esm,FURN,Skyrim.esm:102010,DrinkUnderForgeFountainMarker,Underforge Fountain,1073741826,ActorTypeNPC (Skyrim.esm:013794),None,255,,crafting station candidate,candidate-extracted
+Skyrim.esm,FURN,Skyrim.esm:0D6C36,dunLostValleyRedoubtAltar01L,,2281701376,ActorTypeNPC (Skyrim.esm:013794),None,255,,ritual/religion interaction candidate,candidate-extracted
+Skyrim.esm,FURN,Skyrim.esm:0FF134,DweFurnitureBedChildSingle01L,Stone Bed,2281701376,ActorTypeNPC (Skyrim.esm:013794),None,255,,sleep/rest interaction candidate,candidate-extracted
+Skyrim.esm,FURN,Skyrim.esm:066023,DweFurnitureBedDouble01,Stone Bed,2281701376,ActorTypeNPC (Skyrim.esm:013794),None,255,,sleep/rest interaction candidate,candidate-extracted
+Skyrim.esm,FURN,Skyrim.esm:0F50FF,DweFurnitureBedDouble01L,Stone Bed,2281701376,ActorTypeNPC (Skyrim.esm:013794),None,255,,sleep/rest interaction candidate,candidate-extracted
+Skyrim.esm,FURN,Skyrim.esm:0F5100,DweFurnitureBedDouble01R,Stone Bed,2281701376,ActorTypeNPC (Skyrim.esm:013794),None,255,,sleep/rest interaction candidate,candidate-extracted
+Skyrim.esm,FURN,Skyrim.esm:066014,DweFurnitureBedSingle01,Stone Bed,2281701376,ActorTypeNPC (Skyrim.esm:013794),None,255,,sleep/rest interaction candidate,candidate-extracted
+Skyrim.esm,FURN,Skyrim.esm:03B428,DweFurnitureBedSingle01L,Stone Bed,2281701376,ActorTypeNPC (Skyrim.esm:013794),None,255,,sleep/rest interaction candidate,candidate-extracted
+Skyrim.esm,FURN,Skyrim.esm:03B427,DweFurnitureBedSingle01R,Stone Bed,2281701376,ActorTypeNPC (Skyrim.esm:013794),None,255,,sleep/rest interaction candidate,candidate-extracted
+Skyrim.esm,FURN,Skyrim.esm:0F5B9B,DweTableOneBench,Table,1073741824,ActorTypeNPC (Skyrim.esm:013794),None,255,,container/furniture interaction candidate,candidate-extracted
+Skyrim.esm,FURN,Skyrim.esm:0F5B9C,DweTableTwoBenches,Table,1073741824,ActorTypeNPC (Skyrim.esm:013794),None,255,,container/furniture interaction candidate,candidate-extracted
+Skyrim.esm,FURN,Skyrim.esm:0A4ABB,FarmTableBench01,Bench,1073741824,ActorTypeNPC (Skyrim.esm:013794),None,255,,container/furniture interaction candidate,candidate-extracted
+Skyrim.esm,FURN,Skyrim.esm:0A4ABA,FarmTableBench02,Bench,1073741824,ActorTypeNPC (Skyrim.esm:013794),None,255,,container/furniture interaction candidate,candidate-extracted
+Skyrim.esm,FURN,Skyrim.esm:0C4328,HammerTableMarker,,1073741824,ActorTypeNPC (Skyrim.esm:013794),None,255,,container/furniture interaction candidate,candidate-extracted
+Skyrim.esm,FURN,Skyrim.esm:02FBC7,HHFurnitureBedSingle01,Bed,2281701376,ActorTypeNPC (Skyrim.esm:013794),None,255,,sleep/rest interaction candidate,candidate-extracted
+Skyrim.esm,FURN,Skyrim.esm:0F4B4E,HHFurnitureBedSingle01L,Bed,2281701376,ActorTypeNPC (Skyrim.esm:013794),None,255,,sleep/rest interaction candidate,candidate-extracted
+Skyrim.esm,FURN,Skyrim.esm:0F4B4F,HHFurnitureBedSingle01R,Bed,2281701376,ActorTypeNPC (Skyrim.esm:013794),None,255,,sleep/rest interaction candidate,candidate-extracted
+Skyrim.esm,FURN,Skyrim.esm:0C4EF1,LeanTableMarker,,1073741824,ActorTypeNPC (Skyrim.esm:013794),None,255,,container/furniture interaction candidate,candidate-extracted
+Skyrim.esm,FURN,Skyrim.esm:0F5891,MQ203_EsbernTable,,1207959552,ActorTypeNPC (Skyrim.esm:013794),None,255,,container/furniture interaction candidate,candidate-extracted
+Skyrim.esm,FURN,Skyrim.esm:0F9AF8,MS02PickaxeMiningTableMarker,This should not be visible,1073741824,ActorTypeNPC (Skyrim.esm:013794),None,255,,container/furniture interaction candidate,candidate-extracted
+Skyrim.esm,FURN,Skyrim.esm:0C34AF,MS04Bedroll01Vision,Bed Roll,2281701376,ActorTypeNPC (Skyrim.esm:013794),None,255,,sleep/rest interaction candidate,candidate-extracted
+Skyrim.esm,FURN,Skyrim.esm:0FEDBF,NobleBedChildDouble01,Bed,2281701376,ActorTypeNPC (Skyrim.esm:013794),None,255,,sleep/rest interaction candidate,candidate-extracted
+Skyrim.esm,FURN,Skyrim.esm:0FEDC0,NobleBedChildDouble01L,Bed,2281701376,ActorTypeNPC (Skyrim.esm:013794),None,255,,sleep/rest interaction candidate,candidate-extracted
+Skyrim.esm,FURN,Skyrim.esm:0FEDC1,NobleBedChildDouble01R,Bed,2281701376,ActorTypeNPC (Skyrim.esm:013794),None,255,,sleep/rest interaction candidate,candidate-extracted
+Skyrim.esm,FURN,Skyrim.esm:0FEDC2,NobleBedChildSingle01,Bed,2281701376,ActorTypeNPC (Skyrim.esm:013794),None,255,,sleep/rest interaction candidate,candidate-extracted
+Skyrim.esm,FURN,Skyrim.esm:0FEDC3,NobleBedChildSingle01L,Bed,2281701376,ActorTypeNPC (Skyrim.esm:013794),None,255,,sleep/rest interaction candidate,candidate-extracted
+Skyrim.esm,FURN,Skyrim.esm:0FEDC4,NobleBedChildSingle01R,Bed,2281701376,ActorTypeNPC (Skyrim.esm:013794),None,255,,sleep/rest interaction candidate,candidate-extracted
+Skyrim.esm,FURN,Skyrim.esm:06B3D3,NobleBedDouble01,Bed,2281701376,ActorTypeNPC (Skyrim.esm:013794),None,255,,sleep/rest interaction candidate,candidate-extracted
+Skyrim.esm,FURN,Skyrim.esm:0D9D57,NobleBedDouble01L,Bed,2281701376,ActorTypeNPC (Skyrim.esm:013794),None,255,,sleep/rest interaction candidate,candidate-extracted
+Skyrim.esm,FURN,Skyrim.esm:0F50FC,NobleBedDouble01R,Bed,2281701376,ActorTypeNPC (Skyrim.esm:013794),None,255,,sleep/rest interaction candidate,candidate-extracted
+Skyrim.esm,FURN,Skyrim.esm:0C2A0E,NobleBedDouble02,Bed,2281701376,ActorTypeNPC (Skyrim.esm:013794),None,255,,sleep/rest interaction candidate,candidate-extracted
+Skyrim.esm,FURN,Skyrim.esm:0F50FB,NobleBedDouble02L,Bed,2281701376,ActorTypeNPC (Skyrim.esm:013794),None,255,,sleep/rest interaction candidate,candidate-extracted
+Skyrim.esm,FURN,Skyrim.esm:0F50FA,NobleBedDouble02R,Bed,2281701376,ActorTypeNPC (Skyrim.esm:013794),None,255,,sleep/rest interaction candidate,candidate-extracted
+Skyrim.esm,FURN,Skyrim.esm:06B36B,NobleBedSingle01,Bed,2281701376,ActorTypeNPC (Skyrim.esm:013794),None,255,,sleep/rest interaction candidate,candidate-extracted
+Skyrim.esm,FURN,Skyrim.esm:0D8E98,NobleBedSingle01L,Bed,2281701376,ActorTypeNPC (Skyrim.esm:013794),None,255,,sleep/rest interaction candidate,candidate-extracted
+Skyrim.esm,FURN,Skyrim.esm:0D8E99,NobleBedSingle01R,Bed,2281701376,ActorTypeNPC (Skyrim.esm:013794),None,255,,sleep/rest interaction candidate,candidate-extracted
+Skyrim.esm,FURN,Skyrim.esm:0C0C2C,NobleLongTableWindhelm,Table,1073741824,ActorTypeNPC (Skyrim.esm:013794),None,255,,container/furniture interaction candidate,candidate-extracted
+Skyrim.esm,FURN,Skyrim.esm:0C07F2,NobleTableLongBench01,Bench,1073741824,ActorTypeNPC (Skyrim.esm:013794),None,255,,container/furniture interaction candidate,candidate-extracted
+Skyrim.esm,FURN,Skyrim.esm:0C07F3,NobleTableLongBench02,Bench,1073741824,ActorTypeNPC (Skyrim.esm:013794),None,255,,container/furniture interaction candidate,candidate-extracted
+Skyrim.esm,FURN,Skyrim.esm:0C84D6,NobleTableLongBench03,Bench,1073741824,ActorTypeNPC (Skyrim.esm:013794),None,255,,container/furniture interaction candidate,candidate-extracted
+Skyrim.esm,FURN,Skyrim.esm:0C84D9,NobleTableLongBench04,Bench,1073741824,ActorTypeNPC (Skyrim.esm:013794),None,255,,container/furniture interaction candidate,candidate-extracted
+Skyrim.esm,FURN,Skyrim.esm:0DFB39,NobleTableUBench01,Bench,1073741824,ActorTypeNPC (Skyrim.esm:013794),None,255,,container/furniture interaction candidate,candidate-extracted
+Skyrim.esm,FURN,Skyrim.esm:0F5B9A,NorTableOneBench,Table,1073741824,ActorTypeNPC (Skyrim.esm:013794),None,255,,container/furniture interaction candidate,candidate-extracted
+Skyrim.esm,FURN,Skyrim.esm:0F5B98,NorTableTwoBenches,Table,1073741824,ActorTypeNPC (Skyrim.esm:013794),None,255,,container/furniture interaction candidate,candidate-extracted
+Skyrim.esm,FURN,Skyrim.esm:042AC7,OrcBedDouble01,Bed,2147483648,ActorTypeNPC (Skyrim.esm:013794),None,255,,sleep/rest interaction candidate,candidate-extracted
+Skyrim.esm,FURN,Skyrim.esm:0F50FD,OrcBedDouble01L,Bed,2147483648,ActorTypeNPC (Skyrim.esm:013794),None,255,,sleep/rest interaction candidate,candidate-extracted
+Skyrim.esm,FURN,Skyrim.esm:0F50FE,OrcBedDouble01R,Bed,2147483648,ActorTypeNPC (Skyrim.esm:013794),None,255,,sleep/rest interaction candidate,candidate-extracted
+Skyrim.esm,FURN,Skyrim.esm:042AC8,OrcBedSingle01,Bed,2147483648,ActorTypeNPC (Skyrim.esm:013794),None,255,,sleep/rest interaction candidate,candidate-extracted
+Skyrim.esm,FURN,Skyrim.esm:042B67,OrcBedSingle01L,Bed,2147483648,ActorTypeNPC (Skyrim.esm:013794),None,255,,sleep/rest interaction candidate,candidate-extracted
+Skyrim.esm,FURN,Skyrim.esm:042B02,OrcBedSingle01R,Bed,2147483648,ActorTypeNPC (Skyrim.esm:013794),None,255,,sleep/rest interaction candidate,candidate-extracted
+Skyrim.esm,FURN,Skyrim.esm:0613A7,PickaxeMiningTableMarker,This should not be visible,1073741824,ActorTypeNPC (Skyrim.esm:013794),None,255,,container/furniture interaction candidate,candidate-extracted
+Skyrim.esm,FURN,Skyrim.esm:0F9ACC,PickaxeMiningTableMarkerNonPlayer,,1073741824,ActorTypeNPC (Skyrim.esm:013794),None,255,,container/furniture interaction candidate,candidate-extracted
+Skyrim.esm,FURN,Skyrim.esm:0EFC74,SearchChest,,1073741826,ActorTypeNPC (Skyrim.esm:013794),None,255,,container/furniture interaction candidate,candidate-extracted
+Skyrim.esm,FURN,Skyrim.esm:0EFC71,SearchTableStanding,,1073741826,ActorTypeNPC (Skyrim.esm:013794),None,255,,container/furniture interaction candidate,candidate-extracted
+Skyrim.esm,FURN,Skyrim.esm:1010B4,SmallCookingPotDBPoison,Cooking Pot,1073741824,ActorTypeNPC (Skyrim.esm:013794),None,255,,container/furniture interaction candidate,candidate-extracted
+Skyrim.esm,FURN,Skyrim.esm:0FF516,SOVBenchHeadTable01,Bench,1073741824,ActorTypeNPC (Skyrim.esm:013794),None,255,,container/furniture interaction candidate,candidate-extracted
+Skyrim.esm,FURN,Skyrim.esm:084D1C,SpitPotClosed01NOTCRAFTING,Pot,0,ActorTypeNPC (Skyrim.esm:013794),CreateObject,255,,container/furniture interaction candidate,candidate-extracted
+Skyrim.esm,FURN,Skyrim.esm:0FEDC5,UpperBedChildDouble01,Bed,2281701376,ActorTypeNPC (Skyrim.esm:013794),None,255,,sleep/rest interaction candidate,candidate-extracted
+Skyrim.esm,FURN,Skyrim.esm:0FEDC6,UpperBedChildDouble01L,Bed,2281701376,ActorTypeNPC (Skyrim.esm:013794),None,255,,sleep/rest interaction candidate,candidate-extracted
+Skyrim.esm,FURN,Skyrim.esm:0FEDC7,UpperBedChildDouble01R,Bed,2281701376,ActorTypeNPC (Skyrim.esm:013794),None,255,,sleep/rest interaction candidate,candidate-extracted
+Skyrim.esm,FURN,Skyrim.esm:0FEDC8,UpperBedChildSingle01,Bed,2281701376,ActorTypeNPC (Skyrim.esm:013794),None,255,,sleep/rest interaction candidate,candidate-extracted
+Skyrim.esm,FURN,Skyrim.esm:0FEDC9,UpperBedChildSingle01L,Bed,2281701376,ActorTypeNPC (Skyrim.esm:013794),None,255,,sleep/rest interaction candidate,candidate-extracted
+Skyrim.esm,FURN,Skyrim.esm:0FEDCA,UpperBedChildSingle01R,Bed,2281701376,ActorTypeNPC (Skyrim.esm:013794),None,255,,sleep/rest interaction candidate,candidate-extracted
+Skyrim.esm,FURN,Skyrim.esm:021376,UpperBedDouble01,Bed,2281701376,ActorTypeNPC (Skyrim.esm:013794),None,255,,sleep/rest interaction candidate,candidate-extracted
+Skyrim.esm,FURN,Skyrim.esm:0F50F9,UpperBedDouble01L,Bed,2281701376,ActorTypeNPC (Skyrim.esm:013794),None,255,,sleep/rest interaction candidate,candidate-extracted
+Skyrim.esm,FURN,Skyrim.esm:0B2839,UpperBedDouble01R,Bed,2281701376,ActorTypeNPC (Skyrim.esm:013794),None,255,,sleep/rest interaction candidate,candidate-extracted
+Skyrim.esm,FURN,Skyrim.esm:021377,UpperBedSingle01,Bed,2281701376,ActorTypeNPC (Skyrim.esm:013794),None,255,,sleep/rest interaction candidate,candidate-extracted
+Skyrim.esm,FURN,Skyrim.esm:03B436,UpperBedSingle01L,Bed,2281701376,ActorTypeNPC (Skyrim.esm:013794),None,255,,sleep/rest interaction candidate,candidate-extracted
+Skyrim.esm,FURN,Skyrim.esm:03B430,UpperBedSingle01R,Bed,2281701376,ActorTypeNPC (Skyrim.esm:013794),None,255,,sleep/rest interaction candidate,candidate-extracted
+Skyrim.esm,FURN,Skyrim.esm:0C07F4,UpperTableBench01,Bench,1073741824,ActorTypeNPC (Skyrim.esm:013794),None,255,,container/furniture interaction candidate,candidate-extracted
+Skyrim.esm,FURN,Skyrim.esm:0C07F5,UpperTableBench02,Bench,1073741824,ActorTypeNPC (Skyrim.esm:013794),None,255,,container/furniture interaction candidate,candidate-extracted
+Skyrim.esm,FURN,Skyrim.esm:0EA33B,WriteTableStanding,WriteOnTable,1073741826,ActorTypeNPC (Skyrim.esm:013794),None,255,,container/furniture interaction candidate,candidate-extracted
+Skyrim.esm,FURN,Skyrim.esm:0D4847,WRTempleBench01,Bench,1073741824,ActorTypeNPC (Skyrim.esm:013794),None,255,,container/furniture interaction candidate,candidate-extracted
+Skyrim.esm,FURN,Skyrim.esm:0D4848,WRTempleHealingAltar01,Healing Altar,2281701376,ActorTypeNPC (Skyrim.esm:013794),None,255,,ritual/religion interaction candidate,candidate-extracted
+Update.esm,CONT,Update.esm:003159,ccBGS_ARChest01Loot,Ayleid Cask,0,,,, x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x,container/furniture interaction candidate,candidate-extracted
+Update.esm,CONT,Update.esm:00315A,ccBGS_ARChest01Potions,Ayleid Cask,0,,,, x;  x;  x;  x;  x;  x,container/furniture interaction candidate,candidate-extracted
+Update.esm,CONT,Update.esm:00315B,ccBGS_ARChest02Loot,Ayleid Cask,0,,,, x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x,container/furniture interaction candidate,candidate-extracted
+Update.esm,CONT,Update.esm:00315C,ccBGS_ARChest02LootSpecial,Ayleid Reliquary,0,,,, x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x,container/furniture interaction candidate,candidate-extracted
+Update.esm,CONT,Skyrim.esm:0ABD9E,MerchantDBSanctuaryMerchantChest,Chest,Respawns,,,, x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x,vendor/container economy candidate,candidate-extracted
+Update.esm,CONT,Skyrim.esm:078C0C,MerchantRiverwoodTraderChest,Chest,Respawns,,,, x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x,vendor/container economy candidate,candidate-extracted
+Update.esm,CONT,Skyrim.esm:0B2035,MerchantSolitudeFletcher,Chest,Respawns,,,, x;  x;  x;  x;  x;  x;  x;  x,vendor/container economy candidate,candidate-extracted
+Update.esm,CONT,Skyrim.esm:098BA2,MerchantWCollegePhinisChest,Chest,Respawns,,,, x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x;  x,vendor/container economy candidate,candidate-extracted
+Update.esm,CONT,Update.esm:00327E,WEMerchantHunterChest,Chest,Respawns,,,,,vendor/container economy candidate,candidate-extracted

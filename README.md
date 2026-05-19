@@ -30,6 +30,7 @@ See `docs/source-authority.md` for the full classification model.
 
 ## Update Notes
 
+- [2026-05-19 expanded gameplay extraction wave](docs/updates/2026-05-19-expanded-gameplay-extraction-wave.md)
 - [2026-05-19 extracted gameplay reference pack](docs/updates/2026-05-19-extracted-gameplay-reference-pack.md)
 
 ## Repository Map
@@ -64,7 +65,10 @@ See `docs/source-authority.md` for the full classification model.
 The `data/extracted/` tables are broad generated references from local vanilla
 and DLC master data. They are useful for discovery: keywords, locations,
 activators, magic effects, spells, books, items, factions, quest candidates,
-crafting recipes, NPC actors, and race records.
+crafting recipes, NPC actors, race records, FormLists, faction relationships,
+perks, enchantments, shouts, words of power, leveled lists, encounter zones,
+worldspaces, cell candidates, containers, furniture, condition-bearing effects,
+and reverse keyword references.
 
 Refresh them with:
 

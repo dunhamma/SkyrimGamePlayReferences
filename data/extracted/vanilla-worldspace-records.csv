@@ -1,0 +1,78 @@
+plugin,formid,editor_id,name,climate,music,flags,modding_use,validation
+Dawnguard.esm,Skyrim.esm:01EE62,Blackreach,,BlackreachClimate (Skyrim.esm:0239FB),MUSDungeonIce (Skyrim.esm:05228A),"SmallWorld, CannotFastTravel, NoSky",worldspace scope reference,extracted
+Dawnguard.esm,Dawnguard.esm:00528D,DLC01Boneyard,,SoulCairnClimate (Dawnguard.esm:001409),MUSExploreDLCSoulCairn (Dawnguard.esm:007012),CannotFastTravel,worldspace scope reference,extracted
+Dawnguard.esm,Dawnguard.esm:000BB5,DLC01FalmerValley,,,,0,worldspace scope reference,extracted
+Dawnguard.esm,Dawnguard.esm:001408,DLC01SoulCairn,,SoulCairnClimate (Dawnguard.esm:001409),MUSExploreDLCSoulCairn (Dawnguard.esm:007012),CannotFastTravel,mythic/Daedric worldspace scope,extracted
+Dawnguard.esm,Dawnguard.esm:0048C7,DLC1AncestorsGladeWorld,,,MUSExploreForestPine (Skyrim.esm:06D546),"SmallWorld, CannotFastTravel, FixedDimensions",worldspace scope reference,extracted
+Dawnguard.esm,Dawnguard.esm:004BEA,DLC1DarkfallPassageWorld,,,MUSDungeonIce (Skyrim.esm:05228A),"SmallWorld, CannotFastTravel, NoSky, FixedDimensions",worldspace scope reference,extracted
+Dawnguard.esm,Dawnguard.esm:002F64,DLC1ForebearsHoldout,,,MUSDungeonDLCVampireCastle (Dawnguard.esm:00EEB9),"SmallWorld, CannotFastTravel, NoLodWater, NoSky, FixedDimensions",worldspace scope reference,extracted
+Dawnguard.esm,Dawnguard.esm:001DB8,DLC1HunterHQWorld,,SkyrimClimate (Skyrim.esm:000812),MUSExploreForestFall (Skyrim.esm:06D544),SmallWorld,worldspace scope reference,extracted
+Dawnguard.esm,Dawnguard.esm:007202,DLC1VampireCastleCourtyard,,,MUSDungeonDLCVampireCastle (Dawnguard.esm:00EEB9),"SmallWorld, FixedDimensions, NoGrass",worldspace scope reference,extracted
+Dawnguard.esm,Skyrim.esm:016D71,MarkarthWorld,,SkyrimClimate (Skyrim.esm:000812),MUSTownTest (Skyrim.esm:02C3CA),SmallWorld,worldspace scope reference,extracted
+Dawnguard.esm,Skyrim.esm:016BB4,RiftenWorld,,,MUSTownTest (Skyrim.esm:02C3CA),SmallWorld,worldspace scope reference,extracted
+Dawnguard.esm,Skyrim.esm:037EDF,SolitudeWorld,,,MUSTownTest (Skyrim.esm:02C3CA),SmallWorld,worldspace scope reference,extracted
+Dawnguard.esm,Skyrim.esm:00003C,Tamriel,,SkyrimClimate (Skyrim.esm:000812),_NONE (Skyrim.esm:01BA72),0,main Skyrim worldspace scope,extracted
+Dawnguard.esm,Dawnguard.esm:0042C2,TestMeganWorld,,BlackreachClimate (Skyrim.esm:0239FB),MUSDungeonIce (Skyrim.esm:05228A),SmallWorld,worldspace scope reference,extracted
+Dawnguard.esm,Skyrim.esm:01A26F,WhiterunWorld,,,MUSTownTest (Skyrim.esm:02C3CA),"SmallWorld, NoLodWater, NoGrass",worldspace scope reference,extracted
+Dawnguard.esm,Skyrim.esm:01691D,WindhelmWorld,,,MUSTownTest (Skyrim.esm:02C3CA),SmallWorld,worldspace scope reference,extracted
+Dragonborn.esm,Skyrim.esm:01B44A,CWTestHold,,SkyrimClimate (Skyrim.esm:000812),,SmallWorld,worldspace scope reference,extracted
+Dragonborn.esm,Dragonborn.esm:01C0B2,DLC2ApocryphaWorld,,DLC2ApocryphaClimateNew (Dragonborn.esm:034CFC),DLC2MUSDungeonApocrypha (Dragonborn.esm:034281),"SmallWorld, CannotFastTravel, NoLandscape, NoGrass",mythic/Daedric worldspace scope,extracted
+Dragonborn.esm,Dragonborn.esm:000800,DLC2SolstheimWorld,,SkyrimClimate (Skyrim.esm:000812),DLC2MUSExploreSolstheimGeneral (Dragonborn.esm:033917),0,Solstheim/DLC worldspace scope,extracted
+Dragonborn.esm,Skyrim.esm:00003C,Tamriel,,SkyrimClimate (Skyrim.esm:000812),_NONE (Skyrim.esm:01BA72),0,main Skyrim worldspace scope,extracted
+Dragonborn.esm,Skyrim.esm:01691D,WindhelmWorld,,,MUSTownTest (Skyrim.esm:02C3CA),SmallWorld,worldspace scope reference,extracted
+HearthFires.esm,Skyrim.esm:016D71,MarkarthWorld,,SkyrimClimate (Skyrim.esm:000812),MUSTownTest (Skyrim.esm:02C3CA),SmallWorld,worldspace scope reference,extracted
+HearthFires.esm,Skyrim.esm:016BB4,RiftenWorld,,,MUSTownTest (Skyrim.esm:02C3CA),SmallWorld,worldspace scope reference,extracted
+HearthFires.esm,Skyrim.esm:037EDF,SolitudeWorld,,,MUSTownTest (Skyrim.esm:02C3CA),SmallWorld,worldspace scope reference,extracted
+HearthFires.esm,Skyrim.esm:00003C,Tamriel,,SkyrimClimate (Skyrim.esm:000812),_NONE (Skyrim.esm:01BA72),0,main Skyrim worldspace scope,extracted
+HearthFires.esm,Skyrim.esm:01A26F,WhiterunWorld,,,MUSTownTest (Skyrim.esm:02C3CA),"SmallWorld, NoLodWater, NoGrass",worldspace scope reference,extracted
+HearthFires.esm,Skyrim.esm:01691D,WindhelmWorld,,,MUSTownTest (Skyrim.esm:02C3CA),SmallWorld,worldspace scope reference,extracted
+Skyrim.esm,Skyrim.esm:069857,AlftandWorld,Alftand Cathedral,BlackreachClimate (Skyrim.esm:0239FB),MUSDungeonIce (Skyrim.esm:05228A),"SmallWorld, CannotFastTravel, NoSky, FixedDimensions",worldspace scope reference,extracted
+Skyrim.esm,Skyrim.esm:01EE62,Blackreach,Blackreach,BlackreachClimate (Skyrim.esm:0239FB),MUSDungeonIce (Skyrim.esm:05228A),"SmallWorld, CannotFastTravel, NoSky",worldspace scope reference,extracted
+Skyrim.esm,Skyrim.esm:020DCB,BlindCliffCaveWorld,Blind Cliff Cave,,MUSDungeonCave (Skyrim.esm:094BDD),"SmallWorld, CannotFastTravel, FixedDimensions",worldspace scope reference,extracted
+Skyrim.esm,Skyrim.esm:01FAE2,BloatedMansGrottoWorld,Bloated Man's Grotto,BloatedMansClimate (Skyrim.esm:0E7C4E),MUSDungeon (Skyrim.esm:02D4C2),"SmallWorld, CannotFastTravel",worldspace scope reference,extracted
+Skyrim.esm,Skyrim.esm:034240,BluePalaceWingWorld,The Mind Of A Madman,,,SmallWorld,worldspace scope reference,extracted
+Skyrim.esm,Skyrim.esm:050015,BrinewaterGrottoWorld,Brinewater Grotto,,MUSDungeonCave (Skyrim.esm:094BDD),"SmallWorld, CannotFastTravel, NoSky, FixedDimensions",worldspace scope reference,extracted
+Skyrim.esm,Skyrim.esm:0419E1,CWSiegeTestWorld,,SkyrimClimate (Skyrim.esm:000812),,SmallWorld,worldspace scope reference,extracted
+Skyrim.esm,Skyrim.esm:01B44A,CWTestHold,Avoidance Exterior,SkyrimClimate (Skyrim.esm:000812),,SmallWorld,worldspace scope reference,extracted
+Skyrim.esm,Skyrim.esm:02C965,DarkwaterWorld,Darkwater Pass,BlackreachClimate (Skyrim.esm:0239FB),MUSDungeonCave (Skyrim.esm:094BDD),"SmallWorld, CannotFastTravel, FixedDimensions",worldspace scope reference,extracted
+Skyrim.esm,Skyrim.esm:029AB7,DeepwoodRedoubtWorld,Deepwood Vale,,MUSDungeonFort (Skyrim.esm:05615B),SmallWorld,worldspace scope reference,extracted
+Skyrim.esm,Skyrim.esm:04F838,EastEmpireWarehouse,East Empire Company Warehouse,,MUSDungeonCave (Skyrim.esm:094BDD),"SmallWorld, CannotFastTravel, FixedDimensions",worldspace scope reference,extracted
+Skyrim.esm,Skyrim.esm:03A9D6,EldergleamSanctuaryWorld,Eldergleam Sanctuary,,MUSDungeonCave (Skyrim.esm:094BDD),"SmallWorld, CannotFastTravel, FixedDimensions",worldspace scope reference,extracted
+Skyrim.esm,Skyrim.esm:0204C7,FallowstoneCaveWorldEnd,Giant's Grove,,MUSExploreSnow (Skyrim.esm:08690F),"SmallWorld, CannotFastTravel, FixedDimensions",worldspace scope reference,extracted
+Skyrim.esm,Skyrim.esm:0243DE,FallowstoneCaveWorldStart,Fallowstone Cave,,MUSDungeonCave (Skyrim.esm:094BDD),"SmallWorld, CannotFastTravel, FixedDimensions",worldspace scope reference,extracted
+Skyrim.esm,Skyrim.esm:0C97EB,FrostmereCryptWorld,Frostmere Depths,,,"SmallWorld, FixedDimensions",worldspace scope reference,extracted
+Skyrim.esm,Skyrim.esm:06ED38,FXLightWorldSpace,World of FX Light Regions,,,SmallWorld,worldspace scope reference,extracted
+Skyrim.esm,Skyrim.esm:094B35,JaphetsFollyWorld,Japhet's Folly,,,"SmallWorld, CannotFastTravel",worldspace scope reference,extracted
+Skyrim.esm,Skyrim.esm:035699,KarthspireRedoubtWorld,The Karthspire,KarthspireClimate (Skyrim.esm:000F91),,"SmallWorld, FixedDimensions",worldspace scope reference,extracted
+Skyrim.esm,Skyrim.esm:0C350D,KatariahWorld,Emperor's Quarters,,,"SmallWorld, CannotFastTravel, FixedDimensions",worldspace scope reference,extracted
+Skyrim.esm,Skyrim.esm:104217,LabyrinthianMazeWorld,Shalidor's Maze,SkyrimClimate (Skyrim.esm:000812),MUSDungeon (Skyrim.esm:02D4C2),"SmallWorld, CannotFastTravel, NoLandscape, FixedDimensions",worldspace scope reference,extracted
+Skyrim.esm,Skyrim.esm:01CDD3,LabyrinthianWorld,Lost Valkygg,,MUSDungeon (Skyrim.esm:02D4C2),"SmallWorld, NoSky, FixedDimensions",worldspace scope reference,extracted
+Skyrim.esm,Skyrim.esm:01CDD9,LabyrinthianWorld03,Labyrinthian Chasm,,MUSDungeon (Skyrim.esm:02D4C2),"SmallWorld, CannotFastTravel, FixedDimensions, NoGrass",worldspace scope reference,extracted
+Skyrim.esm,Skyrim.esm:021EDB,LabyrinthianWorld04,"Labyrinthian, Tribune",,MUSDread (Skyrim.esm:04DA92),"SmallWorld, CannotFastTravel, FixedDimensions",worldspace scope reference,extracted
+Skyrim.esm,Skyrim.esm:016D71,MarkarthWorld,Markarth,SkyrimClimate (Skyrim.esm:000812),MUSTownTest (Skyrim.esm:02C3CA),SmallWorld,worldspace scope reference,extracted
+Skyrim.esm,Skyrim.esm:01E49D,MossMotherCavernWorld,Moss Mother Cavern,,MUSDungeonCave (Skyrim.esm:094BDD),"SmallWorld, CannotFastTravel, FixedDimensions",worldspace scope reference,extracted
+Skyrim.esm,Skyrim.esm:02B101,RedEagleRedoubtWorld,Red Eagle Ascent,,MUSDungeonCave (Skyrim.esm:094BDD),"SmallWorld, CannotFastTravel, FixedDimensions",worldspace scope reference,extracted
+Skyrim.esm,Skyrim.esm:016BB4,RiftenWorld,Riften,,MUSTownTest (Skyrim.esm:02C3CA),SmallWorld,worldspace scope reference,extracted
+Skyrim.esm,Skyrim.esm:02A9D8,ShadowgreenCavernWorld,Shadowgreen Cavern,,,"SmallWorld, CannotFastTravel, FixedDimensions",worldspace scope reference,extracted
+Skyrim.esm,Skyrim.esm:0278DD,SkuldafnWorld,Skuldafn,SkyrimClimate (Skyrim.esm:000812),,"SmallWorld, CannotFastTravel",worldspace scope reference,extracted
+Skyrim.esm,Skyrim.esm:037EDF,SolitudeWorld,Solitude,,MUSTownTest (Skyrim.esm:02C3CA),SmallWorld,worldspace scope reference,extracted
+Skyrim.esm,Skyrim.esm:020BFE,SouthfringeWorld,Southfringe Sanctum,SkyrimClimate (Skyrim.esm:000812),MUSDungeonIce (Skyrim.esm:05228A),"SmallWorld, CannotFastTravel, FixedDimensions",worldspace scope reference,extracted
+Skyrim.esm,Skyrim.esm:02EE41,Sovngarde,Sovngarde,SovngardeClimate (Skyrim.esm:090A91),MUSExploreSovngardeChantExterior (Skyrim.esm:000F74),CannotFastTravel,mythic/Daedric worldspace scope,extracted
+Skyrim.esm,Skyrim.esm:00003C,Tamriel,Skyrim,SkyrimClimate (Skyrim.esm:000812),_NONE (Skyrim.esm:01BA72),0,main Skyrim worldspace scope,extracted
+Skyrim.esm,Skyrim.esm:046033,WhiterunDragonsreachWorld,"Dragonsreach, Great Porch",,_NONE (Skyrim.esm:01BA72),SmallWorld,worldspace scope reference,extracted
+Skyrim.esm,Skyrim.esm:01A26F,WhiterunWorld,Whiterun,,MUSTownTest (Skyrim.esm:02C3CA),"SmallWorld, NoLodWater, NoGrass",worldspace scope reference,extracted
+Skyrim.esm,Skyrim.esm:0D45F0,WindhelmPitWorldspace,The Pit,,MUSTownTest (Skyrim.esm:02C3CA),"SmallWorld, CannotFastTravel",worldspace scope reference,extracted
+Skyrim.esm,Skyrim.esm:01691D,WindhelmWorld,Windhelm,,MUSTownTest (Skyrim.esm:02C3CA),SmallWorld,worldspace scope reference,extracted
+Update.esm,Skyrim.esm:01EE62,Blackreach,Blackreach,BlackreachClimate (Skyrim.esm:0239FB),MUSDungeonIce (Skyrim.esm:05228A),"SmallWorld, CannotFastTravel, NoSky",worldspace scope reference,extracted
+Update.esm,Skyrim.esm:01FAE2,BloatedMansGrottoWorld,Bloated Man's Grotto,BloatedMansClimate (Skyrim.esm:0E7C4E),MUSDungeon (Skyrim.esm:02D4C2),"SmallWorld, CannotFastTravel",worldspace scope reference,extracted
+Update.esm,Skyrim.esm:034240,BluePalaceWingWorld,The Mind Of A Madman,,,SmallWorld,worldspace scope reference,extracted
+Update.esm,Skyrim.esm:094B35,JaphetsFollyWorld,Japhet's Folly,,,"SmallWorld, CannotFastTravel",worldspace scope reference,extracted
+Update.esm,Skyrim.esm:104217,LabyrinthianMazeWorld,Shalidor's Maze,SkyrimClimate (Skyrim.esm:000812),MUSDungeon (Skyrim.esm:02D4C2),"SmallWorld, CannotFastTravel, NoLandscape, FixedDimensions",worldspace scope reference,extracted
+Update.esm,Skyrim.esm:016D71,MarkarthWorld,Markarth,SkyrimClimate (Skyrim.esm:000812),MUSTownTest (Skyrim.esm:02C3CA),SmallWorld,worldspace scope reference,extracted
+Update.esm,Skyrim.esm:016BB4,RiftenWorld,Riften,,MUSTownTest (Skyrim.esm:02C3CA),SmallWorld,worldspace scope reference,extracted
+Update.esm,Skyrim.esm:037EDF,SolitudeWorld,Solitude,,MUSTownTest (Skyrim.esm:02C3CA),SmallWorld,worldspace scope reference,extracted
+Update.esm,Skyrim.esm:020BFE,SouthfringeWorld,Southfringe Sanctum,SkyrimClimate (Skyrim.esm:000812),MUSDungeonIce (Skyrim.esm:05228A),"SmallWorld, CannotFastTravel, FixedDimensions",worldspace scope reference,extracted
+Update.esm,Skyrim.esm:00003C,Tamriel,Skyrim,SkyrimClimate (Skyrim.esm:000812),_NONE (Skyrim.esm:01BA72),0,main Skyrim worldspace scope,extracted
+Update.esm,Update.esm:00293A,TestSnow,,SkyrimClimate (Skyrim.esm:000812),,SmallWorld,worldspace scope reference,extracted
+Update.esm,Skyrim.esm:01A26F,WhiterunWorld,Whiterun,,MUSTownTest (Skyrim.esm:02C3CA),"SmallWorld, NoLodWater, NoGrass",worldspace scope reference,extracted
+Update.esm,Skyrim.esm:01691D,WindhelmWorld,Windhelm,,MUSTownTest (Skyrim.esm:02C3CA),SmallWorld,worldspace scope reference,extracted

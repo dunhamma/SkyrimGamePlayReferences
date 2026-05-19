@@ -255,7 +255,7 @@ sources:
     title: "Local Anvil Mutagen extraction: vanilla and cleaned DLC masters"
     url: "local:D:/Wabbajack/modlists/Anvil/Stock Game/Data; local:D:/Wabbajack/modlists/Anvil/mods/Cleaned Base Game Masters"
     source_type: "local game/plugin data"
-    use_for: "Generated vanilla/DLC keyword, location, magic effect, book, item, faction, quest, crafting, NPC, and race reference tables"
+    use_for: "Generated vanilla/DLC keyword, location, magic effect, book, item, faction, quest, crafting, NPC, race, FormList, perk, enchantment, shout, leveled-list, encounter-zone, worldspace, cell, container/furniture, condition, and reverse-keyword reference tables"
     validation_weight: "highest for local record presence; use as implementation reference, not final design meaning"
   - id: local_psc_sources
     title: "Local Anvil shipped Papyrus source"

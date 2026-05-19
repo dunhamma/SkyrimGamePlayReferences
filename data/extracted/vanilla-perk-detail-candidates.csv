@@ -1,0 +1,71 @@
+plugin,formid,editor_id,name,playable,hidden,level,rank_count,effect_count,condition_count,modding_use,validation
+Dawnguard.esm,Dawnguard.esm:00399B,DLC1EnchancedCrossbowArmorPiercingPerk,,true,true,0,1,1,0,craft progression reference,candidate-extracted
+Dawnguard.esm,Dawnguard.esm:008A6E,DLC1PlayerWerewolfSavageFeeding,,false,true,0,1,7,0,curse/transformation progression reference,candidate-extracted
+Dawnguard.esm,Dawnguard.esm:0110CF,DLC1VampireActivationBlocker,,true,false,0,1,1,0,curse/transformation progression reference,candidate-extracted
+Dawnguard.esm,Dawnguard.esm:005054,DLC1VampireFeedDexionVampireSeduction,,true,false,0,1,1,0,curse/transformation progression reference,candidate-extracted
+Dawnguard.esm,Dawnguard.esm:01459D,DLC1VampireSeductionBoost,,true,true,0,1,1,0,curse/transformation progression reference,candidate-extracted
+Dawnguard.esm,Dawnguard.esm:008E3F,DLC1VampireSleepPerk,,false,true,0,1,2,0,curse/transformation progression reference,candidate-extracted
+Dawnguard.esm,Dawnguard.esm:00588B,DLC1VampireTurnPerk,,false,true,0,1,1,0,curse/transformation progression reference,candidate-extracted
+Dawnguard.esm,Dawnguard.esm:0138C3,DLC1VyrthurArmorBoost,,true,false,0,1,5,0,craft progression reference,candidate-extracted
+Dawnguard.esm,Skyrim.esm:052190,DragonArmor,,true,false,0,1,1,3,craft progression reference,candidate-extracted
+Dawnguard.esm,Skyrim.esm:02BA1D,PlayerWerewolfFeed,,false,true,0,1,8,0,curse/transformation progression reference,candidate-extracted
+Dawnguard.esm,Skyrim.esm:0CF02C,VampireFeed,,false,false,0,1,2,0,curse/transformation progression reference,candidate-extracted
+Dragonborn.esm,Dragonborn.esm:01E7FB,DLC2BlackBookNoMagickaPerk,,true,false,0,1,1,0,magic progression reference,candidate-extracted
+Dragonborn.esm,Dragonborn.esm:027324,DLC2dunKolbjornArmorPerk,,true,false,0,1,1,0,craft progression reference,candidate-extracted
+Dragonborn.esm,Dragonborn.esm:017745,DLC2MageArmor30NPC,,true,false,0,1,1,0,craft progression reference,candidate-extracted
+Dragonborn.esm,Dragonborn.esm:017743,DLC2MageArmor50NPC,,true,false,0,1,1,0,craft progression reference,candidate-extracted
+Dragonborn.esm,Dragonborn.esm:017744,DLC2MageArmor70NPC,,true,false,0,1,1,0,craft progression reference,candidate-extracted
+Dragonborn.esm,Dragonborn.esm:024108,DLC2Smithing,,true,true,0,1,4,0,craft progression reference,candidate-extracted
+Dragonborn.esm,Dragonborn.esm:017739,DLC2StaffEnchantingMult,,true,false,0,1,1,0,magic progression reference,candidate-extracted
+Dragonborn.esm,Dragonborn.esm:026233,DLC2StalhrimEnchanting,,true,false,0,1,2,0,magic progression reference,candidate-extracted
+Skyrim.esm,Skyrim.esm:0CB414,AdvancedArmors,Advanced Armors,true,false,0,1,1,2,craft progression reference,candidate-extracted
+Skyrim.esm,Skyrim.esm:0A725C,AlchemySkillBoosts,,true,false,0,1,18,0,perk progression reference,candidate-extracted
+Skyrim.esm,Skyrim.esm:0C44B8,AlterationAdept50,Adept Alteration,true,false,0,1,1,2,perk progression reference,candidate-extracted
+Skyrim.esm,Skyrim.esm:0C44B7,AlterationApprentice25,Apprentice Alteration,true,false,0,1,1,2,perk progression reference,candidate-extracted
+Skyrim.esm,Skyrim.esm:0153CD,AlterationDualCasting,Alteration Dual Casting,true,false,0,1,1,2,perk progression reference,candidate-extracted
+Skyrim.esm,Skyrim.esm:0C44B9,AlterationExpert75,Expert Alteration,true,false,0,1,1,2,perk progression reference,candidate-extracted
+Skyrim.esm,Skyrim.esm:0C44BA,AlterationMaster100,Master Alteration,true,false,0,1,1,2,perk progression reference,candidate-extracted
+Skyrim.esm,Skyrim.esm:0F2CA6,AlterationNovice00,Novice Alteration,true,false,0,1,1,0,perk progression reference,candidate-extracted
+Skyrim.esm,Skyrim.esm:05218E,ArcaneBlacksmith,Arcane Blacksmith,true,false,0,1,0,2,craft progression reference,candidate-extracted
+Skyrim.esm,Skyrim.esm:058211,AssassinsBlade,Assassin's Blade,true,false,0,1,1,2,perk progression reference,candidate-extracted
+Skyrim.esm,Skyrim.esm:058F72,Bribery,Bribery,true,false,0,1,0,2,social/economy progression reference,candidate-extracted
+Skyrim.esm,Skyrim.esm:058F7D,CorpusEnchanter,Corpus Enchanter,true,false,0,1,1,2,magic progression reference,candidate-extracted
+Skyrim.esm,Skyrim.esm:0CB413,DaedricSmithing,Daedric Smithing,true,false,0,1,1,2,craft progression reference,candidate-extracted
+Skyrim.esm,Skyrim.esm:052190,DragonArmor,Dragon Armor,true,false,0,1,1,3,craft progression reference,candidate-extracted
+Skyrim.esm,Skyrim.esm:0CB40E,DwarvenSmithing,Dwarven Smithing,true,false,0,1,1,2,craft progression reference,candidate-extracted
+Skyrim.esm,Skyrim.esm:0CB412,EbonySmithing,Ebony Smithing,true,false,0,1,1,2,craft progression reference,candidate-extracted
+Skyrim.esm,Skyrim.esm:0CB40F,ElvenSmithing,Elven Smithing,true,false,0,1,1,2,craft progression reference,candidate-extracted
+Skyrim.esm,Skyrim.esm:0BEE97,Enchanter00,Enchanter,true,false,0,1,1,0,magic progression reference,candidate-extracted
+Skyrim.esm,Skyrim.esm:0C367C,Enchanter20,Enchanter,true,false,0,1,1,2,magic progression reference,candidate-extracted
+Skyrim.esm,Skyrim.esm:0C367D,Enchanter40,Enchanter,true,false,0,1,1,2,magic progression reference,candidate-extracted
+Skyrim.esm,Skyrim.esm:0C367E,Enchanter60,Enchanter,true,false,0,1,1,2,magic progression reference,candidate-extracted
+Skyrim.esm,Skyrim.esm:0C367F,Enchanter80,Enchanter,true,false,0,1,1,2,magic progression reference,candidate-extracted
+Skyrim.esm,Skyrim.esm:058F80,FireEnchanter,Fire Enchanter,true,false,0,1,1,2,magic progression reference,candidate-extracted
+Skyrim.esm,Skyrim.esm:058F81,FrostEnchanter,Frost Enchanter,true,false,0,1,1,2,magic progression reference,candidate-extracted
+Skyrim.esm,Skyrim.esm:0CB411,GlassSmithing,Glass Smithing,true,false,0,1,1,2,craft progression reference,candidate-extracted
+Skyrim.esm,Skyrim.esm:0C44C4,IllusionAdept50,Adept Illusion,true,false,0,1,1,2,perk progression reference,candidate-extracted
+Skyrim.esm,Skyrim.esm:0C44C3,IllusionApprentice25,Apprentice Illusion,true,false,0,1,1,2,perk progression reference,candidate-extracted
+Skyrim.esm,Skyrim.esm:0153D0,IllusionDualCasting,Illusion Dual Casting,true,false,0,1,1,2,perk progression reference,candidate-extracted
+Skyrim.esm,Skyrim.esm:0C44C5,IllusionExpert75,Expert Illusion,true,false,0,1,1,2,perk progression reference,candidate-extracted
+Skyrim.esm,Skyrim.esm:0C44C6,IllusionMaster100,Master Illusion,true,false,0,1,1,2,perk progression reference,candidate-extracted
+Skyrim.esm,Skyrim.esm:0F2CA9,IllusionNovice00,Novice Illusion,true,false,0,1,1,0,perk progression reference,candidate-extracted
+Skyrim.esm,Skyrim.esm:058F7E,InsightfulEnchanter,Insightful Enchanter,true,false,0,1,1,2,magic progression reference,candidate-extracted
+Skyrim.esm,Skyrim.esm:058208,Locksmith,Locksmith,true,false,0,1,1,2,craft progression reference,candidate-extracted
+Skyrim.esm,Skyrim.esm:0D7999,MageArmor30,Mage Armor,true,false,0,1,0,2,craft progression reference,candidate-extracted
+Skyrim.esm,Skyrim.esm:0D799A,MageArmor50,Mage Armor,true,false,0,1,0,2,craft progression reference,candidate-extracted
+Skyrim.esm,Skyrim.esm:0D799B,MageArmor70,Mage Armor,true,false,0,1,0,2,craft progression reference,candidate-extracted
+Skyrim.esm,Skyrim.esm:053128,MagicResistance30, Magic Resistance,true,false,0,1,1,2,magic progression reference,candidate-extracted
+Skyrim.esm,Skyrim.esm:053129,MagicResistance50,Magic Resistance,true,false,0,1,1,2,magic progression reference,candidate-extracted
+Skyrim.esm,Skyrim.esm:05312A,MagicResistance70,Magic Resistance,true,false,0,1,1,2,magic progression reference,candidate-extracted
+Skyrim.esm,Skyrim.esm:058F7A,Merchant,Merchant,true,false,0,1,1,2,social/economy progression reference,candidate-extracted
+Skyrim.esm,Skyrim.esm:1076F7,MGR21AlterationCost,,true,true,0,1,1,0,perk progression reference,candidate-extracted
+Skyrim.esm,Skyrim.esm:1076F8,MGR21AlterationDur,,true,true,0,1,1,0,perk progression reference,candidate-extracted
+Skyrim.esm,Skyrim.esm:1076FB,MGR21IllusionCost,,true,true,0,1,1,0,perk progression reference,candidate-extracted
+Skyrim.esm,Skyrim.esm:1076FC,MGR21IllusionDur,,true,true,0,1,1,0,perk progression reference,candidate-extracted
+Skyrim.esm,Skyrim.esm:0CB410,OrcishSmithing,Orcish Smithing,true,false,0,1,1,2,craft progression reference,candidate-extracted
+Skyrim.esm,Skyrim.esm:02BA1D,PlayerWerewolfFeed,Feed,false,true,0,1,6,0,curse/transformation progression reference,candidate-extracted
+Skyrim.esm,Skyrim.esm:0CB40D,SteelSmithing,Steel Smithing,true,false,0,1,1,0,craft progression reference,candidate-extracted
+Skyrim.esm,Skyrim.esm:058F82,StormEnchanter,Storm Enchanter,true,false,0,1,1,2,magic progression reference,candidate-extracted
+Skyrim.esm,Skyrim.esm:0CF02C,VampireFeed,Thirst for Blood,false,false,0,1,1,0,curse/transformation progression reference,candidate-extracted
+Skyrim.esm,Skyrim.esm:0F5B56,VampireSkillsPerk,,false,false,0,1,1,0,curse/transformation progression reference,candidate-extracted
+Skyrim.esm,Skyrim.esm:10F1EC,VampireSkillsPerk02,,false,false,0,1,1,0,curse/transformation progression reference,candidate-extracted

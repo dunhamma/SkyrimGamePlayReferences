@@ -42,6 +42,19 @@ const RECORD_TYPES = new Set([
   "WEAP",
   "ARMO",
   "RACE",
+  "FLST",
+  "PERK",
+  "ENCH",
+  "SHOU",
+  "WOOP",
+  "LVLI",
+  "LVLN",
+  "LVSP",
+  "CELL",
+  "WRLD",
+  "ECZN",
+  "CONT",
+  "FURN",
 ]);
 
 const RELIGION_TERMS = [
@@ -80,6 +93,19 @@ const ITEM_TERMS = [
   "fish", "plant", "flower", "mushroom", "fungus", "root", "berry",
   "ore", "ingot", "hide", "leather", "pelt", "poison", "daedra",
   "heart", "salt", "ash", "moon", "nirnroot",
+];
+
+const LEVELED_LIST_TERMS = [
+  "animal", "atronach", "bandit", "bear", "draugr", "dragon", "dremora",
+  "dwemer", "falmer", "forsworn", "giant", "hagraven", "loot", "necromancer",
+  "reward", "skeleton", "spriggan", "thalmor", "troll", "vampire", "vendor",
+  "warlock", "werewolf", "wolf",
+];
+
+const CONTAINER_FURNITURE_TERMS = [
+  "alchemy", "altar", "anvil", "arcane", "bed", "blacksmith", "chest", "cook",
+  "craft", "enchant", "forge", "grindstone", "merchant", "shrine", "smelter",
+  "table", "temple", "vendor", "workbench",
 ];
 
 function main() {
@@ -228,8 +254,9 @@ function main() {
     validation: "candidate-extracted",
   })).sort(sortByPluginTypeEdid));
 
-  const factions = candidateDetails(byType.get("FACT") || [], (record) => termMatch(record.edid, ["crime", "jail", "guard", "thanes", "faction", "guild", ...NPC_TERMS, ...RELIGION_TERMS]));
-  writeCsv("vanilla-faction-signal-candidates.csv", factions.map(({ base, detail }) => ({
+  const allFactionDetails = detailsFor(byType.get("FACT") || [], { maxDepth: 5, chunkSize: 100, timeoutMs: 180_000 });
+  const factionSignalCandidates = allFactionDetails.filter(({ base }) => termMatch(base.edid, ["crime", "jail", "guard", "thanes", "faction", "guild", ...NPC_TERMS, ...RELIGION_TERMS]));
+  writeCsv("vanilla-faction-signal-candidates.csv", factionSignalCandidates.map(({ base, detail }) => ({
     plugin: base.pluginName,
     formid: base.formid,
     editor_id: base.edid,
@@ -239,6 +266,18 @@ function main() {
     ranks: rankSummary(field(detail, "Ranks")),
     modding_use: classifyFaction(base.edid),
     validation: "candidate-extracted",
+  })).sort(sortByPluginEdid));
+
+  writeCsv("vanilla-faction-relationships.csv", allFactionDetails.map(({ base, detail }) => ({
+    plugin: base.pluginName,
+    formid: base.formid,
+    editor_id: base.edid,
+    flags: field(detail, "Flags"),
+    crime_values: crimeSummary(field(detail, "CrimeValues")),
+    relations: relationSummary(field(detail, "Relations"), registry, 24),
+    ranks: rankSummary(field(detail, "Ranks")),
+    modding_use: classifyFaction(base.edid),
+    validation: "extracted",
   })).sort(sortByPluginEdid));
 
   const quests = (byType.get("QUST") || []).filter(isQuestCandidate);
@@ -292,6 +331,197 @@ function main() {
     modding_use: classifyRace(base.edid, field(detail, "Name")),
     validation: "extracted",
   })).sort(sortByPluginEdid));
+
+  const formListRecords = byType.get("FLST") || [];
+  writeCsv("vanilla-formlist-inventory.csv", formListRecords.map((base) => ({
+    plugin: base.pluginName,
+    formid: base.formid,
+    editor_id: base.edid,
+    modding_use: classifyFormList(base.edid),
+    detail_status: "scan-only; use detailed candidate table or local xEdit/CK inspection for items",
+    validation: "candidate-scan",
+  })).sort(sortByPluginEdid));
+
+  const formListCandidates = candidateDetails(formListRecords, (record) => termMatch(record.edid, ["vendor", "crime", "guard", "guild", "spell", "magic", "shrine", "temple", "faction", "dlc1", "dlc2", ...RELIGION_TERMS]), { maxDepth: 2, chunkSize: 10, timeoutMs: 300_000 });
+  writeCsv("vanilla-formlist-detail-candidates.csv", formListCandidates.map(({ base, detail }) => ({
+    plugin: base.pluginName,
+    formid: base.formid,
+    editor_id: base.edid,
+    item_count: Array.isArray(field(detail, "Items")) ? field(detail, "Items").length : 0,
+    items: resolveList(field(detail, "Items"), registry, 40),
+    modding_use: classifyFormList(base.edid),
+    validation: "candidate-extracted",
+  })).sort(sortByPluginEdid));
+
+  const perkRecords = byType.get("PERK") || [];
+  writeCsv("vanilla-perk-palette.csv", perkRecords.map((base) => ({
+    plugin: base.pluginName,
+    formid: base.formid,
+    editor_id: base.edid,
+    modding_use: classifyPerk(base.edid, ""),
+    detail_status: "scan-only; use detailed candidate table or local xEdit/CK inspection for effects and conditions",
+    validation: "candidate-scan",
+  })).sort(sortByPluginEdid));
+
+  const perkDetails = candidateDetails(perkRecords, (record) => termMatch(record.edid, ["alchemy", "alteration", "armor", "assassin", "bribe", "craft", "enchant", "illusion", "magic", "merchant", "smith", "speech", "vampire", "werewolf"]), { maxDepth: 5, chunkSize: 20, timeoutMs: 300_000 });
+  writeCsv("vanilla-perk-detail-candidates.csv", perkDetails.map(({ base, detail }) => ({
+    plugin: base.pluginName,
+    formid: base.formid,
+    editor_id: base.edid,
+    name: field(detail, "Name"),
+    playable: field(detail, "Playable"),
+    hidden: field(detail, "Hidden"),
+    level: field(detail, "Level"),
+    rank_count: field(detail, "NumRanks"),
+    effect_count: Array.isArray(field(detail, "Effects")) ? field(detail, "Effects").length : 0,
+    condition_count: conditionStats(field(detail, "Conditions")).count,
+    modding_use: classifyPerk(base.edid, field(detail, "Name")),
+    validation: "candidate-extracted",
+  })).sort(sortByPluginEdid));
+
+  const enchantments = detailsFor(byType.get("ENCH") || [], { maxDepth: 5, chunkSize: 100, timeoutMs: 180_000 });
+  writeCsv("vanilla-enchantment-palette.csv", enchantments.map(({ base, detail }) => ({
+    plugin: base.pluginName,
+    formid: base.formid,
+    editor_id: base.edid,
+    name: field(detail, "Name"),
+    enchant_type: field(detail, "EnchantType"),
+    cast_type: field(detail, "CastType"),
+    target_type: field(detail, "TargetType"),
+    charge_amount: field(detail, "EnchantmentAmount"),
+    effects: effectList(field(detail, "Effects"), registry),
+    modding_use: classifyEnchantment(base.edid, field(detail, "Name"), effectList(field(detail, "Effects"), registry)),
+    validation: "extracted",
+  })).sort(sortByPluginEdid));
+
+  const shouts = detailsFor(byType.get("SHOU") || [], { maxDepth: 4, chunkSize: 100, timeoutMs: 180_000 });
+  writeCsv("vanilla-shout-records.csv", shouts.map(({ base, detail }) => ({
+    plugin: base.pluginName,
+    formid: base.formid,
+    editor_id: base.edid,
+    name: field(detail, "Name"),
+    menu_display_object: resolve(field(detail, "MenuDisplayObject"), registry),
+    words_of_power: shoutWordSummary(field(detail, "WordsOfPower"), registry),
+    modding_use: classifyShout(base.edid, field(detail, "Name")),
+    validation: "extracted",
+  })).sort(sortByPluginEdid));
+
+  const wordsOfPower = detailsFor(byType.get("WOOP") || [], { maxDepth: 3, chunkSize: 120, timeoutMs: 180_000 });
+  writeCsv("vanilla-word-of-power-records.csv", wordsOfPower.map(({ base, detail }) => ({
+    plugin: base.pluginName,
+    formid: base.formid,
+    editor_id: base.edid,
+    name: field(detail, "Name"),
+    translation: field(detail, "Translation"),
+    modding_use: classifyWordOfPower(base.edid, field(detail, "Name")),
+    validation: "extracted",
+  })).sort(sortByPluginEdid));
+
+  const leveledListRecords = [
+    ...(byType.get("LVLI") || []),
+    ...(byType.get("LVLN") || []),
+    ...(byType.get("LVSP") || []),
+  ];
+  writeCsv("vanilla-leveled-list-inventory.csv", leveledListRecords.map((base) => ({
+    plugin: base.pluginName,
+    record_type: base.type,
+    formid: base.formid,
+    editor_id: base.edid,
+    modding_use: classifyLeveledList(base.type, base.edid),
+    detail_status: "scan-only; use detailed candidate table or local xEdit/CK inspection for entries",
+    validation: "candidate-scan",
+  })).sort(sortByPluginTypeEdid));
+
+  const leveledListCandidates = candidateDetails(leveledListRecords, (record) => termMatch(record.edid, LEVELED_LIST_TERMS), { maxDepth: 3, chunkSize: 10, timeoutMs: 300_000 });
+  writeCsv("vanilla-leveled-list-signal-candidates.csv", leveledListCandidates.map(({ base, detail }) => ({
+    plugin: base.pluginName,
+    record_type: base.type,
+    formid: base.formid,
+    editor_id: base.edid,
+    flags: field(detail, "Flags"),
+    entry_count: Array.isArray(field(detail, "Entries")) ? field(detail, "Entries").length : 0,
+    entries: leveledEntriesSummary(field(detail, "Entries"), registry, 30),
+    modding_use: classifyLeveledList(base.type, base.edid),
+    validation: "candidate-extracted",
+  })).sort(sortByPluginTypeEdid));
+
+  const encounterZones = detailsFor(byType.get("ECZN") || [], { maxDepth: 2, chunkSize: 10, timeoutMs: 300_000 });
+  writeCsv("vanilla-encounter-zone-records.csv", encounterZones.map(({ base, detail }) => ({
+    plugin: base.pluginName,
+    formid: base.formid,
+    editor_id: base.edid,
+    location: resolve(field(detail, "Location"), registry),
+    min_level: field(detail, "MinLevel"),
+    max_level: field(detail, "MaxLevel"),
+    rank: field(detail, "Rank"),
+    flags: field(detail, "Flags"),
+    modding_use: classifyEncounterZone(base.edid, field(detail, "Flags")),
+    validation: "extracted",
+  })).sort(sortByPluginEdid));
+
+  const worldspaces = detailsFor(byType.get("WRLD") || [], { maxDepth: 1, chunkSize: 10, timeoutMs: 300_000 });
+  writeCsv("vanilla-worldspace-records.csv", worldspaces.map(({ base, detail }) => ({
+    plugin: base.pluginName,
+    formid: base.formid,
+    editor_id: base.edid,
+    name: field(detail, "Name"),
+    climate: resolve(field(detail, "Climate"), registry),
+    music: resolve(field(detail, "Music"), registry),
+    flags: field(detail, "Flags"),
+    modding_use: classifyWorldspace(base.edid, field(detail, "Name")),
+    validation: "extracted",
+  })).sort(sortByPluginEdid));
+
+  const cellCandidateRecords = (byType.get("CELL") || []).filter((record) => termMatch(record.edid, [...LOCATION_TERMS, "azura", "barrow", "blackreach", "daedric", "dwemer", "guild", "jail", "palace", "prison", "sanctuary", "solitude", "whiterun", "windhelm"]));
+  writeCsv("vanilla-cell-location-candidates.csv", cellCandidateRecords.map((base) => ({
+    plugin: base.pluginName,
+    formid: base.formid,
+    editor_id: base.edid,
+    modding_use: classifyCell(base.edid, "", ""),
+    detail_status: "scan-only; read individual CELL records in xEdit/CK before implementing location or encounter-zone hooks",
+    validation: "candidate-scan",
+  })).sort(sortByPluginEdid));
+
+  const containersAndFurniture = detailsFor([
+    ...(byType.get("CONT") || []),
+    ...(byType.get("FURN") || []),
+  ].filter((record) => termMatch(record.edid, CONTAINER_FURNITURE_TERMS)), { maxDepth: 2, chunkSize: 10, timeoutMs: 300_000 });
+  writeCsv("vanilla-container-furniture-candidates.csv", containersAndFurniture.map(({ base, detail }) => ({
+    plugin: base.pluginName,
+    record_type: base.type,
+    formid: base.formid,
+    editor_id: base.edid,
+    name: field(detail, "Name"),
+    flags: field(detail, "Flags"),
+    interaction_keyword: resolve(field(detail, "InteractionKeyword"), registry),
+    workbench_type: field(detail, "WorkbenchData.BenchType"),
+    uses_skill: field(detail, "WorkbenchData.UsesSkill"),
+    items: itemStackSummary(field(detail, "Items"), registry, 30),
+    modding_use: classifyContainerFurniture(base.type, base.edid, field(detail, "Name"), resolve(field(detail, "InteractionKeyword"), registry), field(detail, "WorkbenchData.BenchType")),
+    validation: "candidate-extracted",
+  })).sort(sortByPluginTypeEdid));
+
+  const conditionRows = [
+    ...conditionIndexRows("MGEF", magicEffects, registry),
+    ...conditionIndexRows("SPEL", spells, registry),
+    ...conditionIndexRows("PERK", perkDetails, registry),
+    ...conditionIndexRows("ENCH", enchantments, registry),
+  ];
+  writeCsv("vanilla-condition-bearing-effects-index.csv", conditionRows.sort(sortByPluginTypeEdid));
+
+  const keywordReferences = new Map();
+  addKeywordReferences(keywordReferences, locationDetails, registry);
+  addKeywordReferences(keywordReferences, shrineActivators, registry);
+  addKeywordReferences(keywordReferences, books, registry);
+  addKeywordReferences(keywordReferences, itemDetails, registry);
+  addKeywordReferences(keywordReferences, npcs, registry);
+  addKeywordReferences(keywordReferences, races, registry);
+  writeCsv("vanilla-reverse-keyword-index.csv", [...keywordReferences.entries()].map(([keyword, refs]) => ({
+    keyword,
+    record_count: refs.length,
+    examples: refs.slice(0, 40).join("; "),
+    validation: "extracted-from-current-detail-pass",
+  })).sort((a, b) => a.keyword.localeCompare(b.keyword)));
 
   writeReadme();
   console.log(`Wrote generated reference tables to ${OUTPUT_DIR}`);
@@ -381,6 +611,17 @@ These tables are extracted from the local Anvil stock/cleaned base masters:
 Masters mod. Treat them as implementation reference data, not final reference design
 decisions. Curated design meaning belongs in \`data/modding-crosswalk/\`
 tables.
+
+Large record groups are intentionally filtered or summarized. This repository
+does not dump full placed references, navmeshes, land geometry, or dialogue
+response text.
+
+This wave includes scan-level inventory tables for broad record classes and
+detail tables where the extracted shape stays useful: faction relationships,
+FormList candidates, perk candidates, enchantments, shouts, words of power,
+leveled-list candidates, encounter zones, worldspaces, cell candidates,
+container/furniture candidates, condition-bearing effects, and a reverse keyword
+index.
 `;
   fs.writeFileSync(path.join(OUTPUT_DIR, "README.md"), body, "utf8");
 }
@@ -448,11 +689,14 @@ function resolve(value, registry) {
   return entry.edid ? `${entry.edid} (${text})` : text;
 }
 
-function resolveList(value, registry) {
+function resolveList(value, registry, limit = 0) {
   if (!Array.isArray(value)) {
     return "";
   }
-  return value.map((item) => resolve(item, registry)).filter(Boolean).join("; ");
+  const items = value.map((item) => resolve(item, registry)).filter(Boolean);
+  const visible = limit > 0 ? items.slice(0, limit) : items;
+  const suffix = limit > 0 && items.length > limit ? `; ... +${items.length - limit} more` : "";
+  return `${visible.join("; ")}${suffix}`;
 }
 
 function resolveTeaching(value, registry) {
@@ -477,14 +721,17 @@ function effectList(effects, registry) {
   }).join("; ");
 }
 
-function itemStackSummary(items, registry) {
+function itemStackSummary(items, registry, limit = 0) {
   if (!Array.isArray(items)) {
     return "";
   }
-  return items.map((entry) => {
+  const rows = items.map((entry) => {
     const item = entry.Item || {};
     return `${resolve(item.Item, registry)} x${item.Count ?? ""}`;
-  }).join("; ");
+  });
+  const visible = limit > 0 ? rows.slice(0, limit) : rows;
+  const suffix = limit > 0 && rows.length > limit ? `; ... +${rows.length - limit} more` : "";
+  return `${visible.join("; ")}${suffix}`;
 }
 
 function npcFactionSummary(factions, registry) {
@@ -506,11 +753,14 @@ function crimeSummary(crimeValues) {
   return keys.map((key) => `${key}=${crimeValues[key] ?? ""}`).join("; ");
 }
 
-function relationSummary(relations, registry) {
+function relationSummary(relations, registry, limit = 8) {
   if (!Array.isArray(relations)) {
     return "";
   }
-  return relations.slice(0, 8).map((relation) => `${resolve(relation.Target, registry)}:${relation.Reaction ?? ""}`).join("; ");
+  const rows = relations.map((relation) => `${resolve(relation.Target, registry)}:${relation.Reaction ?? ""}`);
+  const visible = rows.slice(0, limit);
+  const suffix = rows.length > limit ? `; ... +${rows.length - limit} more` : "";
+  return `${visible.join("; ")}${suffix}`;
 }
 
 function rankSummary(ranks) {
@@ -529,6 +779,104 @@ function stageSummary(stages) {
     const logCount = Array.isArray(stage.LogEntries) ? stage.LogEntries.length : "";
     return `${index}${logCount !== "" ? `(${logCount})` : ""}`;
   }).join("; ");
+}
+
+function leveledEntriesSummary(entries, registry, limit = 30) {
+  if (!Array.isArray(entries)) {
+    return "";
+  }
+  const rows = entries.map((entry) => {
+    const data = entry.Data || {};
+    return `${resolve(data.Reference, registry)}|lvl=${data.Level ?? ""}|count=${data.Count ?? ""}`;
+  });
+  const visible = rows.slice(0, limit);
+  const suffix = rows.length > limit ? `; ... +${rows.length - limit} more` : "";
+  return `${visible.join("; ")}${suffix}`;
+}
+
+function shoutWordSummary(words, registry) {
+  if (!Array.isArray(words)) {
+    return "";
+  }
+  return words.map((entry) => `${resolve(entry.Word, registry)} -> ${resolve(entry.Spell, registry)} (${entry.RecoveryTime ?? ""}s)`).join("; ");
+}
+
+function conditionStats(conditions) {
+  const rows = Array.isArray(conditions) ? conditions : [];
+  const keys = new Set();
+  for (const condition of rows) {
+    collectConditionKeys(condition, keys);
+  }
+  return {
+    count: rows.length,
+    keys: [...keys].sort().slice(0, 24).join("; "),
+  };
+}
+
+function collectConditionKeys(value, keys) {
+  if (!value || typeof value !== "object") {
+    return;
+  }
+  if (Array.isArray(value)) {
+    for (const item of value) {
+      collectConditionKeys(item, keys);
+    }
+    return;
+  }
+  for (const [key, val] of Object.entries(value)) {
+    if (/function|runon|operator|comparison|parameter|alias|quest|faction|keyword|global|location|race|actor|item|spell|perk/i.test(key)) {
+      keys.add(key);
+    }
+    collectConditionKeys(val, keys);
+  }
+}
+
+function conditionIndexRows(recordType, detailRows, registry) {
+  const rows = [];
+  for (const { base, detail } of detailRows) {
+    const direct = conditionStats(field(detail, "Conditions"));
+    const effects = field(detail, "Effects");
+    const effectConditions = Array.isArray(effects)
+      ? effects.flatMap((effect) => Array.isArray(effect.Conditions) ? effect.Conditions : [])
+      : [];
+    const effectStats = conditionStats(effectConditions);
+    if (direct.count === 0 && effectStats.count === 0) {
+      continue;
+    }
+    rows.push({
+      plugin: base.pluginName,
+      record_type: recordType,
+      formid: base.formid,
+      editor_id: base.edid,
+      name: field(detail, "Name"),
+      direct_condition_count: direct.count,
+      effect_condition_count: effectStats.count,
+      condition_keys: [direct.keys, effectStats.keys].filter(Boolean).join("; "),
+      effects: effectList(effects, registry),
+      validation: "extracted-summary",
+    });
+  }
+  return rows;
+}
+
+function addKeywordReferences(index, detailRows, registry) {
+  for (const { base, detail } of detailRows) {
+    const keywords = field(detail, "Keywords");
+    if (!Array.isArray(keywords)) {
+      continue;
+    }
+    const recordRef = `${base.type}:${base.edid || base.formid} (${base.pluginName})`;
+    for (const keyword of keywords) {
+      const resolved = resolve(keyword, registry);
+      if (!resolved) {
+        continue;
+      }
+      if (!index.has(resolved)) {
+        index.set(resolved, []);
+      }
+      index.get(resolved).push(recordRef);
+    }
+  }
 }
 
 function termMatch(...values) {
@@ -670,6 +1018,90 @@ function classifyRace(edid, name) {
   if (text.includes("werewolf") || text.includes("beast")) return "temporary beast-form / curse overlay";
   if (termMatch(text, ["argonian", "breton", "darkelf", "dunmer", "highelf", "altmer", "imperial", "khajiit", "nord", "orc", "redguard", "woodelf", "bosmer"])) return "playable-origin race";
   return "race reference";
+}
+
+function classifyFormList(edid) {
+  const text = edid.toLowerCase();
+  if (text.includes("vendor")) return "vendor/economy record set";
+  if (text.includes("crime") || text.includes("guard")) return "crime/civic record set";
+  if (text.includes("spell") || text.includes("magic")) return "magic/effect record set";
+  if (termMatch(text, RELIGION_TERMS)) return "religion/theology record set";
+  return "curated record set";
+}
+
+function classifyPerk(edid, name) {
+  const text = `${edid} ${name}`.toLowerCase();
+  if (text.includes("werewolf") || text.includes("vampire")) return "curse/transformation progression reference";
+  if (text.includes("speech") || text.includes("merchant") || text.includes("bribe")) return "social/economy progression reference";
+  if (text.includes("smith") || text.includes("forge") || text.includes("armor")) return "craft progression reference";
+  if (text.includes("magic") || text.includes("spell") || text.includes("enchant")) return "magic progression reference";
+  return "perk progression reference";
+}
+
+function classifyEnchantment(edid, name, effects) {
+  const text = `${edid} ${name} ${effects}`.toLowerCase();
+  if (text.includes("resist") || text.includes("fortify")) return "reward magnitude/equipment-effect reference";
+  if (text.includes("absorb") || text.includes("damage")) return "combat enchantment reference";
+  if (text.includes("magicka") || text.includes("stamina") || text.includes("health")) return "resource enchantment reference";
+  return "enchantment effect reference";
+}
+
+function classifyShout(edid, name) {
+  const text = `${edid} ${name}`.toLowerCase();
+  if (text.includes("dragon")) return "Dragonborn/dragon shout reference";
+  if (text.includes("frost") || text.includes("fire") || text.includes("storm")) return "elemental voice-power reference";
+  return "voice-power reference";
+}
+
+function classifyWordOfPower(edid, name) {
+  const text = `${edid} ${name}`.toLowerCase();
+  if (text.includes("fake")) return "placeholder/technical word record";
+  return "word-of-power reference";
+}
+
+function classifyLeveledList(type, edid) {
+  const text = edid.toLowerCase();
+  if (type === "LVLN") return "leveled actor population reference";
+  if (type === "LVSP") return "leveled spell/power reference";
+  if (text.includes("vendor")) return "vendor/economy distribution reference";
+  if (text.includes("loot") || text.includes("reward")) return "loot/reward distribution reference";
+  if (termMatch(text, LEVELED_LIST_TERMS)) return "encounter/distribution signal candidate";
+  return "leveled item distribution reference";
+}
+
+function classifyEncounterZone(edid, flags) {
+  const text = `${edid} ${flags}`.toLowerCase();
+  if (text.includes("neverresets")) return "persistent dungeon/difficulty context";
+  if (text.includes("boss")) return "boss/dungeon difficulty context";
+  return "encounter-zone difficulty context";
+}
+
+function classifyWorldspace(edid, name) {
+  const text = `${edid} ${name}`.toLowerCase();
+  if (text.includes("solstheim")) return "Solstheim/DLC worldspace scope";
+  if (text.includes("tamriel") || text.includes("skyrim")) return "main Skyrim worldspace scope";
+  if (text.includes("sovngarde") || text.includes("apocrypha") || text.includes("soulcairn")) return "mythic/Daedric worldspace scope";
+  return "worldspace scope reference";
+}
+
+function classifyCell(edid, name, location) {
+  const text = `${edid} ${name} ${location}`.toLowerCase();
+  if (text.includes("temple") || text.includes("shrine")) return "temple/shrine cell candidate";
+  if (text.includes("jail") || text.includes("prison")) return "crime/punishment cell candidate";
+  if (text.includes("palace") || text.includes("jarls") || text.includes("hold")) return "civic authority cell candidate";
+  if (text.includes("barrow") || text.includes("tomb") || text.includes("ruin")) return "ancestral/dungeon cell candidate";
+  if (text.includes("guild") || text.includes("sanctuary")) return "faction hub cell candidate";
+  return "location/cell context candidate";
+}
+
+function classifyContainerFurniture(type, edid, name, interactionKeyword, workbenchType) {
+  const text = `${type} ${edid} ${name} ${interactionKeyword} ${workbenchType}`.toLowerCase();
+  if (text.includes("merchant") || text.includes("vendor")) return "vendor/container economy candidate";
+  if (text.includes("forge") || text.includes("anvil") || text.includes("smelter") || text.includes("workbench")) return "crafting station candidate";
+  if (text.includes("alchemy") || text.includes("enchant")) return "magic/crafting station candidate";
+  if (text.includes("bed")) return "sleep/rest interaction candidate";
+  if (text.includes("shrine") || text.includes("altar")) return "ritual/religion interaction candidate";
+  return "container/furniture interaction candidate";
 }
 
 function sortByPluginEdid(a, b) {

@@ -6,8 +6,8 @@ Dawnguard.esm,Dawnguard.esm:00BDD8,DLC01SoulHorseEnd,general keyword,extracted
 Dawnguard.esm,Dawnguard.esm:00BDD7,DLC01SoulHorseStart,general keyword,extracted
 Dawnguard.esm,Dawnguard.esm:00A25C,DLC1_ScrapeBarkKeyword,general keyword,extracted
 Dawnguard.esm,Dawnguard.esm:007060,DLC1_SnowElfThroneKeyword,general keyword,extracted
-Dawnguard.esm,Dawnguard.esm:00A25A,DLC1_WayShrineWaterPourKeyWord,religion/quest/lore context candidate,extracted
-Dawnguard.esm,Dawnguard.esm:00A25B,DLC1_WayShrineWaterScoopKeyword,religion/quest/lore context candidate,extracted
+Dawnguard.esm,Dawnguard.esm:00A25A,DLC1_WayShrineWaterPourKeyWord,religion/theology candidate,extracted
+Dawnguard.esm,Dawnguard.esm:00A25B,DLC1_WayShrineWaterScoopKeyword,religion/theology candidate,extracted
 Dawnguard.esm,Dawnguard.esm:012CCD,DLC1ArmorMaterialDawnguard,equipment classification,extracted
 Dawnguard.esm,Dawnguard.esm:012CCE,DLC1ArmorMaterialFalmerHardened,equipment classification,extracted
 Dawnguard.esm,Dawnguard.esm:0050C4,DLC1ArmorMaterialHunter,equipment classification,extracted
@@ -15,7 +15,7 @@ Dawnguard.esm,Dawnguard.esm:01463E,DLC1ArmorMaterialVampire,equipment classifica
 Dawnguard.esm,Dawnguard.esm:012CCF,DLC1ArmorMaterielFalmerHeavy,equipment classification,extracted
 Dawnguard.esm,Dawnguard.esm:012CD0,DLC1ArmorMaterielFalmerHeavyOriginal,equipment classification,extracted
 Dawnguard.esm,Dawnguard.esm:01223C,DLC1ArvakExclusion,general keyword,extracted
-Dawnguard.esm,Dawnguard.esm:00CBC0,DLC1AurielsConditionalExplosionKeyword,religion/quest/lore context candidate,extracted
+Dawnguard.esm,Dawnguard.esm:00CBC0,DLC1AurielsConditionalExplosionKeyword,religion/theology candidate,extracted
 Dawnguard.esm,Dawnguard.esm:014193,DLC1BloodChaliceActivate,general keyword,extracted
 Dawnguard.esm,Dawnguard.esm:015039,DLC1BloodPortal,general keyword,extracted
 Dawnguard.esm,Dawnguard.esm:019D96,DLC1BthalftSoundLink,general keyword,extracted
@@ -117,7 +117,7 @@ Dragonborn.esm,Dragonborn.esm:028FDE,DLC2AshSpawnKeyword,general keyword,extract
 Dragonborn.esm,Dragonborn.esm:02A8DF,DLC2BenthicLurkerSpray,general keyword,extracted
 Dragonborn.esm,Dragonborn.esm:02B073,DLC2CraftingSmithingSkaalForge,general keyword,extracted
 Dragonborn.esm,Dragonborn.esm:01BD7D,DLC2DragonMountKeyword,general keyword,extracted
-Dragonborn.esm,Dragonborn.esm:01E1AE,DLC2DremoraButlerKeyword,religion/quest/lore context candidate,extracted
+Dragonborn.esm,Dragonborn.esm:01E1AE,DLC2DremoraButlerKeyword,religion/theology candidate,extracted
 Dragonborn.esm,Dragonborn.esm:024022,DLC2dunHaknirArmor,equipment classification,extracted
 Dragonborn.esm,Dragonborn.esm:038050,DLC2dunHaknirScimitar01Keyword,general keyword,extracted
 Dragonborn.esm,Dragonborn.esm:038052,DLC2dunHaknirScimitar02Keyword,general keyword,extracted
@@ -137,9 +137,9 @@ Dragonborn.esm,Dragonborn.esm:02C969,DLC2LocTypeAshSpawn,general keyword,extract
 Dragonborn.esm,Dragonborn.esm:01DEBD,DLC2LocTypePillar,general keyword,extracted
 Dragonborn.esm,Dragonborn.esm:02972E,DLC2LocTypeRieklingCamp,general keyword,extracted
 Dragonborn.esm,Dragonborn.esm:03A32D,DLC2MagicAshSpawn,general keyword,extracted
-Dragonborn.esm,Dragonborn.esm:0339A0,DLC2MagicMorasAgony,religion/quest/lore context candidate,extracted
+Dragonborn.esm,Dragonborn.esm:0339A0,DLC2MagicMorasAgony,religion/theology candidate,extracted
 Dragonborn.esm,Dragonborn.esm:0337E3,DLC2MH02ThirskRieklingForceGreeter,general keyword,extracted
-Dragonborn.esm,Dragonborn.esm:03D2F9,DLC2MorasGraspExcludedKeyword,religion/quest/lore context candidate,extracted
+Dragonborn.esm,Dragonborn.esm:03D2F9,DLC2MorasGraspExcludedKeyword,religion/theology candidate,extracted
 Dragonborn.esm,Dragonborn.esm:03A157,DLC2NetchKeyword,general keyword,extracted
 Dragonborn.esm,Dragonborn.esm:03A335,DLC2NordicPickaxe,general keyword,extracted
 Dragonborn.esm,Dragonborn.esm:028665,DLC2PillarDestroyedStart,general keyword,extracted
@@ -363,15 +363,15 @@ HearthFires.esm,HearthFires.esm:00F3B2,BYOHBuildingInteriorPart183WeaponRackx5_0
 HearthFires.esm,HearthFires.esm:00F3B3,BYOHBuildingInteriorPart184MeadBarrelsx2_01,general keyword,extracted
 HearthFires.esm,HearthFires.esm:00F3B4,BYOHBuildingInteriorPart185VampireCoffin01,general keyword,extracted
 HearthFires.esm,HearthFires.esm:00F3B5,BYOHBuildingInteriorPart186WallSconcex2_04,general keyword,extracted
-HearthFires.esm,HearthFires.esm:00F3B6,BYOHBuildingInteriorPart187ShrineBase01,religion/quest/lore context candidate,extracted
-HearthFires.esm,HearthFires.esm:00F3B7,BYOHBuildingInteriorPart188ShrineJulianos,religion/quest/lore context candidate,extracted
-HearthFires.esm,HearthFires.esm:00F3B8,BYOHBuildingInteriorPart189ShrineKynareth,religion/quest/lore context candidate,extracted
-HearthFires.esm,HearthFires.esm:00F3B9,BYOHBuildingInteriorPart190ShrineStendarr,religion/quest/lore context candidate,extracted
-HearthFires.esm,HearthFires.esm:00F3BA,BYOHBuildingInteriorPart191ShrineArkay,religion/quest/lore context candidate,extracted
-HearthFires.esm,HearthFires.esm:00F3BB,BYOHBuildingInteriorPart192ShrineAkatosh,religion/quest/lore context candidate,extracted
-HearthFires.esm,HearthFires.esm:00F3BC,BYOHBuildingInteriorPart193ShrineMara,religion/quest/lore context candidate,extracted
-HearthFires.esm,HearthFires.esm:00F3BD,BYOHBuildingInteriorPart194ShrineTalos,religion/quest/lore context candidate,extracted
-HearthFires.esm,HearthFires.esm:00F3BE,BYOHBuildingInteriorPart195ShrineZenithar,religion/quest/lore context candidate,extracted
+HearthFires.esm,HearthFires.esm:00F3B6,BYOHBuildingInteriorPart187ShrineBase01,religion/theology candidate,extracted
+HearthFires.esm,HearthFires.esm:00F3B7,BYOHBuildingInteriorPart188ShrineJulianos,religion/theology candidate,extracted
+HearthFires.esm,HearthFires.esm:00F3B8,BYOHBuildingInteriorPart189ShrineKynareth,religion/theology candidate,extracted
+HearthFires.esm,HearthFires.esm:00F3B9,BYOHBuildingInteriorPart190ShrineStendarr,religion/theology candidate,extracted
+HearthFires.esm,HearthFires.esm:00F3BA,BYOHBuildingInteriorPart191ShrineArkay,religion/theology candidate,extracted
+HearthFires.esm,HearthFires.esm:00F3BB,BYOHBuildingInteriorPart192ShrineAkatosh,religion/theology candidate,extracted
+HearthFires.esm,HearthFires.esm:00F3BC,BYOHBuildingInteriorPart193ShrineMara,religion/theology candidate,extracted
+HearthFires.esm,HearthFires.esm:00F3BD,BYOHBuildingInteriorPart194ShrineTalos,religion/theology candidate,extracted
+HearthFires.esm,HearthFires.esm:00F3BE,BYOHBuildingInteriorPart195ShrineZenithar,religion/theology candidate,extracted
 HearthFires.esm,HearthFires.esm:0180BA,BYOHBuildingInteriorPart196PracticeDummyChild01,general keyword,extracted
 HearthFires.esm,HearthFires.esm:000816,BYOHBuildingInteriorPart197BedChild01,general keyword,extracted
 HearthFires.esm,HearthFires.esm:000817,BYOHBuildingInteriorPart198BedChild02,general keyword,extracted
@@ -382,7 +382,7 @@ HearthFires.esm,HearthFires.esm:000A0C,BYOHBuildingInteriorPart202TableNightx2_0
 HearthFires.esm,HearthFires.esm:000A0F,BYOHBuildingInteriorPart203BookshelfTall06,general keyword,extracted
 HearthFires.esm,HearthFires.esm:000A18,BYOHBuildingInteriorPart204MountedHeadElkFemale01,general keyword,extracted
 HearthFires.esm,HearthFires.esm:000B28,BYOHBuildingInteriorPart205TableNight01,general keyword,extracted
-HearthFires.esm,HearthFires.esm:000B59,BYOHBuildingInteriorPart206ShrineDibella,religion/quest/lore context candidate,extracted
+HearthFires.esm,HearthFires.esm:000B59,BYOHBuildingInteriorPart206ShrineDibella,religion/theology candidate,extracted
 HearthFires.esm,HearthFires.esm:00A31B,BYOHBuildingTrophyBase1,general keyword,extracted
 HearthFires.esm,HearthFires.esm:00A31C,BYOHBuildingTrophyBase2,general keyword,extracted
 HearthFires.esm,HearthFires.esm:01845E,BYOHBuildingTrophyLink,general keyword,extracted
@@ -656,7 +656,7 @@ Skyrim.esm,Skyrim.esm:0CE267,CWSiegePlayerRanAway,general keyword,extracted
 Skyrim.esm,Skyrim.esm:0FDC31,CWSiegeRunning,general keyword,extracted
 Skyrim.esm,Skyrim.esm:07E32C,CWSiegeStart,general keyword,extracted
 Skyrim.esm,Skyrim.esm:0A9B19,DA10HauntingControllerKeyword,general keyword,extracted
-Skyrim.esm,Skyrim.esm:0A8668,DaedricArtifact,religion/quest/lore context candidate,extracted
+Skyrim.esm,Skyrim.esm:0A8668,DaedricArtifact,religion/theology candidate,extracted
 Skyrim.esm,Skyrim.esm:0FBFEE,DB10MagicHeavyFire,general keyword,extracted
 Skyrim.esm,Skyrim.esm:0FBFEF,DB10MagicLightFire,general keyword,extracted
 Skyrim.esm,Skyrim.esm:04E97B,DMPackageActivate,general keyword,extracted
@@ -712,7 +712,7 @@ Skyrim.esm,Skyrim.esm:0F23C5,ImmuneParalysis,general keyword,extracted
 Skyrim.esm,Skyrim.esm:0172AC,ImmuneStrongUnrelentingForce,general keyword,extracted
 Skyrim.esm,Skyrim.esm:02A40B,isAlchemy,general keyword,extracted
 Skyrim.esm,Skyrim.esm:0D6C35,isAltar,general keyword,extracted
-Skyrim.esm,Skyrim.esm:0EF94F,isAltarOfMolagBal,religion/quest/lore context candidate,extracted
+Skyrim.esm,Skyrim.esm:0EF94F,isAltarOfMolagBal,religion/theology candidate,extracted
 Skyrim.esm,Skyrim.esm:0F5078,isBarCounter,general keyword,extracted
 Skyrim.esm,Skyrim.esm:074EC7,isBarStool,general keyword,extracted
 Skyrim.esm,Skyrim.esm:0D61D1,IsBeastRace,general keyword,extracted
@@ -722,7 +722,7 @@ Skyrim.esm,Skyrim.esm:0D932E,isBlacksmithWorkbench,general keyword,extracted
 Skyrim.esm,Skyrim.esm:103443,isCartTravelDriver,general keyword,extracted
 Skyrim.esm,Skyrim.esm:103444,isCartTravelPlayer,general keyword,extracted
 Skyrim.esm,Skyrim.esm:068ADA,isCookingSpit,general keyword,extracted
-Skyrim.esm,Skyrim.esm:0F3B64,isDA02BoethiahPost,religion/quest/lore context candidate,extracted
+Skyrim.esm,Skyrim.esm:0F3B64,isDA02BoethiahPost,religion/theology candidate,extracted
 Skyrim.esm,Skyrim.esm:06E2A3,isEnchanting,general keyword,extracted
 Skyrim.esm,Skyrim.esm:070C0A,isExecutioner,general keyword,extracted
 Skyrim.esm,Skyrim.esm:0EB60C,isExecutionerGuard,general keyword,extracted
@@ -746,7 +746,7 @@ Skyrim.esm,Skyrim.esm:10528C,isMeadBarrel,general keyword,extracted
 Skyrim.esm,Skyrim.esm:0F5892,IsMQ203Table,general keyword,extracted
 Skyrim.esm,Skyrim.esm:0FBA5E,isMQ206FelldirRitual,general keyword,extracted
 Skyrim.esm,Skyrim.esm:1010B1,isNirnroot,general keyword,extracted
-Skyrim.esm,Skyrim.esm:101A74,isNocturnal,religion/quest/lore context candidate,extracted
+Skyrim.esm,Skyrim.esm:101A74,isNocturnal,religion/theology candidate,extracted
 Skyrim.esm,Skyrim.esm:0613A8,isPickaxeFloor,general keyword,extracted
 Skyrim.esm,Skyrim.esm:0613A9,isPickaxeTable,general keyword,extracted
 Skyrim.esm,Skyrim.esm:0A82C3,isPickaxeWall,general keyword,extracted
@@ -1073,7 +1073,7 @@ Skyrim.esm,Skyrim.esm:017420,NoDecapitate,general keyword,extracted
 Skyrim.esm,Skyrim.esm:0F82F4,NoDetectLife,general keyword,extracted
 Skyrim.esm,Skyrim.esm:103AD2,NoSoulTrap,general keyword,extracted
 Skyrim.esm,Skyrim.esm:0C1E8F,PerkDarkSouls,general keyword,extracted
-Skyrim.esm,Skyrim.esm:02C17B,PerkFistsDaedric,religion/quest/lore context candidate,extracted
+Skyrim.esm,Skyrim.esm:02C17B,PerkFistsDaedric,religion/theology candidate,extracted
 Skyrim.esm,Skyrim.esm:02C17A,PerkFistsDragonplate,general keyword,extracted
 Skyrim.esm,Skyrim.esm:02C17D,PerkFistsDwarven,general keyword,extracted
 Skyrim.esm,Skyrim.esm:02C178,PerkFistsEbony,general keyword,extracted
@@ -1165,7 +1165,7 @@ Skyrim.esm,Skyrim.esm:05B5D2,VoiceFireBreathLong,general keyword,extracted
 Skyrim.esm,Skyrim.esm:05B5D1,VoiceFireBreathMedium,general keyword,extracted
 Skyrim.esm,Skyrim.esm:05B5CF,VoiceFireBreathShort,general keyword,extracted
 Skyrim.esm,Skyrim.esm:0A17B3,WE100ObjStart,general keyword,extracted
-Skyrim.esm,Skyrim.esm:01E71F,WeapMaterialDaedric,religion/quest/lore context candidate,extracted
+Skyrim.esm,Skyrim.esm:01E71F,WeapMaterialDaedric,religion/theology candidate,extracted
 Skyrim.esm,Skyrim.esm:0C5C01,WeapMaterialDraugr,general keyword,extracted
 Skyrim.esm,Skyrim.esm:0C5C02,WeapMaterialDraugrHoned,general keyword,extracted
 Skyrim.esm,Skyrim.esm:01E71A,WeapMaterialDwarven,general keyword,extracted
@@ -1257,5 +1257,5 @@ Update.esm,Update.esm:003279,MatchingSetLightExclude,general keyword,extracted
 Update.esm,Update.esm:002ED8,Survival_ArmorCold,equipment classification,extracted
 Update.esm,Update.esm:002ED9,Survival_ArmorWarm,equipment classification,extracted
 Update.esm,Update.esm:002EDB,Survival_BodyAndHead,general keyword,extracted
-Update.esm,Update.esm:002EDC,Survival_LocTypeFreeShrineUse,religion/quest/lore context candidate,extracted
+Update.esm,Update.esm:002EDC,Survival_LocTypeFreeShrineUse,religion/theology candidate,extracted
 Update.esm,Update.esm:00099F,WEDL06Letrush,general keyword,extracted
