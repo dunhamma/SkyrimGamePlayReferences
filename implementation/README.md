@@ -11,6 +11,10 @@ still be tested in the target load order.
 
 | File | Purpose |
 |---|---|
+| `creation-kit-quest-authoring.md` | CK-first quest/event authoring guidance for service quests, Story Manager receivers, aliases, dialogue, scenes, fragments, properties, SEQ, and runtime smoke tests. |
+| `ck-quest-authoring-matrix.csv` | Machine-readable CK quest task matrix mapping authoring surfaces to xEdit review and runtime proof. |
+| `ck-failure-mode-checklist.csv` | CK quest/setup symptom checklist for script visibility, properties, Story Manager, dialogue, SEQ, VMAD, and output issues. |
+| `ck-setup-and-output-map.csv` | CK/MO2/xEdit output map for scripts, fragments, SEQ, dialogue views, assets, logs, and overwrite hygiene. |
 | `creation-kit-xedit-authoring-architecture.md` | CK/xEdit authoring boundaries, plugin architecture, conflict review, cleaning, metadata, and modlist-friendliness. |
 | `ck-xedit-source-map.csv` | Source authority map for CK, xEdit, CKPE, LOOT, Wrye Bash, MO2, and workflow synthesis. |
 | `tool-choice-matrix.csv` | Machine-readable routing for when to use CK, xEdit, local extraction, and runtime tests. |
@@ -20,7 +24,7 @@ still be tested in the target load order.
 
 ## Retrieval Rule
 
-Use this folder for Papyrus, scripting safety, CK/xEdit authoring, plugin
-architecture, save migration, profiling, debugging, and implementation-risk
-questions. Do not use it as a replacement for the CK Wiki, shipped `.psc`
-source, xEdit, local plugin inspection, or runtime testing.
+Use this folder for Papyrus, scripting safety, CK quest/event authoring,
+CK/xEdit authoring, plugin architecture, save migration, profiling, debugging,
+and implementation-risk questions. Do not use it as a replacement for the CK
+Wiki, shipped `.psc` source, xEdit, local plugin inspection, or runtime testing.
