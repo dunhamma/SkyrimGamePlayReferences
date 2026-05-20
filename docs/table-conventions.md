@@ -27,6 +27,8 @@ CSV files in this repository are compact reference indexes, not exhaustive wiki 
 | Gameplay mechanics | `mechanic,vanilla_behavior,mod_design_use,caution,source_id` |
 | UX findings | `theme,evidence,design_rule,risk_if_ignored,source_id` |
 | Crosswalks | `mod_signal,vanilla_surface,capture_pattern,scoring_use,anti_farm_rule,source_id,status` |
+| Tooling references | `topic,tool_or_domain,source_id,authority_tier,use_for,not_for,currentness_note,automation_note,validation` |
+| Authoring review | `area,review_question,preferred_pattern,risk_if_ignored,source_id,validation` |
 
 ## Source Authority
 
@@ -37,6 +39,9 @@ Qualitative rows and documents must be labeled so they are not retrieved as veri
 | State | Meaning |
 |---|---|
 | `source-backed` | Verified from UESP, CK Wiki, official documentation, or a named mod page/community source. |
+| `implementation-reference` | Practical CK, Papyrus, xEdit, or tooling guidance backed by source docs and still requiring runtime or local verification when behavior matters. |
+| `tooling-practice-reference` | Tooling workflow guidance for authoring, cleaning, patching, metadata, or setup; not vanilla gameplay truth. |
+| `workflow-synthesis` | Practical guidance synthesized from community or project docs; use for review habits, not unqualified engine behavior. |
 | `local-data-backed` | Verified from local master/plugin data or live mod source. |
 | `extracted` | Generated directly from local master/plugin data. |
 | `candidate-extracted` | Generated from local master/plugin data by a broad modding-relevant filter; needs human curation before implementation. |

@@ -9,6 +9,7 @@ This repo exists so Skyrim mod authors do not have to rediscover the same vanill
 - A source-backed map of vanilla Skyrim gameplay systems that frequently matter to mods.
 - A CK-facing reference for condition functions, Story Manager events, record types, keywords, actor values, magic effects, factions, crime, races, blessings, diseases, and world/location categories.
 - An implementation-facing Papyrus safety reference for event-driven scripting, save health, profiling, and update-safe mod maintenance.
+- A CK/xEdit authoring reference for plugin structure, conflicts, cleaning, masters, metadata, and modlist-friendly release review.
 - A reusable UX/design reference for immersive mods: what tends to feel good, what tends to feel tedious, what players commonly distrust, and which general game-design principles apply to Skyrim modding.
 - A starter kit for building a project-specific crosswalk from vanilla mechanics to your own mod's signals.
 
@@ -25,6 +26,7 @@ This repository separates verified gameplay/reference material from qualitative 
 
 - Files under `data/` and `docs/` are source-backed reference indexes. They still require local plugin verification before implementation.
 - Files under `implementation/` are implementation references for Papyrus, CK authoring, save health, profiling, and tool-facing scripting cautions. They should be verified in a real Skyrim runtime before release.
+- CK/xEdit and modlist-tooling notes are workflow references. They can guide authoring and review, but exact plugin behavior still comes from local data, xEdit/CK inspection, and runtime tests.
 - Files under `modding-ux/` and `game-design/` are qualitative synthesis only. They summarize design principles, player/mod-author sentiment, and design risks. Do not treat them as verified gameplay mechanics, factual engine behavior, or statistical evidence.
 - When building prompts or retrieval pipelines, include `modding-ux/` and `game-design/` only for design inspiration, UX risk review, or hypothesis generation. Exclude them from verified-mechanics retrieval unless the user explicitly asks for qualitative player-experience or design material.
 
@@ -32,6 +34,7 @@ See `docs/source-authority.md` for the full classification model.
 
 ## Update Notes
 
+- [2026-05-20 gap review and tooling roadmap](docs/updates/2026-05-20-gap-review-and-tooling-roadmap.md)
 - [2026-05-19 game design reference layer](docs/updates/2026-05-19-game-design-reference-layer.md)
 - [2026-05-19 Papyrus implementation reference](docs/updates/2026-05-19-papyrus-implementation-reference.md)
 - [2026-05-19 expanded gameplay extraction wave](docs/updates/2026-05-19-expanded-gameplay-extraction-wave.md)
@@ -53,7 +56,7 @@ See `docs/source-authority.md` for the full classification model.
 | `data/modding-crosswalk/` | General hook catalogs, signal patterns, semantic tagging candidates, and quest/location crosswalks for mod authors. |
 | `data/rewards/` | Vanilla effect palette and reward/penalty magnitude cautions. |
 | `game-design/` | Qualitative game-design principles, Skyrim modding applications, and design review checklist. |
-| `implementation/` | Implementation guidance such as Papyrus safety, save health, profiling, and script review checklists. |
+| `implementation/` | Implementation guidance such as Papyrus safety, CK/xEdit authoring architecture, save health, profiling, tool choice, and review checklists. |
 | `modding-ux/` | Qualitative-only immersive UX lessons and implementation risk notes. |
 | `templates/` | Starter templates for project-specific signal/crosswalk work. |
 | `tools/` | Optional local extraction helpers for refreshing generated tables. |
@@ -61,10 +64,11 @@ See `docs/source-authority.md` for the full classification model.
 ## How To Use This In A Mod Project
 
 1. Start with `docs/table-conventions.md` and `sources.yaml`.
-2. Pull the neutral vanilla table you need, such as `data/story/story-manager-events.csv`.
-3. Create a project-specific crosswalk using `templates/signal-hook-index-template.csv`.
-4. Verify exact records from your local masters/plugins before implementation.
-5. Keep your mod's scoring, lore, and player-facing design in your own repo.
+2. For authoring workflow, start with `implementation/creation-kit-xedit-authoring-architecture.md` and `implementation/tool-choice-matrix.csv`.
+3. Pull the neutral vanilla table you need, such as `data/story/story-manager-events.csv`.
+4. Create a project-specific crosswalk using `templates/signal-hook-index-template.csv`.
+5. Verify exact records from your local masters/plugins before implementation.
+6. Keep your mod's scoring, lore, and player-facing design in your own repo.
 
 ## Generated Extraction Pack
 
@@ -96,6 +100,7 @@ Use the strongest available source for the question:
 |---|---|
 | Local game/plugin data | Exact FormID, EditorID, record ownership, and patched load-order truth. |
 | CK Wiki / UESP CK Wiki | CK record behavior, condition functions, Papyrus contracts, and Story Manager authoring. |
+| xEdit, LOOT, Wrye Bash, CKPE, and MO2 docs | Tool behavior, conflict review, cleaning, metadata, Bash tags, and setup workflow. |
 | UESP gameplay pages | Player-facing vanilla mechanics, quest/faction summaries, shrine/disease tables, and formulas. |
 | General game-design sources | Qualitative design principles, design review prompts, and player-experience hypotheses. |
 | Mod pages/community discussions | Qualitative UX and compatibility signals only; not verified gameplay truth or statistical proof. |
