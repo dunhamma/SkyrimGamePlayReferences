@@ -30,7 +30,7 @@ If using this repository in RAG, coding agents, or prompt context:
 |---|---|---|
 | Verified gameplay mechanics | `data/`, `docs/`, `sources.yaml` | `game-design/`, `modding-ux/` |
 | CK implementation planning | `docs/`, `data/core/`, `data/story/`, relevant `data/*` | `game-design/`, `modding-ux/` unless design/UX risk requested |
-| CK quest/event authoring | `implementation/creation-kit-quest-authoring.md`, `implementation/ck-quest-authoring-matrix.csv`, `implementation/ck-failure-mode-checklist.csv`, `implementation/ck-setup-and-output-map.csv`, `sources.yaml` | `game-design/`, `modding-ux/` unless UX/design risk requested |
+| CK quest/event authoring | `implementation/creation-kit-quest-authoring.md`, `implementation/ck-authoring-playbooks.md`, `implementation/ck-quest-authoring-matrix.csv`, `implementation/ck-failure-mode-checklist.csv`, `implementation/ck-setup-and-output-map.csv`, `sources.yaml` | `game-design/`, `modding-ux/` unless UX/design risk requested |
 | CK/xEdit authoring workflow | `implementation/creation-kit-xedit-authoring-architecture.md`, `implementation/tool-choice-matrix.csv`, `implementation/ck-xedit-source-map.csv`, `implementation/mod-authoring-review-checklist.csv`, `sources.yaml` | `game-design/`, `modding-ux/` unless UX/design risk requested |
 | Papyrus scripting safety | `implementation/`, `docs/`, `sources.yaml` | `game-design/`, `modding-ux/` unless design/UX risk requested |
 | UX/design brainstorming | `game-design/`, `modding-ux/`, selected relevant `data/*` | none, but label qualitative claims clearly |

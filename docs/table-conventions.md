@@ -30,6 +30,7 @@ CSV files in this repository are compact reference indexes, not exhaustive wiki 
 | Tooling references | `topic,tool_or_domain,source_id,authority_tier,use_for,not_for,currentness_note,automation_note,validation` |
 | Authoring review | `area,review_question,preferred_pattern,risk_if_ignored,source_id,validation` |
 | CK quest authoring | `task,CK surface,xEdit review surface,runtime proof,source_id,validation` |
+| CK playbook index | `playbook,primary_use,ck_surface,xedit_review,runtime_acceptance,source_id,validation` |
 | CK failure modes | `symptom,likely cause,inspection path,fix pattern,source_id,validation` |
 | CK output maps | `artifact/output,expected location,owner tool,risk if misplaced,verification step,source_id` |
 

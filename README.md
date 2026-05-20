@@ -35,6 +35,7 @@ See `docs/source-authority.md` for the full classification model.
 
 ## Update Notes
 
+- [2026-05-20 CK playbooks and validation](docs/updates/2026-05-20-ck-playbooks-and-validation.md)
 - [2026-05-20 CK quest authoring deepening](docs/updates/2026-05-20-ck-quest-authoring-deepening.md)
 - [2026-05-20 gap review and tooling roadmap](docs/updates/2026-05-20-gap-review-and-tooling-roadmap.md)
 - [2026-05-19 game design reference layer](docs/updates/2026-05-19-game-design-reference-layer.md)
@@ -67,11 +68,12 @@ See `docs/source-authority.md` for the full classification model.
 
 1. Start with `docs/table-conventions.md` and `sources.yaml`.
 2. For CK quest/event authoring, start with `implementation/creation-kit-quest-authoring.md` and `implementation/ck-quest-authoring-matrix.csv`.
-3. For broader authoring workflow, use `implementation/creation-kit-xedit-authoring-architecture.md` and `implementation/tool-choice-matrix.csv`.
-4. Pull the neutral vanilla table you need, such as `data/story/story-manager-events.csv`.
-5. Create a project-specific crosswalk using `templates/signal-hook-index-template.csv`.
-6. Verify exact records from your local masters/plugins before implementation.
-7. Keep your mod's scoring, lore, and player-facing design in your own repo.
+3. For repeatable CK work packets, use `implementation/ck-authoring-playbooks.md` and `implementation/ck-authoring-playbook-index.csv`.
+4. For broader authoring workflow, use `implementation/creation-kit-xedit-authoring-architecture.md` and `implementation/tool-choice-matrix.csv`.
+5. Pull the neutral vanilla table you need, such as `data/story/story-manager-events.csv`.
+6. Create a project-specific crosswalk using `templates/signal-hook-index-template.csv`.
+7. Verify exact records from your local masters/plugins before implementation.
+8. Keep your mod's scoring, lore, and player-facing design in your own repo.
 
 ## Generated Extraction Pack
 
@@ -87,6 +89,12 @@ Refresh them with:
 
 ```text
 node .\tools\extract-vanilla-gameplay-refs.mjs
+```
+
+Validate repository CSV/source hygiene with:
+
+```text
+node .\tools\validate-reference-repo.mjs
 ```
 
 The extractor expects a Mutagen bridge executable. By default it uses the local

@@ -12,6 +12,8 @@ still be tested in the target load order.
 | File | Purpose |
 |---|---|
 | `creation-kit-quest-authoring.md` | CK-first quest/event authoring guidance for service quests, Story Manager receivers, aliases, dialogue, scenes, fragments, properties, SEQ, and runtime smoke tests. |
+| `ck-authoring-playbooks.md` | Repeatable CK authoring packets for service quests, Story Manager receivers, aliases, dialogue, fragments, VMAD review, and output audits. |
+| `ck-authoring-playbook-index.csv` | Machine-readable index of CK authoring playbooks, review surfaces, and runtime acceptance checks. |
 | `ck-quest-authoring-matrix.csv` | Machine-readable CK quest task matrix mapping authoring surfaces to xEdit review and runtime proof. |
 | `ck-failure-mode-checklist.csv` | CK quest/setup symptom checklist for script visibility, properties, Story Manager, dialogue, SEQ, VMAD, and output issues. |
 | `ck-setup-and-output-map.csv` | CK/MO2/xEdit output map for scripts, fragments, SEQ, dialogue views, assets, logs, and overwrite hygiene. |
